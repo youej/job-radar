@@ -21,6 +21,7 @@ import html
 import json
 import re
 import sys
+import threading
 import time
 from pathlib import Path
 
@@ -349,32 +350,35 @@ SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": UA, "Accept": "application/json, text/plain, */*"})
 
 
-def get_json(url, **kw):
-    for attempt in range(2):
+RETRY_STATUSES = {403, 429, 500, 502, 503, 504}
+
+
+def _request(method, url, **kw):
+    """GET/POST with backoff. Raises (never returns None) so callers see the real HTTP status."""
+    last = None
+    for attempt in range(4):
         try:
-            r = SESSION.get(url, timeout=TIMEOUT, **kw)
-            if r.status_code == 429:
-                time.sleep(3); continue
+            r = SESSION.request(method, url, timeout=TIMEOUT, **kw)
+            if r.status_code in RETRY_STATUSES:
+                last = f"HTTP {r.status_code}"
+                time.sleep(3 * (2 ** attempt))  # 3, 6, 12, 24s
+                continue
             r.raise_for_status()
             return r.json()
-        except Exception as e:  # noqa
-            if attempt == 1:
-                raise
-            time.sleep(1.5)
+        except (requests.RequestException, ValueError) as e:
+            last = f"{type(e).__name__}: {e}"[:160]
+            if attempt == 3:
+                break
+            time.sleep(1.5 * (attempt + 1))
+    raise RuntimeError(f"{last} after retries: {url[:120]}")
+
+
+def get_json(url, **kw):
+    return _request("GET", url, **kw)
 
 
 def post_json(url, body, **kw):
-    for attempt in range(2):
-        try:
-            r = SESSION.post(url, json=body, timeout=TIMEOUT, **kw)
-            if r.status_code == 429:
-                time.sleep(3); continue
-            r.raise_for_status()
-            return r.json()
-        except Exception:
-            if attempt == 1:
-                raise
-            time.sleep(1.5)
+    return _request("POST", url, json=body, **kw)
 
 
 # ----------------------------------------------------------------------------
@@ -494,11 +498,20 @@ def fetch_smartrecruiters(c):
     return out
 
 
+WORKDAY_SEM = threading.Semaphore(3)   # Workday throttles bursts from one IP (seen as 429s on GitHub runners)
+
+
+def _wd(fn, *a, **kw):
+    with WORKDAY_SEM:
+        time.sleep(0.4)
+        return fn(*a, **kw)
+
+
 def fetch_workday(c):
     base = f"https://{c['tenant']}.{c['wd']}.myworkdayjobs.com"
     api = f"{base}/wday/cxs/{c['tenant']}/{c['site']}/jobs"
     headers = {"Content-Type": "application/json", "Accept": "application/json",
-               "Referer": f"{base}/{c['site']}", "Origin": base}
+               "Accept-Language": "en-US,en;q=0.9", "Referer": f"{base}/{c['site']}", "Origin": base}
     # warm cookies
     try:
         SESSION.get(f"{base}/{c['site']}", timeout=TIMEOUT)
@@ -509,7 +522,7 @@ def fetch_workday(c):
         offset = 0
         while offset < 400:
             body = {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q}
-            data = post_json(api, body, headers=headers)
+            data = _wd(post_json, api, body, headers=headers)
             posts = data.get("jobPostings", [])
             for p in posts:
                 if p.get("externalPath"):
@@ -532,7 +545,7 @@ def fetch_workday(c):
         desc, posted, sal = "", to_date(p.get("postedOn")), None
         if need_detail:
             try:
-                d = get_json(f"{base}/wday/cxs/{c['tenant']}/{c['site']}{path}", headers=headers)
+                d = _wd(get_json, f"{base}/wday/cxs/{c['tenant']}/{c['site']}{path}", headers=headers)
                 info = d.get("jobPostingInfo", {}) or {}
                 desc = strip_html(info.get("jobDescription", ""))
                 locs = [info.get("location", "")] + (info.get("additionalLocations") or [])

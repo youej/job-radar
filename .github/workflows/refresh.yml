@@ -4,7 +4,12 @@ on:
   schedule:
     # 11:00 UTC daily = 6am ET / 3am PT. GitHub may delay cron runs by a few minutes.
     - cron: "0 11 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Debug: comma-separated company names to validate from GitHub's network (no data is written or deployed)"
+        required: false
+        default: ""
   push:
     branches: [main]
     paths: ["fetch_jobs.py", "companies.json", "docs/**", ".github/workflows/refresh.yml"]
@@ -31,8 +36,12 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - name: Fetch jobs
-        run: python fetch_jobs.py --workers 12
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ -n "$ONLY" ]; then python fetch_jobs.py --validate --only "$ONLY"; else python fetch_jobs.py --workers 12; fi
       - name: Commit refreshed data
+        if: ${{ !inputs.only }}
         run: |
           git config user.name "job-radar-bot"
           git config user.email "job-radar-bot@users.noreply.github.com"
@@ -45,12 +54,14 @@ jobs:
           git rebase -X theirs origin/main
           git push origin HEAD:main
       - name: Upload Pages artifact
+        if: ${{ !inputs.only }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
   deploy:
     needs: refresh
+    if: ${{ !inputs.only }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
