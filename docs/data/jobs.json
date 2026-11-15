@@ -1,6 +1,6 @@
 {
 "meta": {
-"generated_at": "2026-11-15T23:24:26Z",
+"generated_at": "2026-11-15T23:33:10Z",
 "salary_floor": {
 "nyc": 130000,
 "bay": 150000,
@@ -22,7 +22,7 @@
 "status": "ok",
 "raw": 785,
 "error": null,
-"secs": 1.3
+"secs": 2.2
 },
 {
 "company": "Airbnb",
@@ -30,7 +30,7 @@
 "status": "ok",
 "raw": 213,
 "error": null,
-"secs": 0.5
+"secs": 1.1
 },
 {
 "company": "Figma",
@@ -38,7 +38,7 @@
 "status": "ok",
 "raw": 139,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Databricks",
@@ -46,7 +46,7 @@
 "status": "ok",
 "raw": 895,
 "error": null,
-"secs": 2.6
+"secs": 4.2
 },
 {
 "company": "Coinbase",
@@ -54,7 +54,7 @@
 "status": "ok",
 "raw": 265,
 "error": null,
-"secs": 0.6
+"secs": 1.2
 },
 {
 "company": "Robinhood",
@@ -62,7 +62,7 @@
 "status": "ok",
 "raw": 165,
 "error": null,
-"secs": 0.4
+"secs": 0.7
 },
 {
 "company": "Dropbox",
@@ -70,7 +70,7 @@
 "status": "ok",
 "raw": 44,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Lyft",
@@ -86,7 +86,7 @@
 "status": "ok",
 "raw": 163,
 "error": null,
-"secs": 0.4
+"secs": 0.6
 },
 {
 "company": "DoorDash",
@@ -94,7 +94,7 @@
 "status": "ok",
 "raw": 428,
 "error": null,
-"secs": 1.7
+"secs": 2.8
 },
 {
 "company": "Instacart",
@@ -102,7 +102,7 @@
 "status": "ok",
 "raw": 85,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Discord",
@@ -110,7 +110,7 @@
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Reddit",
@@ -118,7 +118,7 @@
 "status": "ok",
 "raw": 145,
 "error": null,
-"secs": 0.7
+"secs": 0.6
 },
 {
 "company": "Duolingo",
@@ -126,7 +126,7 @@
 "status": "ok",
 "raw": 59,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Brex",
@@ -134,7 +134,7 @@
 "status": "ok",
 "raw": 286,
 "error": null,
-"secs": 0.6
+"secs": 1.0
 },
 {
 "company": "Plaid",
@@ -142,7 +142,7 @@
 "status": "ok",
 "raw": 141,
 "error": null,
-"secs": 0.6
+"secs": 0.9
 },
 {
 "company": "Affirm",
@@ -150,7 +150,7 @@
 "status": "ok",
 "raw": 217,
 "error": null,
-"secs": 0.7
+"secs": 1.1
 },
 {
 "company": "Chime",
@@ -158,7 +158,7 @@
 "status": "ok",
 "raw": 71,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Carta",
@@ -174,7 +174,7 @@
 "status": "ok",
 "raw": 75,
 "error": null,
-"secs": 0.3
+"secs": 0.7
 },
 {
 "company": "Scale AI",
@@ -182,7 +182,7 @@
 "status": "ok",
 "raw": 170,
 "error": null,
-"secs": 0.5
+"secs": 0.8
 },
 {
 "company": "Anthropic",
@@ -190,7 +190,7 @@
 "status": "ok",
 "raw": 665,
 "error": null,
-"secs": 3.1
+"secs": 5.8
 },
 {
 "company": "OpenAI",
@@ -198,7 +198,7 @@
 "status": "ok",
 "raw": 838,
 "error": null,
-"secs": 3.6
+"secs": 6.4
 },
 {
 "company": "xAI",
@@ -206,7 +206,7 @@
 "status": "ok",
 "raw": 296,
 "error": null,
-"secs": 0.4
+"secs": 0.8
 },
 {
 "company": "Datadog",
@@ -214,7 +214,7 @@
 "status": "ok",
 "raw": 384,
 "error": null,
-"secs": 1.2
+"secs": 1.9
 },
 {
 "company": "MongoDB",
@@ -222,7 +222,7 @@
 "status": "ok",
 "raw": 392,
 "error": null,
-"secs": 1.1
+"secs": 2.1
 },
 {
 "company": "Cloudflare",
@@ -230,7 +230,7 @@
 "status": "ok",
 "raw": 479,
 "error": null,
-"secs": 2.5
+"secs": 4.2
 },
 {
 "company": "Twilio",
@@ -238,15 +238,15 @@
 "status": "ok",
 "raw": 114,
 "error": null,
-"secs": 0.6
+"secs": 0.3
 },
 {
 "company": "Okta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 361,
+"raw": 360,
 "error": null,
-"secs": 1.3
+"secs": 2.1
 },
 {
 "company": "Squarespace",
@@ -254,7 +254,7 @@
 "status": "ok",
 "raw": 17,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Peloton",
@@ -262,7 +262,7 @@
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Oscar Health",
@@ -270,7 +270,7 @@
 "status": "ok",
 "raw": 183,
 "error": null,
-"secs": 0.5
+"secs": 0.9
 },
 {
 "company": "Flatiron Health",
@@ -278,7 +278,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Betterment",
@@ -286,7 +286,7 @@
 "status": "ok",
 "raw": 28,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Zocdoc",
@@ -294,7 +294,7 @@
 "status": "ok",
 "raw": 67,
 "error": null,
-"secs": 0.6
+"secs": 0.3
 },
 {
 "company": "Justworks",
@@ -302,7 +302,7 @@
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 0.7
+"secs": 0.9
 },
 {
 "company": "Ro",
@@ -310,7 +310,7 @@
 "status": "ok",
 "raw": 56,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "NerdWallet",
@@ -318,7 +318,7 @@
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Gemini",
@@ -326,7 +326,7 @@
 "status": "ok",
 "raw": 28,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Klaviyo",
@@ -334,7 +334,7 @@
 "status": "ok",
 "raw": 146,
 "error": null,
-"secs": 1.2
+"secs": 1.8
 },
 {
 "company": "HubSpot",
@@ -342,7 +342,7 @@
 "status": "ok",
 "raw": 147,
 "error": null,
-"secs": 1.3
+"secs": 1.6
 },
 {
 "company": "Toast",
@@ -350,7 +350,7 @@
 "status": "ok",
 "raw": 354,
 "error": null,
-"secs": 2.3
+"secs": 2.7
 },
 {
 "company": "Samsara",
@@ -358,7 +358,7 @@
 "status": "ok",
 "raw": 317,
 "error": null,
-"secs": 2.7
+"secs": 3.5
 },
 {
 "company": "Nextdoor",
@@ -374,7 +374,7 @@
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Faire",
@@ -382,7 +382,7 @@
 "status": "ok",
 "raw": 71,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Checkr",
@@ -390,7 +390,7 @@
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 0.5
+"secs": 0.3
 },
 {
 "company": "Amplitude",
@@ -398,7 +398,7 @@
 "status": "ok",
 "raw": 48,
 "error": null,
-"secs": 0.9
+"secs": 0.3
 },
 {
 "company": "Mixpanel",
@@ -414,7 +414,7 @@
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 1.0
+"secs": 1.4
 },
 {
 "company": "Box",
@@ -422,7 +422,7 @@
 "status": "ok",
 "raw": 149,
 "error": null,
-"secs": 1.0
+"secs": 1.8
 },
 {
 "company": "Waymo",
@@ -430,7 +430,7 @@
 "status": "ok",
 "raw": 373,
 "error": null,
-"secs": 2.1
+"secs": 2.6
 },
 {
 "company": "Notion",
@@ -438,7 +438,7 @@
 "status": "ok",
 "raw": 165,
 "error": null,
-"secs": 1.1
+"secs": 1.8
 },
 {
 "company": "Airtable",
@@ -454,7 +454,7 @@
 "status": "ok",
 "raw": 25,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Calendly",
@@ -478,7 +478,7 @@
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.5
+"secs": 0.6
 },
 {
 "company": "GitLab",
@@ -486,7 +486,7 @@
 "status": "ok",
 "raw": 254,
 "error": null,
-"secs": 1.9
+"secs": 3.2
 },
 {
 "company": "Lattice",
@@ -502,7 +502,7 @@
 "status": "ok",
 "raw": 53,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Verkada",
@@ -510,7 +510,7 @@
 "status": "ok",
 "raw": 346,
 "error": null,
-"secs": 1.9
+"secs": 3.4
 },
 {
 "company": "Flexport",
@@ -518,7 +518,7 @@
 "status": "ok",
 "raw": 204,
 "error": null,
-"secs": 1.4
+"secs": 2.1
 },
 {
 "company": "Sweetgreen",
@@ -526,7 +526,7 @@
 "status": "ok",
 "raw": 70,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Glossier",
@@ -542,7 +542,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Stitch Fix",
@@ -558,7 +558,7 @@
 "status": "ok",
 "raw": 35,
 "error": null,
-"secs": 0.4
+"secs": 0.7
 },
 {
 "company": "Cockroach Labs",
@@ -566,7 +566,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Fivetran",
@@ -574,7 +574,7 @@
 "status": "ok",
 "raw": 197,
 "error": null,
-"secs": 1.8
+"secs": 3.2
 },
 {
 "company": "Forter",
@@ -582,7 +582,7 @@
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 0.4
+"secs": 0.6
 },
 {
 "company": "Clear Street",
@@ -590,7 +590,7 @@
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.4
+"secs": 0.6
 },
 {
 "company": "Hudson River Trading",
@@ -606,7 +606,7 @@
 "status": "ok",
 "raw": 217,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Point72",
@@ -614,7 +614,7 @@
 "status": "ok",
 "raw": 200,
 "error": null,
-"secs": 0.8
+"secs": 1.0
 },
 {
 "company": "SpaceX",
@@ -622,7 +622,7 @@
 "status": "ok",
 "raw": 2756,
 "error": null,
-"secs": 4.1
+"secs": 6.6
 },
 {
 "company": "Anduril",
@@ -630,7 +630,7 @@
 "status": "ok",
 "raw": 2595,
 "error": null,
-"secs": 5.3
+"secs": 8.7
 },
 {
 "company": "The New York Times",
@@ -638,7 +638,7 @@
 "status": "ok",
 "raw": 168,
 "error": null,
-"secs": 0.8
+"secs": 2.1
 },
 {
 "company": "Roblox",
@@ -646,7 +646,7 @@
 "status": "ok",
 "raw": 271,
 "error": null,
-"secs": 0.9
+"secs": 2.4
 },
 {
 "company": "Elastic",
@@ -654,7 +654,7 @@
 "status": "ok",
 "raw": 400,
 "error": null,
-"secs": 1.7
+"secs": 3.6
 },
 {
 "company": "Snyk",
@@ -662,7 +662,7 @@
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "1Password",
@@ -670,7 +670,7 @@
 "status": "ok",
 "raw": 81,
 "error": null,
-"secs": 0.6
+"secs": 1.4
 },
 {
 "company": "Doximity",
@@ -678,7 +678,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "WHOOP",
@@ -686,7 +686,7 @@
 "status": "ok",
 "raw": 115,
 "error": null,
-"secs": 0.6
+"secs": 0.9
 },
 {
 "company": "Oura",
@@ -694,7 +694,7 @@
 "status": "ok",
 "raw": 93,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Compass",
@@ -702,7 +702,7 @@
 "status": "ok",
 "raw": 164,
 "error": null,
-"secs": 0.8
+"secs": 1.5
 },
 {
 "company": "BetterUp",
@@ -710,7 +710,7 @@
 "status": "ok",
 "raw": 8,
 "error": null,
-"secs": 0.0
+"secs": 0.3
 },
 {
 "company": "Calm",
@@ -726,7 +726,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Intercom",
@@ -734,7 +734,7 @@
 "status": "ok",
 "raw": 115,
 "error": null,
-"secs": 0.5
+"secs": 1.0
 },
 {
 "company": "Sentry",
@@ -742,7 +742,7 @@
 "status": "ok",
 "raw": 39,
 "error": null,
-"secs": 0.2
+"secs": 0.6
 },
 {
 "company": "PagerDuty",
@@ -750,7 +750,7 @@
 "status": "ok",
 "raw": 46,
 "error": null,
-"secs": 0.2
+"secs": 0.7
 },
 {
 "company": "Snowflake",
@@ -758,7 +758,7 @@
 "status": "ok",
 "raw": 376,
 "error": null,
-"secs": 0.6
+"secs": 1.3
 },
 {
 "company": "Palantir",
@@ -766,7 +766,7 @@
 "status": "ok",
 "raw": 302,
 "error": null,
-"secs": 1.3
+"secs": 1.0
 },
 {
 "company": "Flock Safety",
@@ -774,7 +774,7 @@
 "status": "ok",
 "raw": 11,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Ramp",
@@ -782,7 +782,7 @@
 "status": "ok",
 "raw": 179,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Linear",
@@ -798,7 +798,7 @@
 "status": "ok",
 "raw": 80,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Cursor (Anysphere)",
@@ -806,7 +806,7 @@
 "status": "ok",
 "raw": 99,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Perplexity",
@@ -814,7 +814,7 @@
 "status": "ok",
 "raw": 141,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "ElevenLabs",
@@ -822,7 +822,7 @@
 "status": "ok",
 "raw": 127,
 "error": null,
-"secs": 0.3
+"secs": 0.7
 },
 {
 "company": "Replit",
@@ -838,7 +838,7 @@
 "status": "ok",
 "raw": 77,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "PostHog",
@@ -870,7 +870,7 @@
 "status": "ok",
 "raw": 197,
 "error": null,
-"secs": 0.6
+"secs": 0.9
 },
 {
 "company": "Harvey",
@@ -878,7 +878,7 @@
 "status": "ok",
 "raw": 388,
 "error": null,
-"secs": 0.8
+"secs": 1.5
 },
 {
 "company": "Cohere",
@@ -886,7 +886,7 @@
 "status": "ok",
 "raw": 121,
 "error": null,
-"secs": 0.2
+"secs": 0.6
 },
 {
 "company": "Writer",
@@ -894,7 +894,7 @@
 "status": "ok",
 "raw": 45,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Hebbia",
@@ -918,7 +918,7 @@
 "status": "ok",
 "raw": 121,
 "error": null,
-"secs": 0.5
+"secs": 1.0
 },
 {
 "company": "Quora",
@@ -934,7 +934,7 @@
 "status": "ok",
 "raw": 30,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Zoox",
@@ -942,7 +942,7 @@
 "status": "ok",
 "raw": 241,
 "error": null,
-"secs": 0.7
+"secs": 0.2
 },
 {
 "company": "Nuro",
@@ -950,7 +950,7 @@
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Wealthfront",
@@ -958,7 +958,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 3.0
+"secs": 0.6
 },
 {
 "company": "Gong",
@@ -966,7 +966,7 @@
 "status": "ok",
 "raw": 89,
 "error": null,
-"secs": 0.3
+"secs": 0.8
 },
 {
 "company": "Strava",
@@ -982,7 +982,7 @@
 "status": "ok",
 "raw": 191,
 "error": null,
-"secs": 0.6
+"secs": 1.4
 },
 {
 "company": "Spotify",
@@ -990,7 +990,7 @@
 "status": "ok",
 "raw": 87,
 "error": null,
-"secs": 0.7
+"secs": 0.5
 },
 {
 "company": "Twitch",
@@ -998,7 +998,7 @@
 "status": "ok",
 "raw": 58,
 "error": null,
-"secs": 0.2
+"secs": 0.6
 },
 {
 "company": "Via",
@@ -1006,7 +1006,7 @@
 "status": "ok",
 "raw": 177,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Angi",
@@ -1014,7 +1014,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Rubrik",
@@ -1022,7 +1022,7 @@
 "status": "ok",
 "raw": 183,
 "error": null,
-"secs": 0.5
+"secs": 0.9
 },
 {
 "company": "Wiz",
@@ -1030,7 +1030,7 @@
 "status": "ok",
 "raw": 110,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Alloy",
@@ -1038,7 +1038,7 @@
 "status": "ok",
 "raw": 32,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Olo",
@@ -1046,7 +1046,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Yext",
@@ -1062,7 +1062,7 @@
 "status": "ok",
 "raw": 76,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Maven Clinic",
@@ -1070,7 +1070,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Headway",
@@ -1078,7 +1078,7 @@
 "status": "ok",
 "raw": 92,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Alma",
@@ -1086,7 +1086,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Capsule",
@@ -1126,7 +1126,7 @@
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Polymarket",
@@ -1142,7 +1142,7 @@
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Navan",
@@ -1150,7 +1150,7 @@
 "status": "ok",
 "raw": 234,
 "error": null,
-"secs": 0.3
+"secs": 0.6
 },
 {
 "company": "Komodo Health",
@@ -1174,7 +1174,7 @@
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.1
+"secs": 0.5
 },
 {
 "company": "Ridgeline",
@@ -1182,7 +1182,7 @@
 "status": "ok",
 "raw": 32,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Figure",
@@ -1190,7 +1190,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Public",
@@ -1214,7 +1214,7 @@
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 19.3
+"secs": 20.9
 },
 {
 "company": "NVIDIA",
@@ -1222,7 +1222,7 @@
 "status": "ok",
 "raw": 52,
 "error": null,
-"secs": 69.5
+"secs": 65.8
 },
 {
 "company": "PayPal",
@@ -1230,7 +1230,7 @@
 "status": "ok",
 "raw": 35,
 "error": null,
-"secs": 92.2
+"secs": 57.0
 },
 {
 "company": "Capital One",
@@ -1238,7 +1238,7 @@
 "status": "ok",
 "raw": 206,
 "error": null,
-"secs": 218.9
+"secs": 275.8
 },
 {
 "company": "Mastercard",
@@ -1246,7 +1246,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 53.8
+"secs": 89.9
 },
 {
 "company": "Disney",
@@ -1254,7 +1254,7 @@
 "status": "ok",
 "raw": 1,
 "error": null,
-"secs": 22.7
+"secs": 24.2
 },
 {
 "company": "Warner Bros. Discovery",
@@ -1262,7 +1262,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 19.7
+"secs": 34.5
 },
 {
 "company": "Autodesk",
@@ -1270,7 +1270,7 @@
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 42.5
+"secs": 93.1
 },
 {
 "company": "Workday",
@@ -1278,7 +1278,7 @@
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 121.6
+"secs": 87.1
 },
 {
 "company": "Zillow",
@@ -1286,7 +1286,7 @@
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 106.6
+"secs": 56.1
 },
 {
 "company": "BlackRock",
@@ -1294,7 +1294,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 36.9
+"secs": 91.3
 },
 {
 "company": "Netflix",
@@ -1302,7 +1302,7 @@
 "status": "ok",
 "raw": 14,
 "error": null,
-"secs": 6.2
+"secs": 3.7
 },
 {
 "company": "Amazon",
@@ -1310,15 +1310,15 @@
 "status": "ok",
 "raw": 3600,
 "error": null,
-"secs": 28.5
+"secs": 23.5
 },
 {
 "company": "Google",
 "ats": "google",
 "status": "ok",
-"raw": 156,
+"raw": 157,
 "error": null,
-"secs": 122.1
+"secs": 122.8
 }
 ],
 "companies_tracked": 163
