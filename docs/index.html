@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar</title>
+<meta name="description" content="Early-career product, product marketing and strategy roles in New York and the Bay Area, refreshed daily.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='44' fill='%232d5bff'/%3E%3Ccircle cx='50' cy='50' r='26' fill='none' stroke='white' stroke-width='8'/%3E%3Ccircle cx='50' cy='50' r='8' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <span class="name">Job Radar</span>
+      <span class="meta" id="meta-line"></span>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="jobs" role="tab">Jobs</button>
+      <button class="tab" data-tab="saved" role="tab">Saved <span class="count" id="count-saved"></span></button>
+      <button class="tab" data-tab="programs" role="tab">Programs</button>
+    </nav>
+    <button class="icon-btn" id="theme-toggle" title="Light / dark" aria-label="Toggle theme">◐</button>
+  </div>
+</header>
+
+<main id="view-jobs" class="view wrap">
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search titles or companies" autocomplete="off" aria-label="Search">
+    <div class="seg" role="group" aria-label="Location" data-f="loc">
+      <button data-v="both">NYC + Bay</button><button data-v="nyc">New York</button><button data-v="bay">Bay Area</button>
+    </div>
+    <div class="seg" role="group" aria-label="Role" data-f="role">
+      <button data-v="all">All roles</button><button data-v="pm">Product</button><button data-v="pmm">Product marketing</button><button data-v="strategy">Strategy</button>
+    </div>
+    <div class="controls-right">
+      <button class="btn" id="more-btn" aria-expanded="false">More <span class="count" id="more-count"></span></button>
+      <select id="sort" aria-label="Sort">
+        <option value="score">Best match</option>
+        <option value="posted">Newest</option>
+        <option value="salary">Highest pay</option>
+      </select>
+    </div>
+  </div>
+
+  <section class="more hidden" id="more" aria-label="More filters">
+    <div class="more-grid">
+      <div class="more-col">
+        <h4>Freshness</h4>
+        <label class="inline">Posted within
+          <select id="f-days">
+            <option value="7">7 days</option>
+            <option value="14">14 days</option>
+            <option value="30" selected>30 days</option>
+            <option value="0">any time</option>
+          </select>
+        </label>
+        <label><input type="checkbox" id="f-newonly"> Only new since my last visit</label>
+        <label><input type="checkbox" id="f-program"> Only new-grad and rotational programs</label>
+      </div>
+      <div class="more-col">
+        <h4>Pay</h4>
+        <label><input type="checkbox" id="f-floor" checked> Apply pay floors <span class="hint">NYC $130k · Bay $150k, posted max</span></label>
+        <label class="inline">Use one floor for both: $<input type="number" id="f-floor-override" placeholder="140" min="50" max="400" step="5">k</label>
+        <label><input type="checkbox" id="f-unlisted" checked> Include roles with no listed salary</label>
+      </div>
+      <div class="more-col">
+        <h4>Scope</h4>
+        <label><input type="checkbox" id="f-remote"> Include remote-only roles</label>
+        <label><input type="checkbox" id="f-adjacent"> Include adjacent roles <span class="hint">growth, product ops, partnerships, pricing</span></label>
+        <label class="inline">Company
+          <select id="f-company"><option value="">any</option></select>
+        </label>
+      </div>
+      <div class="more-col">
+        <h4>Display</h4>
+        <label><input type="checkbox" id="f-cap" checked> Fold each company to its top 5</label>
+        <label><input type="checkbox" id="f-showapplied" checked> Show roles I've applied to</label>
+        <label><input type="checkbox" id="f-showhidden"> Show roles I've hidden</label>
+      </div>
+    </div>
+    <div class="more-foot">
+      <button class="link" id="reset-filters">Reset to defaults</button>
+      <button class="btn" id="more-done">Done</button>
+    </div>
+  </section>
+
+  <p class="summary" id="result-summary"></p>
+  <div id="sections"></div>
+  <p class="foot">Showing roles up to mid level that ask for fewer than 5 years. Pay is base salary as posted. <a href="#" id="open-sources">Where the jobs come from</a></p>
+</main>
+
+<main id="view-saved" class="view wrap hidden">
+  <div class="toolbar">
+    <span class="summary" id="saved-summary"></span>
+    <button class="btn" id="export-csv">Export CSV</button>
+  </div>
+  <h2>Saved</h2>
+  <div id="saved-list" class="list"></div>
+  <h2>Applied</h2>
+  <div id="applied-list" class="list"></div>
+</main>
+
+<main id="view-programs" class="view wrap hidden">
+  <div class="prose" id="programs"></div>
+</main>
+
+<main id="view-sources" class="view wrap hidden">
+  <div class="prose" id="sources"></div>
+</main>
+
+<template id="row-tpl">
+  <article class="row">
+    <div class="row-main">
+      <div class="row-title">
+        <a class="title" target="_blank" rel="noopener"></a>
+        <span class="badge new hidden">New</span>
+        <span class="badge program hidden">Program</span>
+      </div>
+      <div class="row-sub"><span class="company"></span><span class="sep">·</span><span class="loc"></span><span class="sep">·</span><span class="posted"></span></div>
+      <div class="row-meta"></div>
+      <p class="snippet hidden"></p>
+    </div>
+    <div class="row-pay">
+      <span class="salary"></span>
+      <span class="salary-note"></span>
+    </div>
+    <div class="row-actions">
+      <button class="act save" title="Save">☆</button>
+      <button class="act applied" title="Mark applied">✓</button>
+      <button class="act hide" title="Hide">✕</button>
+      <button class="act more" title="Show description">⌄</button>
+    </div>
+  </article>
+</template>
+
+<script src="data/jobs.js"></script>
+<script src="programs.js"></script>
+<script src="app.js?v=2"></script>
+</body>
+</html>

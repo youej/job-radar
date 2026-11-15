@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Runs refresh.sh every day at 7:00am local time while this Mac is awake.
+       Install:   cp launchd/com.jobradar.refresh.plist ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/com.jobradar.refresh.plist
+       Uninstall: launchctl unload ~/Library/LaunchAgents/com.jobradar.refresh.plist && rm ~/Library/LaunchAgents/com.jobradar.refresh.plist -->
+  <key>Label</key><string>com.jobradar.refresh</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/admin/job-radar/refresh.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>/tmp/jobradar.log</string>
+  <key>StandardErrorPath</key><string>/tmp/jobradar.err</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/anaconda3/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+</dict>
+</plist>

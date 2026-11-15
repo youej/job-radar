@@ -1,0 +1,291 @@
+{
+ "programs": [
+  {
+   "company": "Stripe",
+   "program": "Product Manager: New Grad Accelerator",
+   "track": "PM",
+   "window": "Posted spring; stays open until filled",
+   "url": "https://stripe.com/jobs/search?query=new+grad",
+   "notes": "SF / NYC / Seattle. Appears in the Jobs tab with a Program badge."
+  },
+  {
+   "company": "Roblox",
+   "program": "Associate Product Manager, Early Career (2027)",
+   "track": "PM",
+   "window": "Opens late Aug / Sep",
+   "url": "https://careers.roblox.com/jobs?search=associate%20product%20manager",
+   "notes": "San Mateo. '[2027]' cohorts usually mean 2026–27 graduates; check the eligibility line before applying."
+  },
+  {
+   "company": "Databricks",
+   "program": "Associate Product Manager, New Grad",
+   "track": "PM",
+   "window": "Open most of the year (evergreen req)",
+   "url": "https://www.databricks.com/company/careers/open-positions?search=associate%20product%20manager",
+   "notes": "SF / Mountain View. In the Jobs tab."
+  },
+  {
+   "company": "Perplexity",
+   "program": "Associate Product Marketing Manager",
+   "track": "PMM",
+   "window": "Rolling",
+   "url": "https://www.perplexity.ai/hub/careers",
+   "notes": "SF / NYC, $135–180k posted. One of very few associate-level PMM roles anywhere."
+  },
+  {
+   "company": "Sierra",
+   "program": "APX (New Grad 2027)",
+   "track": "Strategy / agent PM",
+   "window": "Opens late Aug",
+   "url": "https://sierra.ai/careers",
+   "notes": "SF, $150–180k posted. Posting says it is for students graduating by June 2027, so a 2025 grad is likely NOT eligible; worth one email to confirm."
+  },
+  {
+   "company": "DoorDash",
+   "program": "Rotational Leadership Program (Dasher & Logistics / S&O)",
+   "track": "Strategy",
+   "window": "Fall",
+   "url": "https://careers.doordash.com/jobs/?search=rotational",
+   "notes": "SF / NYC. In the Jobs tab."
+  },
+  {
+   "company": "Flexport",
+   "program": "Rotational Development Program",
+   "track": "Strategy / Ops",
+   "window": "Rolling cohorts",
+   "url": "https://www.flexport.com/careers/",
+   "notes": "NYC cohort. In the Jobs tab."
+  },
+  {
+   "company": "Google",
+   "program": "Associate Product Manager (APM)",
+   "track": "PM",
+   "window": "Typically opens Aug–Oct for the following summer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/?q=%22Associate%20Product%20Manager%22",
+   "notes": "Historically aimed at ≤1 year of full-time experience; 2-year rotational. Check eligibility language carefully."
+  },
+  {
+   "company": "Google",
+   "program": "Associate Product Marketing Manager (APMM)",
+   "track": "PMM",
+   "window": "Typically opens Aug–Oct",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/?q=%22Associate%20Product%20Marketing%20Manager%22",
+   "notes": "The flagship new-grad PMM program; strong fit for Econ + consulting background."
+  },
+  {
+   "company": "Meta",
+   "program": "Rotational Product Manager (RPM)",
+   "track": "PM",
+   "window": "Typically opens Aug–Sep",
+   "url": "https://www.metacareers.com/jobs?q=rotational%20product%20manager",
+   "notes": "18-month, 3 rotations. Meta's site has no feed, so check manually."
+  },
+  {
+   "company": "Uber",
+   "program": "Associate Product Manager (APM)",
+   "track": "PM",
+   "window": "Typically Aug–Oct",
+   "url": "https://www.uber.com/us/en/careers/list/?query=associate%20product%20manager",
+   "notes": "Uber's job API changed in 2025, so this is a manual check."
+  },
+  {
+   "company": "Intuit",
+   "program": "Rotational Product Manager (RPM)",
+   "track": "PM",
+   "window": "Typically fall",
+   "url": "https://jobs.intuit.com/search-jobs/product%20manager",
+   "notes": "Mountain View / San Diego / NYC. Not reachable via feed."
+  },
+  {
+   "company": "Salesforce",
+   "program": "Futureforce – Associate Product Manager",
+   "track": "PM",
+   "window": "Typically Aug–Nov",
+   "url": "https://careers.salesforce.com/en/jobs/?search=associate+product+manager",
+   "notes": "SF HQ. Also in the live feed via Workday."
+  },
+  {
+   "company": "Atlassian",
+   "program": "Associate Product Manager (new grad)",
+   "track": "PM",
+   "window": "Typically fall",
+   "url": "https://www.atlassian.com/company/careers/all-jobs?search=associate%20product%20manager",
+   "notes": "SF / remote-US. Not reachable via feed."
+  },
+  {
+   "company": "Microsoft",
+   "program": "Product Manager – university / early career",
+   "track": "PM",
+   "window": "Typically Aug–Dec",
+   "url": "https://jobs.careers.microsoft.com/global/en/search?q=product%20manager&lc=New%20York%2C%20New%20York%2C%20United%20States&exp=Students%20and%20graduates",
+   "notes": "NYC and Bay Area postings exist; site blocks automated pulls."
+  },
+  {
+   "company": "Walmart Global Tech",
+   "program": "Associate Product Manager",
+   "track": "PM",
+   "window": "Typically fall",
+   "url": "https://careers.walmart.com/results?q=associate%20product%20manager",
+   "notes": "Sunnyvale / Bentonville; Bay Area postings common."
+  },
+  {
+   "company": "Adobe",
+   "program": "Associate Product Manager",
+   "track": "PM",
+   "window": "Typically fall",
+   "url": "https://careers.adobe.com/us/en/search-results?keywords=associate%20product%20manager",
+   "notes": "San Jose / SF. Also in the live feed via Workday."
+  },
+  {
+   "company": "IBM",
+   "program": "Associate Product Manager (entry level)",
+   "track": "PM",
+   "window": "Rolling",
+   "url": "https://www.ibm.com/careers/search?q=associate%20product%20manager",
+   "notes": "NYC postings appear regularly."
+  },
+  {
+   "company": "Capital One",
+   "program": "Associate Product Manager / Product Development",
+   "track": "PM",
+   "window": "Rolling + fall campus cycle",
+   "url": "https://www.capitalonecareers.com/search-jobs/product%20manager/New%20York",
+   "notes": "NYC and SF offices; strong consulting-exit pipeline. In the live feed via Workday."
+  },
+  {
+   "company": "American Express",
+   "program": "Strategy & Planning Group (SPG) / Product",
+   "track": "Strategy",
+   "window": "Rolling",
+   "url": "https://aexp.eightfold.ai/careers?query=strategy%20planning%20group&location=New%20York",
+   "notes": "SPG is a classic ex-Bain/BCG landing spot in NYC; site blocks automated pulls."
+  },
+  {
+   "company": "DoorDash",
+   "program": "New-grad Product Manager",
+   "track": "PM",
+   "window": "Typically Aug–Oct",
+   "url": "https://careers.doordash.com/jobs/?search=product%20manager&department=Product",
+   "notes": "SF / NYC. In the live feed."
+  },
+  {
+   "company": "Coinbase / Robinhood / Lyft",
+   "program": "APM programs (run intermittently)",
+   "track": "PM",
+   "window": "Varies by year",
+   "url": "https://www.coinbase.com/careers/positions?department=Product",
+   "notes": "All three have run APM programs in past years; not every year. In the live feed when posted."
+  }
+ ],
+ "quick_searches": [
+  {
+   "label": "Handshake · Product Manager · full-time · NYC/SF (Vanderbilt alumni login)",
+   "url": "https://app.joinhandshake.com/stu/postings?query=product%20manager&job_type=full_time"
+  },
+  {
+   "label": "LinkedIn · 'new grad' OR 'early career' + product/strategy · US · past month",
+   "url": "https://www.linkedin.com/jobs/search/?keywords=(%22new%20grad%22%20OR%20%22early%20career%22%20OR%20rotational)%20AND%20(product%20OR%20strategy)&location=United%20States&f_TPR=r2592000"
+  },
+  {
+   "label": "Google · Students & graduates · Product",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/?target_level=EARLY&q=product"
+  },
+  {
+   "label": "Capital One · Campus (separate portal)",
+   "url": "https://www.capitalonecareers.com/students-and-grads"
+  },
+  {
+   "label": "Amex · Campus & early career",
+   "url": "https://www.americanexpress.com/en-us/careers/students/"
+  },
+  {
+   "label": "LinkedIn · APM / Associate PM · NYC · past week",
+   "url": "https://www.linkedin.com/jobs/search/?keywords=%22associate%20product%20manager%22%20OR%20APM&location=New%20York%2C%20New%20York%2C%20United%20States&f_TPR=r604800"
+  },
+  {
+   "label": "LinkedIn · Product Manager · NYC · entry/associate · past week",
+   "url": "https://www.linkedin.com/jobs/search/?keywords=product%20manager&location=New%20York%2C%20New%20York%2C%20United%20States&f_E=2%2C3&f_TPR=r604800"
+  },
+  {
+   "label": "LinkedIn · Product Marketing · NYC · past week",
+   "url": "https://www.linkedin.com/jobs/search/?keywords=%22product%20marketing%22&location=New%20York%2C%20New%20York%2C%20United%20States&f_E=2%2C3&f_TPR=r604800"
+  },
+  {
+   "label": "LinkedIn · Strategy & Operations · NYC · past week",
+   "url": "https://www.linkedin.com/jobs/search/?keywords=%22strategy%20%26%20operations%22%20OR%20%22business%20operations%22%20OR%20%22chief%20of%20staff%22&location=New%20York%2C%20New%20York%2C%20United%20States&f_E=2%2C3&f_TPR=r604800"
+  },
+  {
+   "label": "LinkedIn · Product Manager · SF Bay Area · past week",
+   "url": "https://www.linkedin.com/jobs/search/?keywords=product%20manager&location=San%20Francisco%20Bay%20Area&f_E=2%2C3&f_TPR=r604800"
+  },
+  {
+   "label": "Meta · Product / RPM",
+   "url": "https://www.metacareers.com/jobs?q=product%20manager&offices[0]=New%20York%2C%20NY&offices[1]=Menlo%20Park%2C%20CA"
+  },
+  {
+   "label": "Apple · Product Manager · NYC + Cupertino",
+   "url": "https://jobs.apple.com/en-us/search?search=product%20manager&location=new-york-city-NYC+cupertino-CUP"
+  },
+  {
+   "label": "Uber · Product + Strategy",
+   "url": "https://www.uber.com/us/en/careers/list/?location=USA-New%20York-New%20York&location=USA-California-San%20Francisco&department=Product&department=Business%20Development"
+  },
+  {
+   "label": "Indeed · Associate Product Manager · NYC",
+   "url": "https://www.indeed.com/jobs?q=%22associate+product+manager%22&l=New+York%2C+NY&fromage=7"
+  }
+ ],
+ "manual_checks": [
+  {
+   "company": "Meta",
+   "why": "RPM program + PMM roles in NYC/Menlo Park; no feed.",
+   "url": "https://www.metacareers.com/jobs?q=product"
+  },
+  {
+   "company": "Apple",
+   "why": "PM and product marketing roles in NYC and Cupertino; no feed.",
+   "url": "https://jobs.apple.com/en-us/search?search=product%20manager"
+  },
+  {
+   "company": "Uber",
+   "why": "Large S&O / BizOps org that hires ex-consultants; API changed.",
+   "url": "https://www.uber.com/us/en/careers/list/?department=Business%20Development&department=Product"
+  },
+  {
+   "company": "LinkedIn",
+   "why": "APM + BizOps in NYC/Sunnyvale; own career site.",
+   "url": "https://careers.linkedin.com/jobs?keywords=product%20manager"
+  },
+  {
+   "company": "American Express",
+   "why": "Strategy & Planning Group (SPG) in NYC is a top consulting exit.",
+   "url": "https://aexp.eightfold.ai/careers?query=strategy&location=New%20York"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "why": "Product and Strategy associate roles in NYC (Oracle ATS, no feed).",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=product%20manager&location=New%20York"
+  },
+  {
+   "company": "Goldman Sachs / Morgan Stanley",
+   "why": "Firmwide strategy and digital product teams in NYC.",
+   "url": "https://higher.gs.com/results?EXPERIENCE_LEVEL=Analyst%7CAssociate&DIVISION=Platform%20Solutions"
+  },
+  {
+   "company": "Shopify / Zoom / Rippling / Deel",
+   "why": "Remote-friendly PM orgs; career sites don't expose a feed.",
+   "url": "https://www.shopify.com/careers/search?keywords=product%20manager"
+  },
+  {
+   "company": "Etsy / Warby Parker / Grammarly / Hinge",
+   "why": "NYC consumer companies with PM + PMM teams; ATS tokens not public.",
+   "url": "https://careers.etsy.com/global/en/search-results?keywords=product"
+  },
+  {
+   "company": "Bloomberg",
+   "why": "Large NYC product org; own career site.",
+   "url": "https://bloomberg.avature.net/careers/SearchJobs/product%20manager"
+  }
+ ],
+ "timing_note": "Mid-November context: most 2027-start APM/RPM programs (Google, Meta, Uber, Intuit, Salesforce, Atlassian, Microsoft) opened Aug–Oct and have closed or are in interviews. Still open as of this run: Stripe New Grad Accelerator, Databricks APM, Roblox APM 2027, Sierra APX, Perplexity Associate PMM, DoorDash and Flexport rotational programs. Many companies run campus hiring through separate portals (Handshake, company 'students' pages, campus.capitalone.com) that never show up in the main ATS feed this tool reads, so check those links weekly through February. Caveat for a 2025 grad: postings labelled 'New Grad 2027' or '[2027]' are usually for people graduating in 2026–27; roles labelled 'Early Career', 'Associate' or 'Accelerator' (Stripe, Perplexity, Rho, Google Associate BizOps, DoorDash Associate Manager) are the ones that fit someone 1–2 years out."
+}
