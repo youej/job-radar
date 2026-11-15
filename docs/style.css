@@ -89,7 +89,9 @@ input[type="checkbox"] { accent-color: var(--accent); }
 .foot { color: var(--faint); font-size: 13px; margin-top: 28px; }
 
 /* sections + rows */
-.section-head { display: flex; align-items: baseline; gap: 8px; margin: 26px 0 2px; }
+.section-head { display: flex; align-items: baseline; gap: 8px; margin: 26px 0 2px; flex-wrap: wrap; }
+.section-head .hint { margin-left: 2px; }
+.more .more-col > .hint { display: block; margin: -2px 0 6px; }
 .section-head h3 { margin: 0; font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); font-weight: 600; }
 .list { display: flex; flex-direction: column; }
 .row { display: grid; grid-template-columns: 1fr auto auto; gap: 6px 18px; align-items: start; padding: 13px 0; border-bottom: 1px solid var(--border); }

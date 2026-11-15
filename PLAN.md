@@ -147,3 +147,8 @@ Research applied: NN/g progressive disclosure (few frequent options up front, on
 - Rows instead of cards, no sidebar, one 920px column. Every row: title · company · location · posted, one muted meta line (role · level · years asked), salary on the right coloured against her floor. Source and match-score chips removed.
 - Results grouped: New-grad & rotational programs · This week · Earlier. Per-company fold kept.
 - Row actions appear on hover (always on touch). Sources moved from a tab to a footer link.
+
+
+## Early-career default (15 Nov 2026)
+
+Investigation: with the old defaults only 24 of 108 shown roles were truly early-career; 48 asked 3 years, 16 asked 4, and 9 were 5+ roles the years parser had missed. The pay floor was removing 12 of 45 early roles, including every rotational program (entry pay is $75–130k). A re-pull of all 10,060 NYC/Bay titles with the title filter off found only ~6 relevant early titles being excluded, so the title rules were not the problem. Changes: broader years parser (`YEARS_RE2`), supply-chain-strategy titles allowed, tiers in the UI (program / fit / stretch / 4+), floor and freshness window only applied to stretch and 4+, adjacent roles shown by default in their own section, "Include roles asking 4+ years" opt-in.

@@ -9,14 +9,14 @@
     q: '', loc: 'both', role: 'all', sort: 'score',
     days: '30', newOnly: false, programOnly: false,
     floor: true, floorOverride: '', unlisted: true,
-    remote: false, adjacent: false, company: '',
+    exp4: false, remote: false, adjacent: true, company: '',
     cap: true, showApplied: true, showHidden: false,
   };
-  const SECONDARY = ['days', 'newOnly', 'programOnly', 'floor', 'floorOverride', 'unlisted', 'remote', 'adjacent', 'company', 'cap', 'showApplied', 'showHidden'];
+  const SECONDARY = ['days', 'newOnly', 'programOnly', 'floor', 'floorOverride', 'unlisted', 'exp4', 'remote', 'adjacent', 'company', 'cap', 'showApplied', 'showHidden'];
 
   let DATA = { meta: {}, jobs: [] };
   let state = loadState();
-  let filters = { ...DEFAULTS, ...(state.filters || {}) };
+  let filters = { ...DEFAULTS, ...(state.filters3 || {}) };
   const previousVisit = state.lastVisit || null;
   const expanded = new Set();
 
@@ -32,7 +32,7 @@
     s.saved = s.saved || {}; s.applied = s.applied || {}; s.hidden = s.hidden || {};
     return s;
   }
-  function saveState() { state.filters = filters; try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch { /* private mode */ } }
+  function saveState() { state.filters3 = filters; try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch { /* private mode */ } }
 
   // ---------- theme ----------
   const root = document.documentElement;
@@ -60,6 +60,20 @@
   const LEVEL_LABEL = { entry: 'Entry level', mid: 'Mid level' };
   const BUCKET_LABEL = { nyc: 'NYC', bay: 'Bay Area', remote: 'Remote' };
   const isFresh = j => previousVisit ? j.first_seen > previousVisit.slice(0, 10) : j.is_new;
+  // Experience tier. "fit" = programs aside, what a 0-2 year candidate can apply to as written;
+  // "stretch" = asks 3 years (ex-consultants are routinely considered); "exp" = asks 4+ (opt-in).
+  function tier(j) {
+    if (j.program) return 'program';
+    const y = j.years_min;
+    if (y != null && y >= 4) return 'exp';
+    if (j.seniority === 'entry' && (y == null || y <= 3)) return 'fit';
+    if (y != null && y <= 2) return 'fit';
+    if (y === 3) return 'stretch';
+    // Years not stated: a mid-level title. A posted minimum base of $180k+ is never an early-career role.
+    if (j.salary && j.salary.min && j.salary.min >= 180000) return 'exp';
+    return 'stretch';
+  }
+  const TIER_FLOORED = t => t === 'stretch' || t === 'exp';
   function floors() {
     const f = { ...(DATA.meta.salary_floor || { nyc: 130000, bay: 150000, remote: 130000 }) };
     const o = parseInt(filters.floorOverride, 10);
@@ -88,12 +102,16 @@
     if (filters.role === 'all') { if (job.role === 'adjacent' && !filters.adjacent) return false; }
     else if (job.role !== filters.role) return false;
     if (filters.programOnly && !job.program) return false;
-    if (filters.floor) {
+    const t = tier(job);
+    if (t === 'exp' && !filters.exp4) return false;
+    // Entry roles pay less than Bain by nature, so the floor and the freshness window only police
+    // the roles asking 3+ years. Programs and entry roles always show, with pay coloured against the floor.
+    if (filters.floor && TIER_FLOORED(t)) {
       if (job.salary && job.salary.max) { if (job.salary.max < floorFor(job)) return false; }
       else if (!filters.unlisted) return false;
     }
     const d = parseInt(filters.days, 10);
-    if (d && !job.program) { const age = days(job.posted); if (age != null && age > d) return false; }
+    if (d && TIER_FLOORED(t)) { const age = days(job.posted); if (age != null && age > d) return false; }
     if (filters.newOnly && !isFresh(job)) return false;
     if (filters.company && job.company !== filters.company) return false;
     if (filters.q) {
@@ -128,7 +146,7 @@
     const sal = $('.salary', el); const cls = salaryClass(job); sal.classList.add(cls);
     if (job.salary && job.salary.max) {
       sal.textContent = `${fmtK(job.salary.min)}–${fmtK(job.salary.max)}`;
-      $('.salary-note', el).textContent = cls === 'good' ? 'base' : cls === 'warn' ? 'top of range clears floor' : 'below floor';
+      $('.salary-note', el).textContent = cls === 'good' ? 'base' : cls === 'warn' ? 'top of range clears floor' : (TIER_FLOORED(tier(job)) ? 'below floor' : 'below her floor · entry pay');
       sal.title = `Her floor here: ${fmtK(floorFor(job))}${job.salary.source === 'parsed' ? ' · range parsed from posting text' : ''}`;
     } else { sal.textContent = 'pay not listed'; }
     const snip = $('.snippet', el); snip.textContent = job.snippet || '';
@@ -173,17 +191,19 @@
   function render() {
     const host = $('#sections'); host.innerHTML = '';
     const jobs = visibleJobs();
-    const age = j => days(j.posted ?? j.first_seen) ?? 99;
+    const T = Object.fromEntries(jobs.map(j => [j.id, tier(j)]));
     const groups = [
-      ['New-grad & rotational programs', jobs.filter(j => j.program)],
-      ['This week', jobs.filter(j => !j.program && age(j) <= 7)],
-      ['Earlier', jobs.filter(j => !j.program && age(j) > 7)],
+      ['New-grad & rotational programs', '', jobs.filter(j => T[j.id] === 'program')],
+      ['Fits now', 'entry-level titles, or asks 2 years or less', jobs.filter(j => T[j.id] === 'fit' && j.role !== 'adjacent')],
+      ['Adjacent fits', 'strategic finance, partnerships, product ops, growth', jobs.filter(j => T[j.id] === 'fit' && j.role === 'adjacent')],
+      ['Stretch', 'asks 3 years or does not say; consulting backgrounds are usually considered', jobs.filter(j => T[j.id] === 'stretch')],
+      ['Asks 4+ years', '', jobs.filter(j => T[j.id] === 'exp')],
     ];
-    if (!jobs.length) host.innerHTML = '<p class="empty">Nothing matches. Open More and widen "Posted within", or turn off the pay floor.</p>';
-    groups.forEach(([name, list]) => {
+    if (!jobs.length) host.innerHTML = '<p class="empty">Nothing matches. Try the other city, clear the search, or open More and include roles asking 4+ years.</p>';
+    groups.forEach(([name, note, list]) => {
       if (!list.length) return;
       const h = document.createElement('div'); h.className = 'section-head';
-      h.innerHTML = `<h3>${name}</h3><span class="count">${list.length}</span>`;
+      h.innerHTML = `<h3>${name}</h3><span class="count">${list.length}</span>${note ? `<span class="hint">${note}</span>` : ''}`;
       host.appendChild(h);
       const box = document.createElement('div'); box.className = 'list'; host.appendChild(box);
       renderList(box, list);
@@ -194,7 +214,8 @@
     const fresh = jobs.filter(isFresh).length;
     const withSal = jobs.filter(j => j.salary && j.salary.max).length;
     const where = { both: 'New York and the Bay Area', nyc: 'New York', bay: 'the Bay Area' }[filters.loc];
-    $('#result-summary').textContent = `${jobs.length} role${jobs.length === 1 ? '' : 's'} in ${where} · ${fresh} new since your last visit · ${withSal} list pay`;
+    const fits = jobs.filter(j => tier(j) !== 'stretch' && tier(j) !== 'exp').length;
+    $('#result-summary').textContent = `${jobs.length} role${jobs.length === 1 ? '' : 's'} in ${where} · ${fits} within reach, ${jobs.length - fits} stretch · ${fresh} new since your last visit · ${withSal} list pay`;
   }
   function updateCounts() { const n = Object.keys(state.saved).length + Object.keys(state.applied).length; $('#count-saved').textContent = n || ''; }
   function updateMoreCount() {
@@ -263,14 +284,14 @@
     $('#sort').value = filters.sort;
     $('#f-days').value = filters.days; $('#f-newonly').checked = filters.newOnly; $('#f-program').checked = filters.programOnly;
     $('#f-floor').checked = filters.floor; $('#f-floor-override').value = filters.floorOverride; $('#f-unlisted').checked = filters.unlisted;
-    $('#f-remote').checked = filters.remote; $('#f-adjacent').checked = filters.adjacent; $('#f-company').value = filters.company;
+    $('#f-exp4').checked = filters.exp4; $('#f-remote').checked = filters.remote; $('#f-adjacent').checked = filters.adjacent; $('#f-company').value = filters.company;
     $('#f-cap').checked = filters.cap; $('#f-showapplied').checked = filters.showApplied; $('#f-showhidden').checked = filters.showHidden;
   }
   function read() {
     filters.q = $('#q').value.trim(); filters.sort = $('#sort').value;
     filters.days = $('#f-days').value; filters.newOnly = $('#f-newonly').checked; filters.programOnly = $('#f-program').checked;
     filters.floor = $('#f-floor').checked; filters.floorOverride = $('#f-floor-override').value; filters.unlisted = $('#f-unlisted').checked;
-    filters.remote = $('#f-remote').checked; filters.adjacent = $('#f-adjacent').checked; filters.company = $('#f-company').value;
+    filters.exp4 = $('#f-exp4').checked; filters.remote = $('#f-remote').checked; filters.adjacent = $('#f-adjacent').checked; filters.company = $('#f-company').value;
     filters.cap = $('#f-cap').checked; filters.showApplied = $('#f-showapplied').checked; filters.showHidden = $('#f-showhidden').checked;
     saveState(); render();
   }

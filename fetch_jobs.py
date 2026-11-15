@@ -105,6 +105,7 @@ EXCLUDE_TITLE = [
     r"\bcapital formation\b", r"\bproduct specialist\b", r"\bcomms\b", r"\bpackaging\b", r"\bconsultant\b",
     r"\btechnical business analyst\b", r"\bcredit risk\b", r"\bunderwriting\b", r"\bcollections strateg",
     r"\bcontractor\b", r"\btemporary\b", r"\bfixed[- ]term\b", r"\bpart[- ]time\b",
+    r"\bcoordinator\b", r"\bspecialist\b", r"\brepresentative\b", r"\bassociate program manager\b",
     r"\bworkforce\b", r"\bregulatory\b", r"\binbound\b", r"\boutbound\b", r"\bpayment operations\b",
 ]
 # marketing roles that are not product marketing
@@ -155,6 +156,14 @@ RANGE_NO_DOLLAR_RE = re.compile(
     r"(\d{3},\d{3})\s*(?:-|–|—|to)\s*(\d{3},\d{3})\s*(?:USD|per year|annually|/\s?year|/\s?yr|a year)", re.I)
 YEARS_RE = re.compile(r"(\d{1,2})\s*\+?\s*(?:-|–|to)?\s*(\d{1,2})?\s*\+?\s*(?:years|yrs)[^.]{0,60}?experience|"
                       r"experience[^.]{0,40}?(\d{1,2})\s*\+?\s*(?:-|–|to)?\s*(\d{1,2})?\s*\+?\s*(?:years|yrs)", re.I)
+# Broader form: "8+ years in product management", "at least 3 years of consulting", "4-6 years building ...".
+# Requires a plus, a range or a qualifier word so company-history lines ("25 years", "2 year anniversary") don't match.
+_Y_NUM = r"(?:(?:at least|minimum(?: of)?|min\.?|over|more than)\s*(\d{1,2})\s*\+?|(\d{1,2})\s*(?:\+|\s*(?:-|–|to)\s*(\d{1,2})\s*\+?))"
+_Y_CTX = (r"(?:experience|exp\b|background|track record|working|professional|relevant|as an? |building|leading|managing|"
+          r"driving|shipping|launching|owning|in (?:a |an )?(?:product|strategy|consulting|marketing|business|operations|bizops|"
+          r"finance|tech|software|b2b|saas|growth|analytics|data|fintech|startup|high[- ]growth|management|a problem|similar|related)|"
+          r"of (?:product|strategy|consulting|marketing|business|operations|relevant|professional|progressive|hands|full|total|work|industry))")
+YEARS_RE2 = re.compile(rf"{_Y_NUM}\s*(?:years?|yrs)(?:\s+or more)?[^.\n•;]{{0,80}}?{_Y_CTX}|{_Y_CTX}[^.\n•;]{{0,40}}?{_Y_NUM}\s*(?:years?|yrs)", re.I)
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
@@ -193,11 +202,11 @@ def classify_role(title: str):
             return None
         # excluded word present alongside a core term: still exclude hard ones
         if re.search(r"intern|co-?op|engineer|designer|\bdesign\b|recruit|counsel|attorney|data scien|security|"
-                     r"\bux\b|research|technical program|software|hardware|supply chain|logistics|\bML\b|"
+                     r"\bux\b|research|technical program|software|hardware|\bML\b|"
                      r"machine learning|content strateg|creative strateg|media strateg|\bmba\b|\bfraud\b|"
                      r"consultant|sourcing|trainer|forward deployed|deployment strateg|data analyst|portfolio|"
                      r"packaging|contractor|temporary|fixed[- ]term|part[- ]time|credit risk|underwriting|"
-                     r"\bcomms\b|workforce|regulatory|inbound|outbound|payment operations|\bpayroll\b", t, re.I):
+                     r"\bcomms\b|workforce|regulatory|inbound|outbound|payment operations|\bpayroll\b|coordinator|representative", t, re.I):
             return None
     if re.search(NON_PMM_MARKETING, t) and not re.search(r"product marketing", t):
         return "adjacent"
@@ -301,9 +310,8 @@ def choose_range(ranges, buckets):
     return (best[0], best[1]), allr
 
 
-def parse_years(text: str):
-    """First 'N+ years ... experience' statement in the posting (minimum quals come first)."""
-    for m in YEARS_RE.finditer(text):
+def _first_years(rx, text):
+    for m in rx.finditer(text):
         for g in m.groups():
             if not g:
                 continue
@@ -312,8 +320,14 @@ def parse_years(text: str):
             except ValueError:
                 continue
             if 0 < n <= 15:
-                return n
+                return m.start(), n
     return None
+
+
+def parse_years(text: str):
+    """Minimum years asked, from the earliest experience statement (minimum quals come first)."""
+    hits = [h for h in (_first_years(YEARS_RE, text), _first_years(YEARS_RE2, text)) if h]
+    return min(hits)[1] if hits else None
 
 
 def to_date(v):

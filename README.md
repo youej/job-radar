@@ -34,6 +34,18 @@ The folder really lives at `/Users/admin/job-radar`; `Documents/Personal Project
 - To try the fetcher locally: `python3 fetch_jobs.py` (3–6 minutes) then open `docs/index.html`, or `./refresh.sh --serve` for a URL at http://localhost:8765. Don't commit the data files it writes unless you mean to; the workflow owns them. If a push is rejected because the bot committed data since your last pull, `git pull --rebase` first.
 - The old Mac-only setup (`launchd/`, a daily local refresh) is kept for reference but is turned off; running both would make two writers for the same data files.
 
+## How the Jobs tab is organised
+
+The default view is built for a 0–2 year candidate. Every role is put in a tier from the years the posting asks for:
+
+- **New-grad & rotational programs** — title says APM, rotational, new grad, etc. Shown regardless of age or pay.
+- **Fits now** — entry-level titles, or roles asking 2 years or less. Shown regardless of pay; pay under her floor is just marked red, because entry roles pay less than Bain by nature and she should see the tradeoff rather than never see the role.
+- **Adjacent fits** — same bar, for strategic finance, partnerships, product ops, growth and pricing titles that suit a consulting background.
+- **Stretch** — asks 3 years, or doesn't state years (unless the posted minimum base is $180k+, which goes to 4+). Consulting backgrounds are routinely considered for these, and they are most of what pays $130k+. The pay floor and the "posted within" window apply here.
+- **Asks 4+ years** — hidden unless "Include roles asking 4+ years" is ticked in More.
+
+Senior titles and roles asking 5+ years never reach the page; they are dropped in `fetch_jobs.py`. Years asked are parsed from the posting text (`parse_years`), which handles "3+ years of experience", "at least 3 years", "4-6 years in product" and similar; when nothing matches the role counts as a stretch.
+
 ## Tuning for her
 
 - Pay floors, "new" window, max posting age: top of `fetch_jobs.py` (`SALARY_FLOOR`, `NEW_DAYS`, `MAX_AGE_DAYS`).
