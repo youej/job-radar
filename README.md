@@ -10,37 +10,29 @@ companies.json      the companies to track (edit freely; run `python3 fetch_jobs
 docs/               the website (index.html, app.js, style.css, programs.js, data/jobs.js)
 data/seen.json      first-seen dates so "NEW" badges survive across refreshes
 .github/workflows/  daily GitHub Actions refresh + GitHub Pages deploy
-refresh.sh          local refresh (+ `--serve` to open it)
-launchd/            optional daily refresh on a Mac
+refresh.sh          local refresh for development (+ `--serve` to open it)
+launchd/            old Mac-only daily refresh (not used now that Actions does it)
 PLAN.md             the plan and its line-by-line viability review
 ```
 
-## Use it (local setup)
+## Where it lives
 
-The folder really lives at `/Users/admin/job-radar`; `Documents/Personal Projects/job-radar` is a shortcut to it. It has to be outside Documents because macOS blocks background (launchd) jobs from reading Documents, Desktop and Downloads.
+**Site:** https://youej.github.io/job-radar/ — open it on any device; bookmark it on her phone.
 
-- **Open the site:** double-click `docs/index.html`. No server needed; the data is embedded as `docs/data/jobs.js`.
-- **Turn on the daily refresh** (one time, from this folder):
-  ```bash
-  cp /Users/admin/job-radar/launchd/com.jobradar.refresh.plist ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/com.jobradar.refresh.plist
-  ```
-  That runs `refresh.sh` every day at 7:00am while this Mac is awake. If the Mac was asleep at 7, launchd runs it when it next wakes; run `./refresh.sh` by hand any time (3–6 minutes, Workday tenants are slow). Logs: `/tmp/jobradar.log`, `/tmp/jobradar.err`.
-- **Turn it off:** `launchctl unload ~/Library/LaunchAgents/com.jobradar.refresh.plist && rm ~/Library/LaunchAgents/com.jobradar.refresh.plist`.
-- `./refresh.sh --serve` refreshes and serves at http://localhost:8765 if you prefer a URL.
+**Refresh:** a GitHub Actions workflow (`.github/workflows/refresh.yml`) runs `fetch_jobs.py` on GitHub's servers every day at 6am ET, commits the new `docs/data/jobs.json` / `jobs.js` / `data/seen.json`, and redeploys the site to GitHub Pages. Nothing on this Mac has to be running. To refresh on demand: repo → **Actions → "Refresh job listings" → Run workflow**, or `gh workflow run refresh.yml -R youej/job-radar`. Each run takes about 5–10 minutes; the time of the last refresh is shown in the site header.
 
-Saved / applied / hidden marks live in whichever browser opened the file, so she should always open it in the same browser on this machine (or share the folder with her and let her open her own copy).
+Saved / applied / hidden marks live in the browser (localStorage), so they are per device and per browser. "Export CSV" on the Saved tab gets them out.
 
-## Optional later: host it so she can open it from anywhere (GitHub Pages, free)
+The repo is public (GitHub Pages is free only on public repos). It contains code, the company list and job postings only, nothing personal.
 
-1. Create an empty **public** GitHub repository (Pages is free only on public repos; nothing personal is in this folder).
-2. In this folder:
-   ```bash
-   git init -b main && git add -A && git commit -m "Job Radar"
-   git remote add origin https://github.com/<you>/job-radar.git && git push -u origin main
-   ```
-3. Repo → **Settings → Pages → Source: GitHub Actions**.
-4. Repo → **Actions → "Refresh job listings" → Run workflow** once. After that it runs every day at 6am ET.
-5. The site is at `https://<you>.github.io/job-radar/`.
+### Working on it locally
+
+The folder really lives at `/Users/admin/job-radar`; `Documents/Personal Projects/job-radar` is a shortcut to it.
+
+- Edit `fetch_jobs.py` or `companies.json`, then `git commit` and `git push`. A push that touches either file triggers a refresh and redeploy on its own.
+- Changes to `docs/` (the site itself) deploy on the next refresh, or run the workflow by hand to deploy right away.
+- To try the fetcher locally: `python3 fetch_jobs.py` (3–6 minutes) then open `docs/index.html`, or `./refresh.sh --serve` for a URL at http://localhost:8765. Don't commit the data files it writes unless you mean to; the workflow owns them. If a push is rejected because the bot committed data since your last pull, `git pull --rebase` first.
+- The old Mac-only setup (`launchd/`, a daily local refresh) is kept for reference but is turned off; running both would make two writers for the same data files.
 
 ## Tuning for her
 
