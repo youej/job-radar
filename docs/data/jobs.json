@@ -1,6 +1,6 @@
 {
 "meta": {
-"generated_at": "2026-11-15T23:33:10Z",
+"generated_at": "2026-11-16T00:01:04Z",
 "salary_floor": {
 "nyc": 130000,
 "bay": 150000,
@@ -8,12 +8,12 @@
 },
 "new_days": 3,
 "counts": {
-"total": 308,
-"nyc": 214,
-"bay": 154,
-"remote": 78,
-"new": 308,
-"with_salary": 269
+"total": 271,
+"nyc": 196,
+"bay": 138,
+"remote": 54,
+"new": 271,
+"with_salary": 245
 },
 "sources": [
 {
@@ -22,7 +22,7 @@
 "status": "ok",
 "raw": 785,
 "error": null,
-"secs": 2.2
+"secs": 2.4
 },
 {
 "company": "Airbnb",
@@ -38,7 +38,7 @@
 "status": "ok",
 "raw": 139,
 "error": null,
-"secs": 0.4
+"secs": 0.7
 },
 {
 "company": "Databricks",
@@ -46,7 +46,7 @@
 "status": "ok",
 "raw": 895,
 "error": null,
-"secs": 4.2
+"secs": 4.4
 },
 {
 "company": "Coinbase",
@@ -54,7 +54,7 @@
 "status": "ok",
 "raw": 265,
 "error": null,
-"secs": 1.2
+"secs": 1.3
 },
 {
 "company": "Robinhood",
@@ -70,7 +70,7 @@
 "status": "ok",
 "raw": 44,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Lyft",
@@ -78,7 +78,7 @@
 "status": "ok",
 "raw": 148,
 "error": null,
-"secs": 0.3
+"secs": 0.8
 },
 {
 "company": "Pinterest",
@@ -86,7 +86,7 @@
 "status": "ok",
 "raw": 163,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "DoorDash",
@@ -94,7 +94,7 @@
 "status": "ok",
 "raw": 428,
 "error": null,
-"secs": 2.8
+"secs": 3.0
 },
 {
 "company": "Instacart",
@@ -102,7 +102,7 @@
 "status": "ok",
 "raw": 85,
 "error": null,
-"secs": 0.4
+"secs": 0.8
 },
 {
 "company": "Discord",
@@ -110,7 +110,7 @@
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Reddit",
@@ -118,7 +118,7 @@
 "status": "ok",
 "raw": 145,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Duolingo",
@@ -126,7 +126,7 @@
 "status": "ok",
 "raw": 59,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Brex",
@@ -134,7 +134,7 @@
 "status": "ok",
 "raw": 286,
 "error": null,
-"secs": 1.0
+"secs": 1.1
 },
 {
 "company": "Plaid",
@@ -142,7 +142,7 @@
 "status": "ok",
 "raw": 141,
 "error": null,
-"secs": 0.9
+"secs": 1.0
 },
 {
 "company": "Affirm",
@@ -166,7 +166,7 @@
 "status": "ok",
 "raw": 77,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Gusto",
@@ -174,7 +174,7 @@
 "status": "ok",
 "raw": 75,
 "error": null,
-"secs": 0.7
+"secs": 0.6
 },
 {
 "company": "Scale AI",
@@ -190,7 +190,7 @@
 "status": "ok",
 "raw": 665,
 "error": null,
-"secs": 5.8
+"secs": 5.0
 },
 {
 "company": "OpenAI",
@@ -198,7 +198,7 @@
 "status": "ok",
 "raw": 838,
 "error": null,
-"secs": 6.4
+"secs": 6.8
 },
 {
 "company": "xAI",
@@ -206,7 +206,7 @@
 "status": "ok",
 "raw": 296,
 "error": null,
-"secs": 0.8
+"secs": 0.7
 },
 {
 "company": "Datadog",
@@ -214,7 +214,7 @@
 "status": "ok",
 "raw": 384,
 "error": null,
-"secs": 1.9
+"secs": 2.3
 },
 {
 "company": "MongoDB",
@@ -230,7 +230,7 @@
 "status": "ok",
 "raw": 479,
 "error": null,
-"secs": 4.2
+"secs": 5.3
 },
 {
 "company": "Twilio",
@@ -238,7 +238,7 @@
 "status": "ok",
 "raw": 114,
 "error": null,
-"secs": 0.3
+"secs": 0.7
 },
 {
 "company": "Okta",
@@ -246,7 +246,7 @@
 "status": "ok",
 "raw": 360,
 "error": null,
-"secs": 2.1
+"secs": 2.5
 },
 {
 "company": "Squarespace",
@@ -254,7 +254,7 @@
 "status": "ok",
 "raw": 17,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Peloton",
@@ -262,7 +262,7 @@
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 0.5
+"secs": 0.6
 },
 {
 "company": "Oscar Health",
@@ -270,7 +270,7 @@
 "status": "ok",
 "raw": 183,
 "error": null,
-"secs": 0.9
+"secs": 1.2
 },
 {
 "company": "Flatiron Health",
@@ -278,7 +278,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Betterment",
@@ -294,7 +294,7 @@
 "status": "ok",
 "raw": 67,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Justworks",
@@ -302,7 +302,7 @@
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 0.9
+"secs": 1.1
 },
 {
 "company": "Ro",
@@ -310,7 +310,7 @@
 "status": "ok",
 "raw": 56,
 "error": null,
-"secs": 0.8
+"secs": 2.2
 },
 {
 "company": "NerdWallet",
@@ -318,7 +318,7 @@
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Gemini",
@@ -326,7 +326,7 @@
 "status": "ok",
 "raw": 28,
 "error": null,
-"secs": 0.4
+"secs": 0.1
 },
 {
 "company": "Klaviyo",
@@ -334,7 +334,7 @@
 "status": "ok",
 "raw": 146,
 "error": null,
-"secs": 1.8
+"secs": 2.3
 },
 {
 "company": "HubSpot",
@@ -342,7 +342,7 @@
 "status": "ok",
 "raw": 147,
 "error": null,
-"secs": 1.6
+"secs": 2.0
 },
 {
 "company": "Toast",
@@ -350,7 +350,7 @@
 "status": "ok",
 "raw": 354,
 "error": null,
-"secs": 2.7
+"secs": 3.7
 },
 {
 "company": "Samsara",
@@ -358,7 +358,7 @@
 "status": "ok",
 "raw": 317,
 "error": null,
-"secs": 3.5
+"secs": 4.4
 },
 {
 "company": "Nextdoor",
@@ -366,7 +366,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Thumbtack",
@@ -374,7 +374,7 @@
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Faire",
@@ -382,7 +382,7 @@
 "status": "ok",
 "raw": 71,
 "error": null,
-"secs": 0.5
+"secs": 1.1
 },
 {
 "company": "Checkr",
@@ -390,7 +390,7 @@
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Amplitude",
@@ -398,7 +398,7 @@
 "status": "ok",
 "raw": 48,
 "error": null,
-"secs": 0.3
+"secs": 0.7
 },
 {
 "company": "Mixpanel",
@@ -406,7 +406,7 @@
 "status": "ok",
 "raw": 41,
 "error": null,
-"secs": 0.5
+"secs": 0.9
 },
 {
 "company": "Asana",
@@ -414,7 +414,7 @@
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 1.4
+"secs": 1.1
 },
 {
 "company": "Box",
@@ -422,7 +422,7 @@
 "status": "ok",
 "raw": 149,
 "error": null,
-"secs": 1.8
+"secs": 2.1
 },
 {
 "company": "Waymo",
@@ -454,7 +454,7 @@
 "status": "ok",
 "raw": 25,
 "error": null,
-"secs": 0.5
+"secs": 0.2
 },
 {
 "company": "Calendly",
@@ -462,7 +462,7 @@
 "status": "ok",
 "raw": 5,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Mercury",
@@ -470,7 +470,7 @@
 "status": "ok",
 "raw": 79,
 "error": null,
-"secs": 0.5
+"secs": 0.9
 },
 {
 "company": "Vercel",
@@ -478,7 +478,7 @@
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.6
+"secs": 1.1
 },
 {
 "company": "GitLab",
@@ -486,7 +486,7 @@
 "status": "ok",
 "raw": 254,
 "error": null,
-"secs": 3.2
+"secs": 3.7
 },
 {
 "company": "Lattice",
@@ -502,7 +502,7 @@
 "status": "ok",
 "raw": 53,
 "error": null,
-"secs": 0.5
+"secs": 1.0
 },
 {
 "company": "Verkada",
@@ -518,7 +518,7 @@
 "status": "ok",
 "raw": 204,
 "error": null,
-"secs": 2.1
+"secs": 2.6
 },
 {
 "company": "Sweetgreen",
@@ -526,7 +526,7 @@
 "status": "ok",
 "raw": 70,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Glossier",
@@ -534,7 +534,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Rent the Runway",
@@ -542,7 +542,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Stitch Fix",
@@ -550,7 +550,7 @@
 "status": "ok",
 "raw": 12,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "StockX",
@@ -558,7 +558,7 @@
 "status": "ok",
 "raw": 35,
 "error": null,
-"secs": 0.7
+"secs": 0.3
 },
 {
 "company": "Cockroach Labs",
@@ -582,7 +582,7 @@
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Clear Street",
@@ -598,7 +598,7 @@
 "status": "ok",
 "raw": 83,
 "error": null,
-"secs": 0.7
+"secs": 1.1
 },
 {
 "company": "Jane Street",
@@ -606,7 +606,7 @@
 "status": "ok",
 "raw": 217,
 "error": null,
-"secs": 0.8
+"secs": 1.2
 },
 {
 "company": "Point72",
@@ -614,7 +614,7 @@
 "status": "ok",
 "raw": 200,
 "error": null,
-"secs": 1.0
+"secs": 1.5
 },
 {
 "company": "SpaceX",
@@ -622,7 +622,7 @@
 "status": "ok",
 "raw": 2756,
 "error": null,
-"secs": 6.6
+"secs": 7.0
 },
 {
 "company": "Anduril",
@@ -630,7 +630,7 @@
 "status": "ok",
 "raw": 2595,
 "error": null,
-"secs": 8.7
+"secs": 9.2
 },
 {
 "company": "The New York Times",
@@ -638,7 +638,7 @@
 "status": "ok",
 "raw": 168,
 "error": null,
-"secs": 2.1
+"secs": 1.6
 },
 {
 "company": "Roblox",
@@ -646,7 +646,7 @@
 "status": "ok",
 "raw": 271,
 "error": null,
-"secs": 2.4
+"secs": 2.0
 },
 {
 "company": "Elastic",
@@ -654,7 +654,7 @@
 "status": "ok",
 "raw": 400,
 "error": null,
-"secs": 3.6
+"secs": 3.7
 },
 {
 "company": "Snyk",
@@ -662,7 +662,7 @@
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "1Password",
@@ -670,7 +670,7 @@
 "status": "ok",
 "raw": 81,
 "error": null,
-"secs": 1.4
+"secs": 1.2
 },
 {
 "company": "Doximity",
@@ -678,7 +678,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "WHOOP",
@@ -694,7 +694,7 @@
 "status": "ok",
 "raw": 93,
 "error": null,
-"secs": 0.8
+"secs": 1.1
 },
 {
 "company": "Compass",
@@ -702,7 +702,7 @@
 "status": "ok",
 "raw": 164,
 "error": null,
-"secs": 1.5
+"secs": 1.3
 },
 {
 "company": "BetterUp",
@@ -710,7 +710,7 @@
 "status": "ok",
 "raw": 8,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Calm",
@@ -726,7 +726,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Intercom",
@@ -742,7 +742,7 @@
 "status": "ok",
 "raw": 39,
 "error": null,
-"secs": 0.6
+"secs": 0.3
 },
 {
 "company": "PagerDuty",
@@ -750,7 +750,7 @@
 "status": "ok",
 "raw": 46,
 "error": null,
-"secs": 0.7
+"secs": 0.6
 },
 {
 "company": "Snowflake",
@@ -758,7 +758,7 @@
 "status": "ok",
 "raw": 376,
 "error": null,
-"secs": 1.3
+"secs": 1.4
 },
 {
 "company": "Palantir",
@@ -766,7 +766,7 @@
 "status": "ok",
 "raw": 302,
 "error": null,
-"secs": 1.0
+"secs": 1.1
 },
 {
 "company": "Flock Safety",
@@ -774,7 +774,7 @@
 "status": "ok",
 "raw": 11,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Ramp",
@@ -782,7 +782,7 @@
 "status": "ok",
 "raw": 179,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Linear",
@@ -790,7 +790,7 @@
 "status": "ok",
 "raw": 33,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Vanta",
@@ -798,7 +798,7 @@
 "status": "ok",
 "raw": 80,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Cursor (Anysphere)",
@@ -806,7 +806,7 @@
 "status": "ok",
 "raw": 99,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Perplexity",
@@ -814,7 +814,7 @@
 "status": "ok",
 "raw": 141,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "ElevenLabs",
@@ -822,7 +822,7 @@
 "status": "ok",
 "raw": 127,
 "error": null,
-"secs": 0.7
+"secs": 0.4
 },
 {
 "company": "Replit",
@@ -830,7 +830,7 @@
 "status": "ok",
 "raw": 30,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Supabase",
@@ -838,7 +838,7 @@
 "status": "ok",
 "raw": 77,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "PostHog",
@@ -862,7 +862,7 @@
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Sierra",
@@ -870,7 +870,7 @@
 "status": "ok",
 "raw": 197,
 "error": null,
-"secs": 0.9
+"secs": 1.1
 },
 {
 "company": "Harvey",
@@ -886,7 +886,7 @@
 "status": "ok",
 "raw": 121,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Writer",
@@ -894,7 +894,7 @@
 "status": "ok",
 "raw": 45,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Hebbia",
@@ -910,7 +910,7 @@
 "status": "ok",
 "raw": 3,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Glean",
@@ -934,7 +934,7 @@
 "status": "ok",
 "raw": 30,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Zoox",
@@ -942,7 +942,7 @@
 "status": "ok",
 "raw": 241,
 "error": null,
-"secs": 0.2
+"secs": 1.2
 },
 {
 "company": "Nuro",
@@ -950,7 +950,7 @@
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Wealthfront",
@@ -966,7 +966,7 @@
 "status": "ok",
 "raw": 89,
 "error": null,
-"secs": 0.8
+"secs": 0.7
 },
 {
 "company": "Strava",
@@ -974,7 +974,7 @@
 "status": "ok",
 "raw": 24,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Block",
@@ -982,7 +982,7 @@
 "status": "ok",
 "raw": 191,
 "error": null,
-"secs": 1.4
+"secs": 1.5
 },
 {
 "company": "Spotify",
@@ -990,7 +990,7 @@
 "status": "ok",
 "raw": 87,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Twitch",
@@ -998,7 +998,7 @@
 "status": "ok",
 "raw": 58,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "Via",
@@ -1014,7 +1014,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Rubrik",
@@ -1030,7 +1030,7 @@
 "status": "ok",
 "raw": 110,
 "error": null,
-"secs": 0.5
+"secs": 0.6
 },
 {
 "company": "Alloy",
@@ -1038,7 +1038,7 @@
 "status": "ok",
 "raw": 32,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Olo",
@@ -1046,7 +1046,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Yext",
@@ -1054,7 +1054,7 @@
 "status": "ok",
 "raw": 34,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Taboola",
@@ -1086,7 +1086,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Capsule",
@@ -1102,7 +1102,7 @@
 "status": "ok",
 "raw": 41,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Current",
@@ -1126,7 +1126,7 @@
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Polymarket",
@@ -1142,7 +1142,7 @@
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Navan",
@@ -1150,7 +1150,7 @@
 "status": "ok",
 "raw": 234,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Komodo Health",
@@ -1158,7 +1158,7 @@
 "status": "ok",
 "raw": 16,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Rho",
@@ -1166,7 +1166,7 @@
 "status": "ok",
 "raw": 49,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Payoneer",
@@ -1182,7 +1182,7 @@
 "status": "ok",
 "raw": 32,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Figure",
@@ -1206,7 +1206,7 @@
 "status": "ok",
 "raw": 7,
 "error": null,
-"secs": 9.3
+"secs": 9.9
 },
 {
 "company": "Adobe",
@@ -1214,23 +1214,23 @@
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 20.9
+"secs": 23.2
 },
 {
 "company": "NVIDIA",
 "ats": "workday",
 "status": "ok",
-"raw": 52,
+"raw": 51,
 "error": null,
-"secs": 65.8
+"secs": 74.1
 },
 {
 "company": "PayPal",
 "ats": "workday",
 "status": "ok",
-"raw": 35,
+"raw": 34,
 "error": null,
-"secs": 57.0
+"secs": 33.1
 },
 {
 "company": "Capital One",
@@ -1238,7 +1238,7 @@
 "status": "ok",
 "raw": 206,
 "error": null,
-"secs": 275.8
+"secs": 279.2
 },
 {
 "company": "Mastercard",
@@ -1246,7 +1246,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 89.9
+"secs": 80.6
 },
 {
 "company": "Disney",
@@ -1254,7 +1254,7 @@
 "status": "ok",
 "raw": 1,
 "error": null,
-"secs": 24.2
+"secs": 69.6
 },
 {
 "company": "Warner Bros. Discovery",
@@ -1262,7 +1262,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 34.5
+"secs": 43.7
 },
 {
 "company": "Autodesk",
@@ -1270,7 +1270,7 @@
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 93.1
+"secs": 46.7
 },
 {
 "company": "Workday",
@@ -1278,7 +1278,7 @@
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 87.1
+"secs": 65.7
 },
 {
 "company": "Zillow",
@@ -1286,7 +1286,7 @@
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 56.1
+"secs": 31.8
 },
 {
 "company": "BlackRock",
@@ -1294,7 +1294,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 91.3
+"secs": 62.4
 },
 {
 "company": "Netflix",
@@ -1302,7 +1302,7 @@
 "status": "ok",
 "raw": 14,
 "error": null,
-"secs": 3.7
+"secs": 4.4
 },
 {
 "company": "Amazon",
@@ -1310,7 +1310,7 @@
 "status": "ok",
 "raw": 3600,
 "error": null,
-"secs": 23.5
+"secs": 22.0
 },
 {
 "company": "Google",
@@ -1318,7 +1318,7 @@
 "status": "ok",
 "raw": 157,
 "error": null,
-"secs": 122.8
+"secs": 123.2
 }
 ],
 "companies_tracked": 163
@@ -1554,86 +1554,6 @@
 "snippet": "ing: Mountain View, CA, USA; New York, NY, USA; Irvine, CA, USA . Minimum qualifications: Bachelor's degree or equivalent practical experience. 3 years of experience in product management or related technical role. 1 year of experience taking technical products from conception to launch (e.g., ideation to execution, end-to-end, 0 to 1, etc). Preferred qualifications: Master’s degree or PhD in a technology or business",
 "tags": [
 "bigtech"
-],
-"score": 81,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "662db7c014c8",
-"title": "Product Manager, Seller Experience",
-"company": "Anthropic",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5477601008",
-"source": "greenhouse",
-"locations": [
-"San Francisco, CA",
-"San Francisco, CA | New York City, NY"
-],
-"primary_location": "San Francisco, CA | New York City, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 305000,
-"max": 385000,
-"source": "parsed",
-"all": [
-[
-305000,
-385000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-10",
-"snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role As a Product Manager in the Internal Products and Technologies orga",
-"tags": [
-"ai"
-],
-"score": 81,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "ecb20443d411",
-"title": "Product Manager | Bill Pay",
-"company": "Ramp",
-"url": "https://jobs.ashbyhq.com/ramp/a84ae1e2-8c88-4e05-9cb6-fa3e11b55aeb",
-"source": "ashby",
-"locations": [
-"New York City, NY",
-"New York, NY (HQ)",
-"San Francisco, CA"
-],
-"primary_location": "New York, NY (HQ)",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 230000,
-"max": 325000,
-"source": "structured",
-"all": [
-[
-230000,
-325000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-12",
-"snippet": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look f",
-"tags": [
-"fintech"
 ],
 "score": 81,
 "first_seen": "2026-11-14",
@@ -2178,45 +2098,6 @@
 },
 "years_min": null,
 "posted": "2026-11-09",
-"snippet": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars. SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are bu",
-"tags": [
-"ai"
-],
-"score": 79,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "fc920cb7f481",
-"title": "Product Marketing Manager",
-"company": "Cursor (Anysphere)",
-"url": "https://jobs.ashbyhq.com/cursor/87d82c14-ed50-43c9-b8c0-a2e495169148",
-"source": "ashby",
-"locations": [
-"New York, NY",
-"San Francisco, CA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pmm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 153000,
-"max": 205000,
-"source": "parsed",
-"all": [
-[
-153000,
-205000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-10",
 "snippet": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars. SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are bu",
 "tags": [
 "ai"
@@ -2894,47 +2775,6 @@
 "is_new": true
 },
 {
-"id": "14acf978c97d",
-"title": "Product Manager, Care Delivery",
-"company": "Maven Clinic",
-"url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8860743002",
-"source": "greenhouse",
-"locations": [
-"New York, NY",
-"San Francisco, CA; Remote, US",
-"Seattle, WA; Remote"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 155000,
-"max": 185000,
-"source": "parsed",
-"all": [
-[
-155000,
-185000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-01",
-"snippet": "Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical o",
-"tags": [
-"health"
-],
-"score": 76,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "78f27168930d",
 "title": "Technical Product Manager, CX Tooling",
 "company": "Polymarket",
@@ -3132,47 +2972,6 @@
 "is_new": true
 },
 {
-"id": "57d74875c7d2",
-"title": "Product Manager, Figma Pattern Library",
-"company": "Figma",
-"url": "https://boards.greenhouse.io/figma/jobs/6228774004?gh_jid=6228774004",
-"source": "greenhouse",
-"locations": [
-"Canada",
-"San Francisco, CA • New York, NY • United States",
-"US"
-],
-"primary_location": "San Francisco, CA • New York, NY • United States",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 169000,
-"max": 303000,
-"source": "parsed",
-"all": [
-[
-169000,
-303000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-21",
-"snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite",
-"tags": [
-"saas"
-],
-"score": 76,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "01f4a77abd93",
 "title": "Product Manager",
 "company": "Hebbia",
@@ -3207,45 +3006,6 @@
 "snippet": "About Hebbia The AI platform for investors and bankers that generates alpha and drives upside. Founded in 2020 by George Sivulka and backed by Peter Thiel and Andreessen Horowitz, Hebbia powers investment decisions for 40% of the world's largest asset managers. Our flagship product, Matrix, delivers industry-leading accuracy, speed, and transparency in AI-driven analysis. It is trusted to help manage over $30 trillio",
 "tags": [
 "ai"
-],
-"score": 76,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "29f94047b621",
-"title": "Product Manager - Agent Trust",
-"company": "Plaid",
-"url": "https://jobs.ashbyhq.com/plaid/39168403-8a4d-47eb-b601-67f7f84a7439",
-"source": "ashby",
-"locations": [
-"New York City Office",
-"New York, New York"
-],
-"primary_location": "New York City Office",
-"buckets": [
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 190800,
-"max": 286800,
-"source": "structured",
-"all": [
-[
-190800,
-286800
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-05",
-"snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
-"tags": [
-"fintech"
 ],
 "score": 76,
 "first_seen": "2026-11-14",
@@ -3427,39 +3187,39 @@
 "is_new": true
 },
 {
-"id": "9f184af49a93",
-"title": "Product Manager, GTM AI Systems",
-"company": "Zip",
-"url": "https://jobs.ashbyhq.com/zip/2be4075c-64f7-4d0d-ab69-201a6e632cbf",
+"id": "fc920cb7f481",
+"title": "Product Marketing Manager",
+"company": "Cursor (Anysphere)",
+"url": "https://jobs.ashbyhq.com/cursor/87d82c14-ed50-43c9-b8c0-a2e495169148",
 "source": "ashby",
 "locations": [
-"San Francisco",
-"San Francisco, California"
+"New York, NY",
+"San Francisco, CA"
 ],
-"primary_location": "San Francisco",
+"primary_location": "New York, NY",
 "buckets": [
 "bay",
-"remote"
+"nyc"
 ],
-"role": "pm",
+"role": "pmm",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 150000,
-"max": 185000,
+"min": 153000,
+"max": 205000,
 "source": "parsed",
 "all": [
 [
-150000,
-185000
+153000,
+205000
 ]
 ]
 },
-"years_min": null,
-"posted": "2026-11-11",
-"snippet": "About Zip Zip is the AI platform for enterprise procurement — built for humans and agents working together. By orchestrating procurement across teams, tools, and suppliers with the help of AI agents, companies can secure the resources they need to innovate faster than ever before. The world’s most influential enterprises trust Zip, including T-Mobile, OpenAI, AMD, Mars, Dollar Tree, and more. Together they’ve saved o",
+"years_min": 3,
+"posted": "2026-11-10",
+"snippet": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars. SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are bu",
 "tags": [
-"saas"
+"ai"
 ],
 "score": 76,
 "first_seen": "2026-11-14",
@@ -3730,6 +3490,46 @@
 "is_new": true
 },
 {
+"id": "755a8c6abbe7",
+"title": "Associate Manager,  DashMart - Supply Chain Profitability Strategy & Operations",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8205350",
+"source": "greenhouse",
+"locations": [
+"New York",
+"New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Washington D.C; Chicago, IL; Tempe, AZ"
+],
+"primary_location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Washington D.C; Chicago, IL; Tempe, AZ",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 105400,
+"max": 155000,
+"source": "parsed",
+"all": [
+[
+105400,
+155000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-09-16",
+"snippet": "About the Team Our New Verticals Strategy & Operations team is re-inventing the way consumers think about grocery, convenience, alcohol and retail delivery through both our first-party and third-party operations businesses. DashMarts are our first-party offering designed to provide on-demand deliveries by selling household essentials, groceries, brand-name favorites, local favorites and so much more. The end to end D",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 74,
+"first_seen": "2026-11-15",
+"is_new": true
+},
+{
 "id": "1a6595291e95",
 "title": "Associate Manager, Sales Strategy & Planning",
 "company": "DoorDash",
@@ -3889,96 +3689,6 @@
 "is_new": true
 },
 {
-"id": "21643e4d7e98",
-"title": "Product Marketing Manager - Onboarding",
-"company": "Plaid",
-"url": "https://jobs.ashbyhq.com/plaid/dcac16fa-23c3-430b-9317-d2095cc4d4cd",
-"source": "ashby",
-"locations": [
-"New York City Office",
-"San Francisco HQ",
-"San Francisco, California"
-],
-"primary_location": "New York City Office",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pmm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 144000,
-"max": 196800,
-"source": "structured",
-"all": [
-[
-144000,
-196800
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-13",
-"snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
-"tags": [
-"fintech"
-],
-"score": 74,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "3b2a6ba05527",
-"title": "Data Center Strategy - Edge",
-"company": "Cloudflare",
-"url": "https://boards.greenhouse.io/cloudflare/jobs/8282124?gh_jid=8282124",
-"source": "greenhouse",
-"locations": [
-"Austin, TX",
-"Hybrid",
-"New York, NY",
-"San Francisco, CA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 166000,
-"max": 271000,
-"source": "parsed",
-"all": [
-[
-166000,
-271000
-],
-[
-158000,
-257000
-],
-[
-158000,
-257000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-15",
-"snippet": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code",
-"tags": [
-"saas"
-],
-"score": 74,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "8c8d3d75ee37",
 "title": "Sales Strategy & Operations, Enterprise",
 "company": "Vercel",
@@ -4090,6 +3800,47 @@
 "ai"
 ],
 "score": 74,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "14acf978c97d",
+"title": "Product Manager, Care Delivery",
+"company": "Maven Clinic",
+"url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8860743002",
+"source": "greenhouse",
+"locations": [
+"New York, NY",
+"San Francisco, CA; Remote, US",
+"Seattle, WA; Remote"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"bay",
+"nyc",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 155000,
+"max": 185000,
+"source": "parsed",
+"all": [
+[
+155000,
+185000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-10-01",
+"snippet": "Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical o",
+"tags": [
+"health"
+],
+"score": 73,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -4799,6 +4550,47 @@
 "tags": [
 "consumer",
 "s&o"
+],
+"score": 73,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "57d74875c7d2",
+"title": "Product Manager, Figma Pattern Library",
+"company": "Figma",
+"url": "https://boards.greenhouse.io/figma/jobs/6228774004?gh_jid=6228774004",
+"source": "greenhouse",
+"locations": [
+"Canada",
+"San Francisco, CA • New York, NY • United States",
+"US"
+],
+"primary_location": "San Francisco, CA • New York, NY • United States",
+"buckets": [
+"bay",
+"nyc",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 169000,
+"max": 303000,
+"source": "parsed",
+"all": [
+[
+169000,
+303000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-10-21",
+"snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite",
+"tags": [
+"saas"
 ],
 "score": 73,
 "first_seen": "2026-11-14",
@@ -6154,6 +5946,45 @@
 "is_new": true
 },
 {
+"id": "29f94047b621",
+"title": "Product Manager - Agent Trust",
+"company": "Plaid",
+"url": "https://jobs.ashbyhq.com/plaid/39168403-8a4d-47eb-b601-67f7f84a7439",
+"source": "ashby",
+"locations": [
+"New York City Office",
+"New York, New York"
+],
+"primary_location": "New York City Office",
+"buckets": [
+"nyc",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 190800,
+"max": 286800,
+"source": "structured",
+"all": [
+[
+190800,
+286800
+]
+]
+},
+"years_min": 4,
+"posted": "2026-11-05",
+"snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
+"tags": [
+"fintech"
+],
+"score": 73,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
 "id": "18bc92d083ed",
 "title": "Manager, Product Management- Data Capabilities",
 "company": "Capital One",
@@ -6474,45 +6305,6 @@
 "is_new": true
 },
 {
-"id": "d11ebc5f6c58",
-"title": "Product Manager, Safeguards (Generalist)",
-"company": "Anthropic",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5400720008",
-"source": "greenhouse",
-"locations": [
-"San Francisco, CA",
-"San Francisco, CA | New York City, NY"
-],
-"primary_location": "San Francisco, CA | New York City, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 385000,
-"max": 460000,
-"source": "parsed",
-"all": [
-[
-385000,
-460000
-]
-]
-},
-"years_min": null,
-"posted": "2026-09-21",
-"snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is dedicated to developing AI assistants that are helpful",
-"tags": [
-"ai"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "3b6d59806821",
 "title": "Product Manager - Core Product",
 "company": "Kalshi",
@@ -6744,44 +6536,6 @@
 "snippet": "The Opportunity We’re looking for an experienced Senior Associate to join our growing GTM Strategy & Operations team as the product owner for our GTM data and tooling products. Our team solves complex problems that require insight, creativity, and execution through building scalable processes, tools, and systems for our rapidly growing global business. You will own the roadmap, delivery, and adoption of the data prod",
 "tags": [
 "saas"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "b945f99673b8",
-"title": "Product Manager, Trips",
-"company": "Airbnb",
-"url": "https://careers.airbnb.com/positions/8303742?gh_jid=8303742",
-"source": "greenhouse",
-"locations": [
-"San Francisco, CA",
-"San Francisco, United States"
-],
-"primary_location": "San Francisco, CA",
-"buckets": [
-"bay"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 200000,
-"max": 240000,
-"source": "parsed",
-"all": [
-[
-200000,
-240000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-20",
-"snippet": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join Our Product Marketing Managers",
-"tags": [
-"consumer"
 ],
 "score": 71,
 "first_seen": "2026-11-14",
@@ -7042,46 +6796,6 @@
 "snippet": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class serv",
 "tags": [
 "fintech"
-],
-"score": 70,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "00434b2242f8",
-"title": "Associate Manager, Integrated Marketing - Strategic Bets",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8314149",
-"source": "greenhouse",
-"locations": [
-"New York",
-"New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA;  Washington, D.C."
-],
-"primary_location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA;  Washington, D.C.",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 108800,
-"max": 160000,
-"source": "parsed",
-"all": [
-[
-108800,
-160000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-22",
-"snippet": "About the Team DoorDash’s mission is to grow and empower local economies. By building intelligent, last-mile delivery technology for local cities, DoorDash connects people with the local businesses they care about — helping grow businesses and the communities that support those businesses. To further this mission, we’re looking for a marketer who will sit at the intersection of growth, brand, product, and operations,",
-"tags": [
-"consumer",
-"s&o"
 ],
 "score": 70,
 "first_seen": "2026-11-14",
@@ -7512,45 +7226,6 @@
 "snippet": "Datadog is the essential monitoring and security platform for cloud applications. We bring together end-to-end traces, metrics, and logs to make your applications, infrastructure, and third-party services entirely observable. These capabilities help businesses secure their systems, avoid downtime, and ensure customers are getting the best user experience. Datadog's Finance team collaborates with teams across the orga",
 "tags": [
 "saas"
-],
-"score": 69,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "f32d0a7a9594",
-"title": "Chief of Staff, Office of the President",
-"company": "Replit",
-"url": "https://jobs.ashbyhq.com/replit/a8aa0921-38e1-4015-bb95-a08b090e218e",
-"source": "ashby",
-"locations": [
-"Foster City, CA",
-"Foster City, California"
-],
-"primary_location": "Foster City, CA",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 200000,
-"max": 300000,
-"source": "structured",
-"all": [
-[
-200000,
-300000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-27",
-"snippet": "Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation. About the Role This is a rare opportunity to partner directly with Replit’s President, Michele Catasta. As Replit leads in making useful intelligence accessible to all,",
-"tags": [
-"ai"
 ],
 "score": 69,
 "first_seen": "2026-11-14",
@@ -7998,15 +7673,52 @@
 "is_new": true
 },
 {
+"id": "18a20834dac6",
+"title": "Associate Manager,  Strategy & Operations - Logistics (DoorDash for Business)",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8331916",
+"source": "greenhouse",
+"locations": [
+"San Francisco, CA"
+],
+"primary_location": "San Francisco, CA",
+"buckets": [
+"bay"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 105400,
+"max": 155000,
+"source": "parsed",
+"all": [
+[
+105400,
+155000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-28",
+"snippet": "About the Team DoorDash for Business is building the premier corporate dining and benefits platform—helping companies of all sizes feed their teams through industry-leading products and meal programs. Our mission is to become the go-to solution for executives, administrators, and employees who need seamless, high-quality food programs at work. We move fast, operate with an ownership mindset, and are growing new produ",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 68,
+"first_seen": "2026-11-15",
+"is_new": true
+},
+{
 "id": "1eda940900f8",
 "title": "Brex Rotational Program",
 "company": "Brex",
-"url": "https://www.brex.com/careers/8864176002?gh_jid=8864176002",
+"url": "https://www.brex.com/careers/8864174002?gh_jid=8864174002",
 "source": "greenhouse",
 "locations": [
 "Brazil",
 "Canada",
-"Salt Lake City, Utah, United States",
 "São Paulo, São Paulo, Brazil",
 "United States"
 ],
@@ -8186,6 +7898,52 @@
 "snippet": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars. SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are bu",
 "tags": [
 "ai"
+],
+"score": 67,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "4305a6572352",
+"title": "Revenue Operations Manager",
+"company": "Databricks",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8922724002",
+"source": "greenhouse",
+"locations": [
+"San Francisco, California",
+"West Coast - United States"
+],
+"primary_location": "San Francisco, California",
+"buckets": [
+"bay"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 144700,
+"max": 199000,
+"source": "parsed",
+"all": [
+[
+144700,
+199000
+],
+[
+130200,
+179100
+],
+[
+123000,
+169200
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-11",
+"snippet": "About the role Databricks bills customers on usage. Every month, millions of usage records turn into commit drawdowns, invoices and revenue. The Revenue Operations team within Order to Cash organization makes sure that happens accurately and on time. We’re hiring a Revenue Operations Manager to oversee usage operations and improve how contracts move from booking to invoicing. A key focus is Universal Commitment, our ",
+"tags": [
+"data"
 ],
 "score": 67,
 "first_seen": "2026-11-14",
@@ -8531,43 +8289,6 @@
 "is_new": true
 },
 {
-"id": "5d019ee50951",
-"title": "Product Manager, Social Features",
-"company": "Airbnb",
-"url": "https://careers.airbnb.com/positions/8282322?gh_jid=8282322",
-"source": "greenhouse",
-"locations": [
-"United States"
-],
-"primary_location": "United States",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 200000,
-"max": 240000,
-"source": "parsed",
-"all": [
-[
-200000,
-240000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-20",
-"snippet": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: Our Product Marketing Manager",
-"tags": [
-"consumer"
-],
-"score": 65,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "4e73092023ca",
 "title": "Associate, Dasher & Logistics — Rotational Leadership Program",
 "company": "DoorDash",
@@ -8646,48 +8367,6 @@
 "proptech"
 ],
 "score": 65,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "e347e19f50d3",
-"title": "Manager, Corporate Strategy",
-"company": "Adobe",
-"url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Manager--Corporate-Strategy_R162351",
-"source": "workday",
-"locations": [
-"San Francisco",
-"San Jose"
-],
-"primary_location": "San Jose",
-"buckets": [
-"bay"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 111200,
-"max": 211850,
-"source": "parsed",
-"all": [
-[
-111200,
-211850
-],
-[
-146300,
-211850
-]
-]
-},
-"years_min": null,
-"posted": "2026-09-18",
-"snippet": "The Opportunity The Corporate Strategy team works closely with Adobe’s top executives and our three business units (the Creative Cloud, Document Cloud and Experience Cloud) to ensure that the company stays on its fast growth trajectory. The team has played an active role in some of Adobe’s boldest and most strategic decisions, such as its well-publicized transition to cloud, and its expansion into a leadership positi",
-"tags": [
-"saas"
-],
-"score": 64,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -8846,10 +8525,10 @@
 "is_new": true
 },
 {
-"id": "85c843a1e80d",
+"id": "59f918b9293d",
 "title": "Strategic Finance Associate, GTM",
 "company": "Mixpanel",
-"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075971",
+"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075972",
 "source": "greenhouse",
 "locations": [
 "New York City",
@@ -8857,7 +8536,7 @@
 "San Francisco",
 "San Francisco, US (Hybrid)"
 ],
-"primary_location": "New York City",
+"primary_location": "New York City, US (Hybrid)",
 "buckets": [
 "bay",
 "nyc"
@@ -8930,86 +8609,6 @@
 "is_new": true
 },
 {
-"id": "ab3406ceda94",
-"title": "Product Operations Specialist",
-"company": "Plaid",
-"url": "https://jobs.ashbyhq.com/plaid/a063f469-1ec5-44d1-8cc5-1da47a7b8783",
-"source": "ashby",
-"locations": [
-"New York City Office",
-"San Francisco HQ",
-"San Francisco, California"
-],
-"primary_location": "New York City Office",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 130800,
-"max": 163200,
-"source": "structured",
-"all": [
-[
-130800,
-163200
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-03",
-"snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
-"tags": [
-"fintech"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "af728fca729e",
-"title": "Lifecycle Marketing Manager, Provider Experience",
-"company": "Headway",
-"url": "https://jobs.ashbyhq.com/headway/92b05c3b-400e-4ce2-9f1d-3c5900934d3c",
-"source": "ashby",
-"locations": [
-"Remote",
-"Remote - New York"
-],
-"primary_location": "Remote - New York",
-"buckets": [
-"nyc",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121600,
-"max": 190000,
-"source": "structured",
-"all": [
-[
-121600,
-190000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-06",
-"snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway’s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the biggest barrier to care: insurance. The admin work - credentialing, claims, payment reconciliation - is a nightmare. We've automated that. But",
-"tags": [
-"health"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "ee10c72f43d3",
 "title": "Compensation Program Manager",
 "company": "Datadog",
@@ -9051,39 +8650,40 @@
 "is_new": true
 },
 {
-"id": "7a8a9dce82f3",
-"title": "Business Development - Data Access",
-"company": "Plaid",
-"url": "https://jobs.ashbyhq.com/plaid/3c20e5d7-70e7-4f16-9c10-478c095d974a",
-"source": "ashby",
+"id": "cff946756f93",
+"title": "Product Manager, Ad Formats",
+"company": "Instacart",
+"url": "https://instacart.careers/job/?gh_jid=8281407",
+"source": "greenhouse",
 "locations": [
-"New York City Office",
-"New York, New York"
+"Canada - Remote (ON, AB, BC, or NS Only)",
+"Remote - Canada",
+"Remote - United States"
 ],
-"primary_location": "New York City Office",
+"primary_location": "Remote - United States",
 "buckets": [
-"nyc",
 "remote"
 ],
-"role": "adjacent",
+"role": "pm",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 168000,
-"max": 210000,
-"source": "structured",
+"min": 165000,
+"max": 174000,
+"source": "parsed",
 "all": [
 [
-168000,
-210000
+165000,
+174000
 ]
 ]
 },
-"years_min": null,
-"posted": "2026-10-07",
-"snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
+"years_min": 4,
+"posted": "2026-10-14",
+"snippet": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to ",
 "tags": [
-"fintech"
+"consumer",
+"s&o"
 ],
 "score": 62,
 "first_seen": "2026-11-14",
@@ -9127,46 +8727,6 @@
 [
 158000,
 166500
-]
-]
-},
-"years_min": 4,
-"posted": "2026-10-14",
-"snippet": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to ",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "cff946756f93",
-"title": "Product Manager, Ad Formats",
-"company": "Instacart",
-"url": "https://instacart.careers/job/?gh_jid=8281407",
-"source": "greenhouse",
-"locations": [
-"Canada - Remote (ON, AB, BC, or NS Only)",
-"Remote - Canada",
-"Remote - United States"
-],
-"primary_location": "Remote - United States",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 165000,
-"max": 174000,
-"source": "parsed",
-"all": [
-[
-165000,
-174000
 ]
 ]
 },
@@ -9262,44 +8822,6 @@
 "is_new": true
 },
 {
-"id": "ba20dbad8d2e",
-"title": "Email Marketing Manager",
-"company": "Gong",
-"url": "https://job-boards.greenhouse.io/gongio/jobs/4717642006",
-"source": "greenhouse",
-"locations": [
-"Chicago | New York City",
-"New York City"
-],
-"primary_location": "Chicago | New York City",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121000,
-"max": 175000,
-"source": "parsed",
-"all": [
-[
-121000,
-175000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-23",
-"snippet": "Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Revenue Graph, AI-powered intelligence, specialized agents, and trusted applications, Gong helps more than 5,000 companies around the world dee",
-"tags": [
-"saas"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "7d425fec880b",
 "title": "Trust and Safety Program Manager",
 "company": "Polymarket",
@@ -9330,44 +8852,6 @@
 "years_min": null,
 "posted": "2026-10-23",
 "snippet": "About Polymarket Polymarket is the world's largest prediction market platform. We enable individuals to express views on real-world events by trading on outcomes across politics, economics, sports, culture, and current affairs. Built as a peer-to-peer marketplace with no centralized “house,” Polymarket aggregates diverse opinions into transparent, market-based probabilities that reflect collective expectations about ",
-"tags": [
-"fintech"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "d61df76f565d",
-"title": "Growth Marketing Manager",
-"company": "Rho",
-"url": "https://jobs.ashbyhq.com/rho/a118380b-5cdf-4ef4-a36d-1cc0fdf11412",
-"source": "ashby",
-"locations": [
-"NYC",
-"New York City, New York"
-],
-"primary_location": "NYC",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 120000,
-"max": 180000,
-"source": "parsed",
-"all": [
-[
-120000,
-180000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-04",
-"snippet": "About Us Rho is the modern banking platform built for the AI era. Startups and growth-stage companies can open accounts in minutes, issue cards, manage expenses, pay bills, and close the books – all in one connected platform backed by real human support. About the Role Rho Incorporation lets founders form their company and open their business account in one flow. You’ll own getting more founders into that flow. Your ",
 "tags": [
 "fintech"
 ],
@@ -9451,127 +8935,44 @@
 "is_new": true
 },
 {
-"id": "4305a6572352",
-"title": "Revenue Operations Manager",
-"company": "Databricks",
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8922724002",
-"source": "greenhouse",
+"id": "e347e19f50d3",
+"title": "Manager, Corporate Strategy",
+"company": "Adobe",
+"url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Manager--Corporate-Strategy_R162351",
+"source": "workday",
 "locations": [
-"San Francisco, California",
-"West Coast - United States"
+"San Francisco",
+"San Jose"
 ],
-"primary_location": "San Francisco, California",
+"primary_location": "San Jose",
 "buckets": [
 "bay"
 ],
-"role": "adjacent",
+"role": "strategy",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 144700,
-"max": 199000,
+"min": 111200,
+"max": 211850,
 "source": "parsed",
 "all": [
 [
-144700,
-199000
+111200,
+211850
 ],
 [
-130200,
-179100
-],
-[
-123000,
-169200
+146300,
+211850
 ]
 ]
 },
-"years_min": null,
-"posted": "2026-11-11",
-"snippet": "About the role Databricks bills customers on usage. Every month, millions of usage records turn into commit drawdowns, invoices and revenue. The Revenue Operations team within Order to Cash organization makes sure that happens accurately and on time. We’re hiring a Revenue Operations Manager to oversee usage operations and improve how contracts move from booking to invoicing. A key focus is Universal Commitment, our ",
-"tags": [
-"data"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "3d33d1d71f18",
-"title": "Global Sales Program Manager (SMB Sales)",
-"company": "OpenAI",
-"url": "https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c",
-"source": "ashby",
-"locations": [
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 198000,
-"max": 220000,
-"source": "structured",
-"all": [
-[
-198000,
-220000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-12",
-"snippet": "About the Role We’re looking for a hands-on sales program manager to build and scale new revenue programs across OpenAI’s global SMB sales teams. Your first focus will be outbound: designing acquisition plays, launching pilots and turning what works into repeatable programs. You’ll combine sales judgment, program management and the ability to drive execution through other teams. Working closely with regional vendor m",
-"tags": [
-"ai"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "06735dbc28d4",
-"title": "Global Program Manager",
-"company": "Benchling",
-"url": "https://jobs.ashbyhq.com/benchling/73e23228-5162-4444-ba96-05aaeefd902f",
-"source": "ashby",
-"locations": [
-"Boston, MA",
-"San Francisco, CA",
-"San Francisco, California"
-],
-"primary_location": "San Francisco, CA",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 151725,
-"max": 241500,
-"source": "structured",
-"all": [
-[
-151725,
-241500
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-15",
-"snippet": "We are rebuilding biotech for the AI era. When a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&D work into years. But that only happens when clean, structured scientific data and AI are built into how science gets done. Benchling ",
+"years_min": 3,
+"posted": "2026-09-18",
+"snippet": "The Opportunity The Corporate Strategy team works closely with Adobe’s top executives and our three business units (the Creative Cloud, Document Cloud and Experience Cloud) to ensure that the company stays on its fast growth trajectory. The team has played an active role in some of Adobe’s boldest and most strategic decisions, such as its well-publicized transition to cloud, and its expansion into a leadership positi",
 "tags": [
 "saas"
 ],
-"score": 62,
+"score": 61,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -9756,45 +9157,6 @@
 "is_new": true
 },
 {
-"id": "742a2f9c03dd",
-"title": "Revenue Strategy & Operations",
-"company": "ElevenLabs",
-"url": "https://jobs.ashbyhq.com/ElevenLabs/b28719ff-833d-49b4-8286-f59082732186",
-"source": "ashby",
-"locations": [
-"Boston",
-"Los Angeles",
-"New York",
-"San Francisco",
-"United States",
-"Washington, D.C."
-],
-"primary_location": "New York",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-29",
-"snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr",
-"tags": [
-"ai"
-],
-"score": 60,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "23e1f673fed4",
 "title": "Rotational Development Program",
 "company": "Flexport",
@@ -9950,7 +9312,7 @@
 "is_new": true
 },
 {
-"id": "03a3c37a2964",
+"id": "fbd127996a40",
 "title": "Senior Associate, Pricing & Commercial Operations",
 "company": "Verkada",
 "url": "https://job-boards.greenhouse.io/verkada/jobs/5274927007",
@@ -9976,10 +9338,6 @@
 [
 140000,
 170000
-],
-[
-140000,
-170000
 ]
 ]
 },
@@ -9990,7 +9348,7 @@
 "hardware"
 ],
 "score": 59,
-"first_seen": "2026-11-15",
+"first_seen": "2026-11-14",
 "is_new": true
 },
 {
@@ -10200,7 +9558,45 @@
 "is_new": true
 },
 {
-"id": "efde93b29ff5",
+"id": "d61df76f565d",
+"title": "Growth Marketing Manager",
+"company": "Rho",
+"url": "https://jobs.ashbyhq.com/rho/a118380b-5cdf-4ef4-a36d-1cc0fdf11412",
+"source": "ashby",
+"locations": [
+"NYC",
+"New York City, New York"
+],
+"primary_location": "NYC",
+"buckets": [
+"nyc"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 120000,
+"max": 180000,
+"source": "parsed",
+"all": [
+[
+120000,
+180000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-04",
+"snippet": "About Us Rho is the modern banking platform built for the AI era. Startups and growth-stage companies can open accounts in minutes, issue cards, manage expenses, pay bills, and close the books – all in one connected platform backed by real human support. About the Role Rho Incorporation lets founders form their company and open their business account in one flow. You’ll own getting more founders into that flow. Your ",
+"tags": [
+"fintech"
+],
+"score": 59,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "65e75764fc9b",
 "title": "Lifecycle Marketing Manager",
 "company": "Fivetran",
 "url": "https://www.fivetran.com/careers/job?gh_jid=8198264003",
@@ -10240,45 +9636,41 @@
 "is_new": true
 },
 {
-"id": "12323634c0cb",
-"title": "Data Partnerships Coordinator (1-year contract)",
-"company": "Cohere",
-"url": "https://jobs.ashbyhq.com/cohere/6d2d5e2e-46bd-4da5-9e03-573578424976",
+"id": "3d33d1d71f18",
+"title": "Global Sales Program Manager (SMB Sales)",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c",
 "source": "ashby",
 "locations": [
-"Canada",
-"Montreal",
-"New York",
-"Ottawa",
-"Toronto",
-"Toronto, Ontario"
+"San Francisco",
+"San Francisco, California"
 ],
-"primary_location": "New York",
+"primary_location": "San Francisco",
 "buckets": [
-"nyc",
+"bay",
 "remote"
 ],
 "role": "adjacent",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 90000,
-"max": 150000,
+"min": 198000,
+"max": 220000,
 "source": "structured",
 "all": [
 [
-90000,
-150000
+198000,
+220000
 ]
 ]
 },
 "years_min": 3,
-"posted": "2026-11-10",
-"snippet": "Who are we? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that. W",
+"posted": "2026-11-12",
+"snippet": "About the Role We’re looking for a hands-on sales program manager to build and scale new revenue programs across OpenAI’s global SMB sales teams. Your first focus will be outbound: designing acquisition plays, launching pilots and turning what works into repeatable programs. You’ll combine sales judgment, program management and the ability to drive execution through other teams. Working closely with regional vendor m",
 "tags": [
 "ai"
 ],
-"score": 58,
+"score": 59,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -10321,41 +9713,6 @@
 "is_new": true
 },
 {
-"id": "c96d542a7861",
-"title": "Product Manager - Payments Experience, Bridge",
-"company": "Stripe",
-"url": "https://stripe.com/jobs/search?gh_jid=8223723",
-"source": "greenhouse",
-"locations": [
-"San Francisco Or New York",
-"US"
-],
-"primary_location": "San Francisco Or New York",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-09-22",
-"snippet": "Who we are About Bridge We're creating an entirely new payments platform, built with stablecoins, to simplify global money movement. Bridge enables faster, cheaper payments and borderless access to dollars via stablecoins. Through our APIs, businesses can send and receive funds across borders faster and cheaper vs. SWIFT and other fiat-only rails. Our virtual accounts enable international consumers and businesses to ",
-"tags": [
-"fintech"
-],
-"score": 57,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "0afcdcc7a8ae",
 "title": "Program Manager, Product Systems and Insights",
 "company": "Harvey",
@@ -10389,46 +9746,6 @@
 "years_min": null,
 "posted": "2026-09-24",
 "snippet": "Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling",
-"tags": [
-"ai"
-],
-"score": 57,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "778f3f32a6bb",
-"title": "Customer Marketing Manager, Special Projects",
-"company": "Anthropic",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5439355008",
-"source": "greenhouse",
-"locations": [
-"Remote-Friendly US (Travel Required)",
-"San Francisco, CA | New York City, NY"
-],
-"primary_location": "San Francisco, CA | New York City, NY",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 255000,
-"max": 320000,
-"source": "parsed",
-"all": [
-[
-255000,
-320000
-]
-]
-},
-"years_min": null,
-"posted": "2026-09-29",
-"snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is looking for a Customer Marketing Manager to make sure ",
 "tags": [
 "ai"
 ],
@@ -10550,48 +9867,6 @@
 "is_new": true
 },
 {
-"id": "6fe472aba5ea",
-"title": "Product Operations Manager",
-"company": "Checkr",
-"url": "https://job-boards.greenhouse.io/checkr/jobs/8278496",
-"source": "greenhouse",
-"locations": [
-"Denver, Colorado, United States; San Francisco, California, United States",
-"San Francisco"
-],
-"primary_location": "Denver, Colorado, United States; San Francisco, California, United States",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 159000,
-"max": 187000,
-"source": "parsed",
-"all": [
-[
-159000,
-187000
-],
-[
-134000,
-158000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-13",
-"snippet": "About Checkr Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic. We’re a team that thrives on solving complex problems with innovative solutions",
-"tags": [
-"saas"
-],
-"score": 57,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "c14454514191",
 "title": "Data Program Manager, Science",
 "company": "OpenAI",
@@ -10631,20 +9906,26 @@
 "is_new": true
 },
 {
-"id": "13c0a02c102d",
-"title": "Product Manager, Integrations",
-"company": "Workday",
-"url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-San-Francisco/Product-Manager--Integrations_JR-0108770",
-"source": "workday",
+"id": "742a2f9c03dd",
+"title": "Revenue Strategy & Operations",
+"company": "ElevenLabs",
+"url": "https://jobs.ashbyhq.com/ElevenLabs/b28719ff-833d-49b4-8286-f59082732186",
+"source": "ashby",
 "locations": [
-"Flex",
-"USA, CA, San Francisco"
+"Boston",
+"Los Angeles",
+"New York",
+"San Francisco",
+"United States",
+"Washington, D.C."
 ],
-"primary_location": "USA, CA, San Francisco",
+"primary_location": "New York",
 "buckets": [
-"bay"
+"bay",
+"nyc",
+"remote"
 ],
-"role": "pm",
+"role": "strategy",
 "seniority": "mid",
 "program": false,
 "salary": {
@@ -10653,75 +9934,11 @@
 "source": "none",
 "all": []
 },
-"years_min": null,
-"posted": "2026-10-20",
-"snippet": "Your work days are brighter here. We’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up",
+"years_min": 4,
+"posted": "2026-10-29",
+"snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr",
 "tags": [
-"saas"
-],
-"score": 57,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "33133ce3bdcc",
-"title": "Product Manager, Developer Experience and Platform Excellence – Edge AI and Robotics",
-"company": "NVIDIA",
-"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Manager--Developer-Experience-and-Platform-Excellence---Edge-AI-and-Robotics_JR2025794-1",
-"source": "workday",
-"locations": [
-"US, CA, Santa Clara"
-],
-"primary_location": "US, CA, Santa Clara",
-"buckets": [
-"bay"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-30",
-"snippet": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’",
-"tags": [
-"hardware"
-],
-"score": 57,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "7b215e45d580",
-"title": "Technical Product Manager, CPU Platform Ecosystem",
-"company": "NVIDIA",
-"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Technical-Product-Manager--CPU-Platform-Ecosystem_JR2027360",
-"source": "workday",
-"locations": [
-"US, CA, Santa Clara"
-],
-"primary_location": "US, CA, Santa Clara",
-"buckets": [
-"bay"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-30",
-"snippet": "At NVIDIA, we're shaping the future of accelerated computing infrastructure — and we believe a CPU platform is only as strong as the ecosystem around it. This role sits at the heart of that ecosystem, bringing clarity to what must work, what is qualified, and what customers can count on when deploying NVIDIA data center CPUs alongside GPUs, networking, storage, DPUs, and third-party components. We're looking for some",
-"tags": [
-"hardware"
+"ai"
 ],
 "score": 57,
 "first_seen": "2026-11-14",
@@ -10799,46 +10016,6 @@
 "ai"
 ],
 "score": 57,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "01242f2ed0c1",
-"title": "Senior Associate, Finance & Strategy - Deal Desk",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8265444",
-"source": "greenhouse",
-"locations": [
-"Los Angeles, CA",
-"New York, NY; Seattle, WA; San Francisco, CA; Los Angeles, CA; Chicago, IL"
-],
-"primary_location": "New York, NY; Seattle, WA; San Francisco, CA; Los Angeles, CA; Chicago, IL",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 104700,
-"max": 154000,
-"source": "parsed",
-"all": [
-[
-104700,
-154000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-08",
-"snippet": "About the Team The Finance & Strategy team accelerates the growth of our business by implementing new opportunities and solutions. We partner with teams across the company to improve the profitability, scalability and defensibility of our business model. We're looking for those who can model the future and collaborate to help carry projects from conception through execution. On a typical day, you may extract insights",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 56,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -10971,6 +10148,46 @@
 "is_new": true
 },
 {
+"id": "6de0add98287",
+"title": "Associate,  DashMart - Supply Chain Profitability Strategy & Operations",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8273901",
+"source": "greenhouse",
+"locations": [
+"Chicago, IL",
+"New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Washington DC; Chicago, IL; Tempe, AZ"
+],
+"primary_location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Washington DC; Chicago, IL; Tempe, AZ",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 74800,
+"max": 110000,
+"source": "parsed",
+"all": [
+[
+74800,
+110000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-10-12",
+"snippet": "About the Team Our New Verticals Strategy & Operations team is re-inventing the way consumers think about grocery, convenience, alcohol and retail delivery through both our first-party and third-party operations businesses. DashMarts are our first-party offering designed to provide on-demand deliveries by selling household essentials, groceries, brand-name favorites, local favorites and so much more. The end to end D",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 55,
+"first_seen": "2026-11-15",
+"is_new": true
+},
+{
 "id": "c0ffcacadf43",
 "title": "Associate, Strategy & Operations, Merchant Onboarding & Experience",
 "company": "DoorDash",
@@ -11006,38 +10223,6 @@
 "tags": [
 "consumer",
 "s&o"
-],
-"score": 55,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "3c6727765639",
-"title": "Product Marketing Manager, NVIDIA NIM",
-"company": "NVIDIA",
-"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Marketing-Manager--NVIDIA-NIM_JR2015402",
-"source": "workday",
-"locations": [
-"US, CA, Santa Clara"
-],
-"primary_location": "US, CA, Santa Clara",
-"buckets": [
-"bay"
-],
-"role": "pmm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-30",
-"snippet": "As a Product Marketing Manager for NVIDIA NIM, you will play a pivotal role in helping enterprises deploy AI. NVIDIA NIM is revolutionizing AI from experimentation to production, packaging optimized, production-ready models for rapid deployment. Our product marketing team operates at the intersection of developer tooling and enterprise go-to-market, ensuring that our narrative resonates with ML engineers and CTOs ali",
-"tags": [
-"hardware"
 ],
 "score": 55,
 "first_seen": "2026-11-14",
@@ -11275,6 +10460,48 @@
 "is_new": true
 },
 {
+"id": "6fe472aba5ea",
+"title": "Product Operations Manager",
+"company": "Checkr",
+"url": "https://job-boards.greenhouse.io/checkr/jobs/8278496",
+"source": "greenhouse",
+"locations": [
+"Denver, Colorado, United States; San Francisco, California, United States",
+"San Francisco"
+],
+"primary_location": "Denver, Colorado, United States; San Francisco, California, United States",
+"buckets": [
+"bay"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 159000,
+"max": 187000,
+"source": "parsed",
+"all": [
+[
+159000,
+187000
+],
+[
+134000,
+158000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-13",
+"snippet": "About Checkr Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic. We’re a team that thrives on solving complex problems with innovative solutions",
+"tags": [
+"saas"
+],
+"score": 54,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
 "id": "411976671346",
 "title": "Strategic Finance Manager, BU Partnership",
 "company": "Scale AI",
@@ -11352,10 +10579,50 @@
 "is_new": true
 },
 {
-"id": "81f060467d94",
+"id": "01242f2ed0c1",
+"title": "Senior Associate, Finance & Strategy - Deal Desk",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8265444",
+"source": "greenhouse",
+"locations": [
+"Los Angeles, CA",
+"New York, NY; Seattle, WA; San Francisco, CA; Los Angeles, CA; Chicago, IL"
+],
+"primary_location": "New York, NY; Seattle, WA; San Francisco, CA; Los Angeles, CA; Chicago, IL",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 104700,
+"max": 154000,
+"source": "parsed",
+"all": [
+[
+104700,
+154000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-08",
+"snippet": "About the Team The Finance & Strategy team accelerates the growth of our business by implementing new opportunities and solutions. We partner with teams across the company to improve the profitability, scalability and defensibility of our business model. We're looking for those who can model the future and collaborate to help carry projects from conception through execution. On a typical day, you may extract insights",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 53,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "6958e7697389",
 "title": "Program Manager, AV Safety Policy & Programs",
 "company": "Lyft",
-"url": "https://app.careerpuck.com/job-board/lyft/job/8900191002?gh_jid=8900191002",
+"url": "https://app.careerpuck.com/job-board/lyft/job/8900349002?gh_jid=8900349002",
 "source": "greenhouse",
 "locations": [
 "New York Office",
@@ -11363,7 +10630,7 @@
 "San Francisco Office",
 "San Francisco, CA"
 ],
-"primary_location": "New York Office",
+"primary_location": "New York, NY",
 "buckets": [
 "bay",
 "nyc"
@@ -11716,38 +10983,6 @@
 "is_new": true
 },
 {
-"id": "d598a5e4fda2",
-"title": "Product Manager, Ecosystem",
-"company": "Stripe",
-"url": "https://stripe.com/jobs/search?gh_jid=8234705",
-"source": "greenhouse",
-"locations": [
-"US"
-],
-"primary_location": "US",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-06",
-"snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to ambitious startups—use Stripe to accept payments, grow revenue, and create new business opportunities. Our mission is to increase the GDP of the internet. About the team Stripe’s ecosystem enables third-party developers and technology partners to extend products such as P",
-"tags": [
-"fintech"
-],
-"score": 51,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "b47f987fd744",
 "title": "Technical Business Development Manager, Startup & VC Ecosystem",
 "company": "Databricks",
@@ -11779,70 +11014,6 @@
 "snippet": "RDQ427R630 This role is in-person and Bay-Area-based by design, so you can be in the room with founders and investors. At Databricks, we are obsessed with enabling data teams to solve the world's toughest problems, from security threat detection to cancer drug development. We do this by building and running the world's best data and AI infrastructure platform, so our customers can focus on the high-value challenges c",
 "tags": [
 "data"
-],
-"score": 51,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "0d2d8ca063ff",
-"title": "Product Manager -  Administration & Governance",
-"company": "Supabase",
-"url": "https://jobs.ashbyhq.com/supabase/c20228c2-45ff-4b77-ab77-906f39a06ca3",
-"source": "ashby",
-"locations": [
-"Remote, Global"
-],
-"primary_location": "Remote, Global",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-31",
-"snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We’re looking for a Product Manager, Administration & Governance to join our Product Team and make Supabase the default starting",
-"tags": [
-"saas"
-],
-"score": 51,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "2ea19b107d53",
-"title": "Product Manager - Spark",
-"company": "Supabase",
-"url": "https://jobs.ashbyhq.com/supabase/85f4d148-4602-4139-802a-962705133892",
-"source": "ashby",
-"locations": [
-"Remote, Global"
-],
-"primary_location": "Remote, Global",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-31",
-"snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We’re looking for a Product Manager, Spark Projects to join our Product Team and lead a new Supabase project type built for how ",
-"tags": [
-"saas"
 ],
 "score": 51,
 "first_seen": "2026-11-14",
@@ -12091,19 +11262,18 @@
 "is_new": true
 },
 {
-"id": "8767979d0db3",
-"title": "Technical Business Development Representative",
-"company": "Vercel",
-"url": "https://job-boards.greenhouse.io/vercel/jobs/6236991004",
-"source": "greenhouse",
+"id": "88863de95609",
+"title": "Manager, Business Development",
+"company": "Workday",
+"url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-San-Francisco/Manager--Business-Development_JR-0111232",
+"source": "workday",
 "locations": [
-"Hybrid - San Francisco, New York City, Austin",
-"Office - San Francisco"
+"Flex",
+"USA, CA, San Francisco"
 ],
-"primary_location": "Hybrid - San Francisco, New York City, Austin",
+"primary_location": "USA, CA, San Francisco",
 "buckets": [
-"bay",
-"nyc"
+"bay"
 ],
 "role": "adjacent",
 "seniority": "mid",
@@ -12114,14 +11284,14 @@
 "source": "none",
 "all": []
 },
-"years_min": null,
-"posted": "2026-10-30",
-"snippet": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worl",
+"years_min": 1,
+"posted": "2026-11-04",
+"snippet": "Your work days are brighter here. We’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up",
 "tags": [
 "saas"
 ],
 "score": 48,
-"first_seen": "2026-11-14",
+"first_seen": "2026-11-15",
 "is_new": true
 },
 {
@@ -12270,43 +11440,6 @@
 "tags": [
 "consumer",
 "s&o"
-],
-"score": 47,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "8e61ef2ba661",
-"title": "Operations & Engagement Coordinator, Agency Development & Sales Strategy",
-"company": "The New York Times",
-"url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748680005",
-"source": "greenhouse",
-"locations": [
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 60000,
-"max": 68000,
-"source": "parsed",
-"all": [
-[
-60000,
-68000
-]
-]
-},
-"years_min": 1,
-"posted": "2026-10-29",
-"snippet": "The mission of The New York Times is to seek the truth and help people understand the world. That means independent journalism is at the heart of all we do as a company. It’s why we have a world-renowned newsroom that sends journalists to report on the ground from nearly 160 countries. It’s why we focus deeply on how our readers will experience our journalism, from print to audio to a world-class digital and app dest",
-"tags": [
-"media"
 ],
 "score": 47,
 "first_seen": "2026-11-14",
@@ -12581,41 +11714,6 @@
 "is_new": true
 },
 {
-"id": "a118b0602f23",
-"title": "Business Development Representative (Apono)",
-"company": "1Password",
-"url": "https://jobs.ashbyhq.com/1password/4f9bbb1a-2f8c-46ce-ab2c-400d2a9c3058",
-"source": "ashby",
-"locations": [
-"Austin, TX",
-"Austin, Texas",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-09-30",
-"snippet": "1Password is growing. We’ve surpassed $500M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing. About 1Password At 1Password, we’re building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security by ensuring every identity i",
-"tags": [
-"saas"
-],
-"score": 43,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "2b89a5743e06",
 "title": "Business Development Associate, AI Labs",
 "company": "Via",
@@ -12694,41 +11792,114 @@
 "is_new": true
 },
 {
-"id": "8a29a206e2b5",
-"title": "Associate Program Manager",
-"company": "Flexport",
-"url": "https://job-boards.greenhouse.io/flexport/jobs/8214366",
+"id": "fad36e0bf1b2",
+"title": "Associate, Finance & Strategy - Marketplace",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8273992",
 "source": "greenhouse",
 "locations": [
-"New York City",
-"New York City, New York, United States"
+"Austin, TX; Chicago, IL; Denver, CO; Los Angeles, LA; New York, NY; San Francisco, CA; Seattle, WA",
+"San Francisco, CA"
 ],
-"primary_location": "New York City, New York, United States",
+"primary_location": "Austin, TX; Chicago, IL; Denver, CO; Los Angeles, LA; New York, NY; San Francisco, CA; Seattle, WA",
 "buckets": [
+"bay",
 "nyc"
 ],
 "role": "adjacent",
 "seniority": "entry",
 "program": false,
 "salary": {
-"min": 77000,
-"max": 96000,
+"min": 87000,
+"max": 128000,
 "source": "parsed",
 "all": [
 [
-77000,
-96000
+87000,
+128000
 ]
 ]
 },
 "years_min": 2,
-"posted": "2026-10-10",
-"snippet": "About Flexport: At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise acr",
+"posted": "2026-10-12",
+"snippet": "About the Team The Finance & Strategy team accelerates the growth of our business by implementing new opportunities and solutions. We partner with teams across the company to improve the profitability, scalability, and defensibility of our business model. We're looking for people who can model the future, and collaborate to help carry projects from conception through execution. About the Role We are looking for an As",
 "tags": [
-"logistics",
+"consumer",
 "s&o"
 ],
 "score": 43,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "40e54689b119",
+"title": "Associate, Finance & Strategy - DashPass",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8278668",
+"source": "greenhouse",
+"locations": [
+"New York",
+"New York, NY; San Francisco, CA; Los Angeles, CA; Seattle, WA; Washington D.C.; Chicago, IL; Tempe, AZ"
+],
+"primary_location": "New York, NY; San Francisco, CA; Los Angeles, CA; Seattle, WA; Washington D.C.; Chicago, IL; Tempe, AZ",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 87000,
+"max": 128000,
+"source": "parsed",
+"all": [
+[
+87000,
+128000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-10-13",
+"snippet": "About the Team DashPass is one of the fastest-growing subscription products in the US, with 20M+ paid members. The DashPass Finance & Strategy team sits at the center of how that growth gets funded, forecasted, and scaled — partnering across DashPass to assess the profitability and scalability of initiatives, influence business decisions, and keep the team focused on the highest-impact problems. We're looking for peo",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 43,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "b78fef147df3",
+"title": "Growth Manager, GEO / AEO",
+"company": "Supabase",
+"url": "https://jobs.ashbyhq.com/supabase/d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5",
+"source": "ashby",
+"locations": [
+"Remote, AMER"
+],
+"primary_location": "Remote, AMER",
+"buckets": [
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": null,
+"max": null,
+"source": "none",
+"all": []
+},
+"years_min": 1,
+"posted": "2026-11-05",
+"snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role Builders now ask ChatGPT & Claude before they ask Google, and the answer decides which products make the shortlist. When someone",
+"tags": [
+"saas"
+],
+"score": 42,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -12767,39 +11938,6 @@
 "is_new": true
 },
 {
-"id": "88863de95609",
-"title": "Manager, Business Development",
-"company": "Workday",
-"url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-San-Francisco/Manager--Business-Development_JR-0111232",
-"source": "workday",
-"locations": [
-"Flex",
-"USA, CA, San Francisco"
-],
-"primary_location": "USA, CA, San Francisco",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": 4,
-"posted": "2026-11-04",
-"snippet": "Your work days are brighter here. We’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up",
-"tags": [
-"saas"
-],
-"score": 40,
-"first_seen": "2026-11-15",
-"is_new": true
-},
-{
 "id": "4ce3ec29d7e3",
 "title": "Associate, Pricing Configuration",
 "company": "Oscar Health",
@@ -12832,45 +11970,6 @@
 "snippet": "Hi, we're Oscar. We're hiring an Associate, Pricing Configuration to join our Claims T&O team. Oscar is the first health insurance company built around a full stack technology platform and a focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family. About the role: You will design processes and improve",
 "tags": [
 "health"
-],
-"score": 40,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "166008eeab42",
-"title": "Marketing Coordinator, Brand Partnerships",
-"company": "Harvey",
-"url": "https://jobs.ashbyhq.com/harvey/ba8a6b0a-f791-4d06-8f1a-b960825cd7f8",
-"source": "ashby",
-"locations": [
-"New York",
-"New York, New York"
-],
-"primary_location": "New York",
-"buckets": [
-"nyc",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 82800,
-"max": 113900,
-"source": "structured",
-"all": [
-[
-82800,
-113900
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-14",
-"snippet": "Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling",
-"tags": [
-"ai"
 ],
 "score": 40,
 "first_seen": "2026-11-14",
@@ -12993,86 +12092,6 @@
 "is_new": true
 },
 {
-"id": "fad36e0bf1b2",
-"title": "Associate, Finance & Strategy - Marketplace",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8273992",
-"source": "greenhouse",
-"locations": [
-"Austin, TX; Chicago, IL; Denver, CO; Los Angeles, LA; New York, NY; San Francisco, CA; Seattle, WA",
-"San Francisco, CA"
-],
-"primary_location": "Austin, TX; Chicago, IL; Denver, CO; Los Angeles, LA; New York, NY; San Francisco, CA; Seattle, WA",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 87000,
-"max": 128000,
-"source": "parsed",
-"all": [
-[
-87000,
-128000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-12",
-"snippet": "About the Team The Finance & Strategy team accelerates the growth of our business by implementing new opportunities and solutions. We partner with teams across the company to improve the profitability, scalability, and defensibility of our business model. We're looking for people who can model the future, and collaborate to help carry projects from conception through execution. About the Role We are looking for an As",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 38,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "40e54689b119",
-"title": "Associate, Finance & Strategy - DashPass",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8278668",
-"source": "greenhouse",
-"locations": [
-"New York",
-"New York, NY; San Francisco, CA; Los Angeles, CA; Seattle, WA; Washington D.C.; Chicago, IL; Tempe, AZ"
-],
-"primary_location": "New York, NY; San Francisco, CA; Los Angeles, CA; Seattle, WA; Washington D.C.; Chicago, IL; Tempe, AZ",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 87000,
-"max": 128000,
-"source": "parsed",
-"all": [
-[
-87000,
-128000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-13",
-"snippet": "About the Team DashPass is one of the fastest-growing subscription products in the US, with 20M+ paid members. The DashPass Finance & Strategy team sits at the center of how that growth gets funded, forecasted, and scaled — partnering across DashPass to assess the profitability and scalability of initiatives, influence business decisions, and keep the team focused on the highest-impact problems. We're looking for peo",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 38,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "2b6c07e7608f",
 "title": "Strategic Finance Analyst",
 "company": "Discord",
@@ -13111,71 +12130,6 @@
 "is_new": true
 },
 {
-"id": "4a84c7e76352",
-"title": "Business Development Representative",
-"company": "1Password",
-"url": "https://jobs.ashbyhq.com/1password/55dedff3-7af8-4fd4-aaf0-79680d77f150",
-"source": "ashby",
-"locations": [
-"Austin, TX",
-"Austin, Texas"
-],
-"primary_location": "Remote",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": 1,
-"posted": "2026-09-29",
-"snippet": "1Password is growing. We’ve surpassed $500M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing. About 1Password At 1Password, we’re building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security by ensuring every identity i",
-"tags": [
-"saas"
-],
-"score": 37,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "fba3ab7dc73b",
-"title": "General Manager, LATAM (Sales & Partners)",
-"company": "Amplitude",
-"url": "https://jobs.ashbyhq.com/amplitude/0104b973-7037-48c8-a263-2131e186a561",
-"source": "ashby",
-"locations": [
-"Sao Paulo"
-],
-"primary_location": "Remote",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-10-14",
-"snippet": "Amplitude is the leading AI analytics platform, helping over 5,200 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2’s Winter 2026 Report, Amplitude is the best-in-class solution for p",
-"tags": [
-"saas"
-],
-"score": 37,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
 "id": "216eca7e7035",
 "title": "Sales and Partnerships",
 "company": "OpenAI",
@@ -13209,114 +12163,6 @@
 "ai"
 ],
 "score": 37,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "b78fef147df3",
-"title": "Growth Manager, GEO / AEO",
-"company": "Supabase",
-"url": "https://jobs.ashbyhq.com/supabase/d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5",
-"source": "ashby",
-"locations": [
-"Remote, AMER"
-],
-"primary_location": "Remote, AMER",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-11-05",
-"snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role Builders now ask ChatGPT & Claude before they ask Google, and the answer decides which products make the shortlist. When someone",
-"tags": [
-"saas"
-],
-"score": 37,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "fa0bf1962f69",
-"title": "Restaurant General Manager",
-"company": "Sweetgreen",
-"url": "https://careers.sweetgreen.com/jobs/8348472?gh_jid=8348472",
-"source": "greenhouse",
-"locations": [
-"2040 Chestnut St, San Francisco, CA 94123",
-"San Francisco"
-],
-"primary_location": "2040 Chestnut St, San Francisco, CA 94123",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 65000,
-"max": 75000,
-"source": "parsed",
-"all": [
-[
-65000,
-75000
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-10",
-"snippet": "A Healthier Future Starts With You As a Head Coach (General Manager), you're the leader, strategist, and mentor of your store. You'll inspire your team, drive operational excellence, and deliver exceptional guest experiences using data-driven insights to build healthier communities through real food. What You’ll Do Lead your team by balancing people, operations, and business performance. Build an inclusive culture wh",
-"tags": [
-"consumer"
-],
-"score": 35,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "0449c528978b",
-"title": "Business Development Representative (New York, NY)",
-"company": "Box",
-"url": "https://job-boards.greenhouse.io/boxinc/jobs/8375687",
-"source": "greenhouse",
-"locations": [
-"New York City Office",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 65000,
-"max": 101500,
-"source": "parsed",
-"all": [
-[
-65000,
-101500
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-12",
-"snippet": "WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in the new AI-first era of business. Founded in 2005, Box simplifies work for leading global organizations, including JLL, Morgan Stanley, and Na",
-"tags": [
-"saas"
-],
-"score": 35,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -13361,35 +12207,77 @@
 "is_new": true
 },
 {
-"id": "3d981452eb05",
-"title": "Pricing Activation Specialist",
-"company": "Stripe",
-"url": "https://stripe.com/jobs/search?gh_jid=8241855",
-"source": "greenhouse",
+"id": "0037afc17a27",
+"title": "Business Development Associate, Care Partnerships",
+"company": "Headway",
+"url": "https://jobs.ashbyhq.com/headway/19d3bb5e-f5fc-4bd4-9a08-c479f5b0969e",
+"source": "ashby",
 "locations": [
-"SEA",
-"US"
+"Remote"
 ],
-"primary_location": "US",
+"primary_location": "Remote",
 "buckets": [
 "remote"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 70000,
+"max": 77000,
+"source": "structured",
+"all": [
+[
+70000,
+77000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-10-02",
+"snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway’s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the biggest barrier to care: insurance. The admin work - credentialing, claims, payment reconciliation - is a nightmare. We've automated that. But",
+"tags": [
+"health"
+],
+"score": 32,
+"first_seen": "2026-11-14",
+"is_new": true
+},
+{
+"id": "20eabb7da705",
+"title": "Lifecycle Marketing Manager",
+"company": "Chime",
+"url": "https://boards.greenhouse.io/chime/jobs/8892857002?gh_jid=8892857002",
+"source": "greenhouse",
+"locations": [
+"San Francisco Office",
+"San Francisco, CA, USA"
+],
+"primary_location": "San Francisco, CA, USA",
+"buckets": [
+"bay"
 ],
 "role": "adjacent",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
+"min": 104000,
+"max": 144000,
+"source": "parsed",
+"all": [
+[
+104000,
+144000
+]
+]
 },
-"years_min": 4,
-"posted": "2026-10-01",
-"snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunit",
+"years_min": 2,
+"posted": "2026-10-15",
+"snippet": "About the role We're hiring a Lifecycle Marketing Manager to join our Lifecycle & CRM Marketing team. In this role, you'll build and optimize campaigns that engage, retain, and grow Chime members across their lifecycle — from acquisition through long-term retention — with a focus on member experience, revenue, and LTV. This is a role for a hands-on marketer who thinks beyond the send. You'll work across email, push, ",
 "tags": [
 "fintech"
 ],
-"score": 34,
+"score": 30,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -13423,168 +12311,13 @@
 ]
 ]
 },
-"years_min": null,
+"years_min": 3,
 "posted": "2026-10-21",
 "snippet": "Storytelling is, and will always be, the heart of what we do at Skydance. Our vision is to build a thriving entertainment ecosystem where stories and worlds are imagined, brought to life and experienced. We create for every age and audience, anchored by the strength of our content and experiences and the depth of our connection with fans. We are creator-first, audience-focused, tech-forward, globally scaled. Here, yo",
 "tags": [
 "media"
 ],
-"score": 33,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "db6207ce64de",
-"title": "Business Development Representative, AI Labs",
-"company": "Via",
-"url": "https://job-boards.greenhouse.io/via/jobs/8843488002",
-"source": "greenhouse",
-"locations": [
-"New York City",
-"New York, New York"
-],
-"primary_location": "New York, New York",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 90000,
-"max": 115000,
-"source": "parsed",
-"all": [
-[
-70000,
-80000
-],
-[
-90000,
-115000
-]
-]
-},
-"years_min": 1,
-"posted": "2026-09-24",
-"snippet": "Via is the global leader in transportation technology, powering modern, data-driven transit networks for hundreds of agency partners worldwide. Now, we are building our next frontier: AI Labs. This new, high-growth vertical combines Via’s global scale with cutting-edge artificial intelligence to build next-generation software for cities, automate complex systems, and unlock massive revenue opportunities. As a BDR , y",
-"tags": [
-"mobility",
-"s&o"
-],
 "score": 30,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "85842b7abbd0",
-"title": "Business Development Representative - San Francisco",
-"company": "PagerDuty",
-"url": "https://job-boards.greenhouse.io/pagerduty/jobs/6211460004",
-"source": "greenhouse",
-"locations": [
-"San Francisco"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 58500,
-"max": 61750,
-"source": "parsed",
-"all": [
-[
-58500,
-61750
-]
-]
-},
-"years_min": 1,
-"posted": "2026-10-01",
-"snippet": "PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated workflows with context from over 750 integrations. Trusted by approximately two-thirds of the Fortune 100 and nearly half of the Fortune 500, PagerDuty is the industry standard for organizations scaling resilient, au",
-"tags": [
-"saas"
-],
-"score": 30,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "93c7fb64a7ba",
-"title": "Restaurant General Manager",
-"company": "Sweetgreen",
-"url": "https://careers.sweetgreen.com/jobs/8262139?gh_jid=8262139",
-"source": "greenhouse",
-"locations": [
-"1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
-"Campbell"
-],
-"primary_location": "1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 80000,
-"max": 100000,
-"source": "parsed",
-"all": [
-[
-80000,
-100000
-]
-]
-},
-"years_min": 2,
-"posted": "2026-10-07",
-"snippet": "A Healthier Future Starts With You As a Head Coach (General Manager), you're the leader, strategist, and mentor of your store. You'll inspire your team, drive operational excellence, and deliver exceptional guest experiences using data-driven insights to build healthier communities through real food. What You’ll Do Lead your team by balancing people, operations, and business performance. Build an inclusive culture wh",
-"tags": [
-"consumer"
-],
-"score": 30,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "0037afc17a27",
-"title": "Business Development Associate, Care Partnerships",
-"company": "Headway",
-"url": "https://jobs.ashbyhq.com/headway/19d3bb5e-f5fc-4bd4-9a08-c479f5b0969e",
-"source": "ashby",
-"locations": [
-"Remote"
-],
-"primary_location": "Remote",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 70000,
-"max": 77000,
-"source": "structured",
-"all": [
-[
-70000,
-77000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-02",
-"snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway’s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the biggest barrier to care: insurance. The admin work - credentialing, claims, payment reconciliation - is a nightmare. We've automated that. But",
-"tags": [
-"health"
-],
-"score": 27,
 "first_seen": "2026-11-14",
 "is_new": true
 },
@@ -13629,16 +12362,16 @@
 "is_new": true
 },
 {
-"id": "20eabb7da705",
-"title": "Lifecycle Marketing Manager",
-"company": "Chime",
-"url": "https://boards.greenhouse.io/chime/jobs/8892857002?gh_jid=8892857002",
+"id": "fa0bf1962f69",
+"title": "Restaurant General Manager",
+"company": "Sweetgreen",
+"url": "https://careers.sweetgreen.com/jobs/8348472?gh_jid=8348472",
 "source": "greenhouse",
 "locations": [
-"San Francisco Office",
-"San Francisco, CA, USA"
+"2040 Chestnut St, San Francisco, CA 94123",
+"San Francisco"
 ],
-"primary_location": "San Francisco, CA, USA",
+"primary_location": "2040 Chestnut St, San Francisco, CA 94123",
 "buckets": [
 "bay"
 ],
@@ -13646,188 +12379,61 @@
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 104000,
-"max": 144000,
+"min": 65000,
+"max": 75000,
 "source": "parsed",
 "all": [
 [
-104000,
-144000
+65000,
+75000
 ]
 ]
 },
-"years_min": null,
-"posted": "2026-10-15",
-"snippet": "About the role We're hiring a Lifecycle Marketing Manager to join our Lifecycle & CRM Marketing team. In this role, you'll build and optimize campaigns that engage, retain, and grow Chime members across their lifecycle — from acquisition through long-term retention — with a focus on member experience, revenue, and LTV. This is a role for a hands-on marketer who thinks beyond the send. You'll work across email, push, ",
+"years_min": 3,
+"posted": "2026-11-10",
+"snippet": "A Healthier Future Starts With You As a Head Coach (General Manager), you're the leader, strategist, and mentor of your store. You'll inspire your team, drive operational excellence, and deliver exceptional guest experiences using data-driven insights to build healthier communities through real food. What You’ll Do Lead your team by balancing people, operations, and business performance. Build an inclusive culture wh",
 "tags": [
-"fintech"
+"consumer"
 ],
-"score": 25,
+"score": 27,
 "first_seen": "2026-11-14",
 "is_new": true
 },
 {
-"id": "47dc77010869",
-"title": "Lifecycle Marketing Coordinator, CRM",
-"company": "Instacart",
-"url": "https://instacart.careers/job/?gh_jid=8355990",
+"id": "93c7fb64a7ba",
+"title": "Restaurant General Manager",
+"company": "Sweetgreen",
+"url": "https://careers.sweetgreen.com/jobs/8262139?gh_jid=8262139",
 "source": "greenhouse",
 "locations": [
-"Remote - United States",
-"United States - Remote"
+"1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
+"Campbell"
 ],
-"primary_location": "United States - Remote",
+"primary_location": "1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
 "buckets": [
-"remote"
+"bay"
 ],
 "role": "adjacent",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 104000,
-"max": 109500,
+"min": 80000,
+"max": 100000,
 "source": "parsed",
 "all": [
 [
-104000,
-109500
-],
-[
-99000,
-104500
-],
-[
-95000,
+80000,
 100000
-],
-[
-86000,
-91000
 ]
 ]
 },
-"years_min": 1,
-"posted": "2026-11-05",
-"snippet": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to ",
+"years_min": 3,
+"posted": "2026-10-07",
+"snippet": "A Healthier Future Starts With You As a Head Coach (General Manager), you're the leader, strategist, and mentor of your store. You'll inspire your team, drive operational excellence, and deliver exceptional guest experiences using data-driven insights to build healthier communities through real food. What You’ll Do Lead your team by balancing people, operations, and business performance. Build an inclusive culture wh",
 "tags": [
-"consumer",
-"s&o"
+"consumer"
 ],
-"score": 24,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "25190d2d31e3",
-"title": "Lifecycle Marketing Coordinator, CRM",
-"company": "Instacart",
-"url": "https://instacart.careers/job/?gh_jid=8355992",
-"source": "greenhouse",
-"locations": [
-"Canada - Remote (ON, AB, BC, or NS Only)",
-"Remote - United States"
-],
-"primary_location": "Remote - United States",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 86000,
-"max": 90500,
-"source": "parsed",
-"all": [
-[
-86000,
-90500
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-05",
-"snippet": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to ",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 24,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "264d3c648294",
-"title": "Business Development Representative, SLED - West",
-"company": "GitLab",
-"url": "https://job-boards.greenhouse.io/gitlab/jobs/8932282002",
-"source": "greenhouse",
-"locations": [
-"Remote, United States",
-"United States of America"
-],
-"primary_location": "Remote, United States",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 74200,
-"max": 84000,
-"source": "parsed",
-"all": [
-[
-74200,
-84000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-09",
-"snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r",
-"tags": [
-"saas"
-],
-"score": 24,
-"first_seen": "2026-11-14",
-"is_new": true
-},
-{
-"id": "b9ad27b763cb",
-"title": "Business Development Representative",
-"company": "Headway",
-"url": "https://jobs.ashbyhq.com/headway/6b45d60c-8458-49a3-ab36-f25b70ad407f",
-"source": "ashby",
-"locations": [
-"Remote"
-],
-"primary_location": "Remote",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 49600,
-"max": 65000,
-"source": "structured",
-"all": [
-[
-49600,
-65000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-13",
-"snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway’s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the biggest barrier to care: insurance. The admin work - credentialing, claims, payment reconciliation - is a nightmare. We've automated that. But",
-"tags": [
-"health"
-],
-"score": 24,
+"score": 22,
 "first_seen": "2026-11-14",
 "is_new": true
 },
