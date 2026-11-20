@@ -1,6 +1,6 @@
 window.JOB_RADAR_DATA = {
 "meta": {
-"generated_at": "2026-11-19T19:32:09Z",
+"generated_at": "2026-11-20T19:05:45Z",
 "salary_floor": {
 "nyc": 130000,
 "bay": 150000,
@@ -8,11 +8,11 @@ window.JOB_RADAR_DATA = {
 },
 "new_days": 3,
 "counts": {
-"total": 263,
-"nyc": 191,
-"bay": 133,
-"remote": 59,
-"new": 21,
+"total": 264,
+"nyc": 189,
+"bay": 131,
+"remote": 62,
+"new": 24,
 "with_salary": 241
 },
 "sources": [
@@ -20,111 +20,111 @@ window.JOB_RADAR_DATA = {
 "company": "Stripe",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 771,
+"raw": 779,
 "error": null,
-"secs": 1.7
+"secs": 2.3
 },
 {
 "company": "Airbnb",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 199,
+"raw": 202,
 "error": null,
-"secs": 0.9
+"secs": 0.8
 },
 {
 "company": "Figma",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 145,
+"raw": 146,
 "error": null,
-"secs": 0.5
+"secs": 1.1
 },
 {
 "company": "Databricks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 903,
+"raw": 895,
 "error": null,
-"secs": 3.2
+"secs": 10.3
 },
 {
 "company": "Coinbase",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 255,
+"raw": 253,
 "error": null,
-"secs": 1.0
+"secs": 0.9
 },
 {
 "company": "Robinhood",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 165,
+"raw": 167,
 "error": null,
-"secs": 0.8
+"secs": 0.4
 },
 {
 "company": "Dropbox",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 46,
+"raw": 47,
 "error": null,
-"secs": 0.5
+"secs": 0.3
 },
 {
 "company": "Lyft",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 146,
+"raw": 144,
 "error": null,
-"secs": 0.6
+"secs": 1.3
 },
 {
 "company": "Pinterest",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 173,
+"raw": 175,
 "error": null,
-"secs": 0.7
+"secs": 0.5
 },
 {
 "company": "DoorDash",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 414,
+"raw": 413,
 "error": null,
-"secs": 2.5
+"secs": 3.4
 },
 {
 "company": "Instacart",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 85,
+"raw": 89,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Discord",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 27,
+"raw": 29,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Reddit",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 146,
+"raw": 145,
 "error": null,
-"secs": 0.7
+"secs": 0.9
 },
 {
 "company": "Duolingo",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 55,
+"raw": 54,
 "error": null,
 "secs": 0.3
 },
@@ -132,55 +132,55 @@ window.JOB_RADAR_DATA = {
 "company": "Brex",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 261,
+"raw": 245,
 "error": null,
-"secs": 0.7
+"secs": 1.0
 },
 {
 "company": "Plaid",
 "ats": "ashby",
 "status": "ok",
-"raw": 141,
+"raw": 148,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Affirm",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 225,
+"raw": 219,
 "error": null,
-"secs": 0.8
+"secs": 1.0
 },
 {
 "company": "Chime",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 78,
+"raw": 80,
 "error": null,
-"secs": 0.4
+"secs": 0.6
 },
 {
 "company": "Carta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 78,
+"raw": 79,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Gusto",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 82,
+"raw": 83,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Scale AI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 168,
+"raw": 167,
 "error": null,
 "secs": 0.7
 },
@@ -188,7 +188,7 @@ window.JOB_RADAR_DATA = {
 "company": "Anthropic",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 639,
+"raw": 638,
 "error": null,
 "secs": 4.4
 },
@@ -196,57 +196,57 @@ window.JOB_RADAR_DATA = {
 "company": "OpenAI",
 "ats": "ashby",
 "status": "ok",
-"raw": 840,
+"raw": 854,
 "error": null,
-"secs": 4.4
+"secs": 5.4
 },
 {
 "company": "xAI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 299,
+"raw": 300,
 "error": null,
-"secs": 0.9
+"secs": 0.7
 },
 {
 "company": "Datadog",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 378,
+"raw": 382,
 "error": null,
-"secs": 1.3
+"secs": 2.7
 },
 {
 "company": "MongoDB",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 409,
+"raw": 414,
 "error": null,
-"secs": 1.9
+"secs": 1.6
 },
 {
 "company": "Cloudflare",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 497,
+"raw": 496,
 "error": null,
-"secs": 3.4
+"secs": 4.2
 },
 {
 "company": "Twilio",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 105,
+"raw": 106,
 "error": null,
-"secs": 0.6
+"secs": 0.3
 },
 {
 "company": "Okta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 365,
+"raw": 373,
 "error": null,
-"secs": 1.7
+"secs": 2.1
 },
 {
 "company": "Squarespace",
@@ -254,31 +254,31 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Peloton",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 36,
+"raw": 42,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Oscar Health",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 191,
+"raw": 180,
 "error": null,
-"secs": 0.4
+"secs": 1.1
 },
 {
 "company": "Flatiron Health",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 21,
+"raw": 23,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Betterment",
@@ -286,7 +286,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Zocdoc",
@@ -294,29 +294,29 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 65,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Justworks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 107,
+"raw": 105,
 "error": null,
-"secs": 1.3
+"secs": 1.0
 },
 {
 "company": "Ro",
 "ats": "lever",
 "status": "ok",
-"raw": 55,
+"raw": 56,
 "error": null,
-"secs": 2.3
+"secs": 0.9
 },
 {
 "company": "NerdWallet",
 "ats": "ashby",
 "status": "ok",
-"raw": 28,
+"raw": 29,
 "error": null,
 "secs": 0.4
 },
@@ -326,47 +326,47 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Klaviyo",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 126,
+"raw": 128,
 "error": null,
-"secs": 1.5
+"secs": 1.3
 },
 {
 "company": "HubSpot",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 141,
+"raw": 143,
 "error": null,
-"secs": 1.4
+"secs": 1.2
 },
 {
 "company": "Toast",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 333,
+"raw": 332,
 "error": null,
-"secs": 2.1
+"secs": 2.0
 },
 {
 "company": "Samsara",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 308,
+"raw": 297,
 "error": null,
-"secs": 2.5
+"secs": 2.9
 },
 {
 "company": "Nextdoor",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 23,
+"raw": 24,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Thumbtack",
@@ -374,23 +374,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 43,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Faire",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 72,
+"raw": 73,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Checkr",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 38,
+"raw": 36,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Amplitude",
@@ -404,33 +404,33 @@ window.JOB_RADAR_DATA = {
 "company": "Mixpanel",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 39,
+"raw": 40,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Asana",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 114,
+"raw": 112,
 "error": null,
-"secs": 0.4
+"secs": 0.6
 },
 {
 "company": "Box",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 130,
+"raw": 128,
 "error": null,
-"secs": 0.5
+"secs": 0.8
 },
 {
 "company": "Waymo",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 372,
+"raw": 364,
 "error": null,
-"secs": 2.0
+"secs": 1.9
 },
 {
 "company": "Notion",
@@ -438,7 +438,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 169,
 "error": null,
-"secs": 0.9
+"secs": 2.3
 },
 {
 "company": "Airtable",
@@ -446,47 +446,47 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 11,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Webflow",
 "ats": "ashby",
 "status": "ok",
-"raw": 31,
+"raw": 30,
 "error": null,
-"secs": 0.7
+"secs": 1.2
 },
 {
 "company": "Calendly",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 5,
+"raw": 4,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Mercury",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 72,
+"raw": 71,
 "error": null,
-"secs": 0.7
+"secs": 1.0
 },
 {
 "company": "Vercel",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 87,
+"raw": 85,
 "error": null,
-"secs": 0.7
+"secs": 0.9
 },
 {
 "company": "GitLab",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 248,
+"raw": 246,
 "error": null,
-"secs": 2.4
+"secs": 5.0
 },
 {
 "company": "Lattice",
@@ -500,33 +500,33 @@ window.JOB_RADAR_DATA = {
 "company": "Benchling",
 "ats": "ashby",
 "status": "ok",
-"raw": 58,
+"raw": 60,
 "error": null,
-"secs": 1.4
+"secs": 1.1
 },
 {
 "company": "Verkada",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 348,
+"raw": 349,
 "error": null,
-"secs": 2.5
+"secs": 1.7
 },
 {
 "company": "Flexport",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 207,
+"raw": 214,
 "error": null,
-"secs": 1.8
+"secs": 1.3
 },
 {
 "company": "Sweetgreen",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 74,
+"raw": 73,
 "error": null,
-"secs": 1.3
+"secs": 0.9
 },
 {
 "company": "Glossier",
@@ -542,7 +542,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 24,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "Stitch Fix",
@@ -550,15 +550,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 12,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "StockX",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 37,
+"raw": 29,
 "error": null,
-"secs": 0.7
+"secs": 0.4
 },
 {
 "company": "Cockroach Labs",
@@ -566,15 +566,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 12,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Fivetran",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 187,
+"raw": 193,
 "error": null,
-"secs": 1.6
+"secs": 1.1
 },
 {
 "company": "Forter",
@@ -588,25 +588,25 @@ window.JOB_RADAR_DATA = {
 "company": "Clear Street",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 38,
+"raw": 34,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Hudson River Trading",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 87,
+"raw": 86,
 "error": null,
-"secs": 0.8
+"secs": 0.3
 },
 {
 "company": "Jane Street",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 215,
+"raw": 216,
 "error": null,
-"secs": 0.8
+"secs": 0.3
 },
 {
 "company": "Point72",
@@ -620,25 +620,25 @@ window.JOB_RADAR_DATA = {
 "company": "SpaceX",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2772,
+"raw": 2795,
 "error": null,
-"secs": 4.5
+"secs": 9.7
 },
 {
 "company": "Anduril",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2620,
+"raw": 2643,
 "error": null,
-"secs": 6.2
+"secs": 10.4
 },
 {
 "company": "The New York Times",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 145,
+"raw": 140,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Roblox",
@@ -646,37 +646,37 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 266,
 "error": null,
-"secs": 0.9
+"secs": 1.0
 },
 {
 "company": "Elastic",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 372,
+"raw": 383,
 "error": null,
-"secs": 2.0
+"secs": 2.4
 },
 {
 "company": "Snyk",
 "ats": "ashby",
 "status": "ok",
-"raw": 39,
+"raw": 38,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "1Password",
 "ats": "ashby",
 "status": "ok",
-"raw": 79,
+"raw": 81,
 "error": null,
-"secs": 0.7
+"secs": 0.9
 },
 {
 "company": "Doximity",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 11,
+"raw": 10,
 "error": null,
 "secs": 0.1
 },
@@ -684,25 +684,25 @@ window.JOB_RADAR_DATA = {
 "company": "WHOOP",
 "ats": "ashby",
 "status": "ok",
-"raw": 109,
+"raw": 112,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Oura",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 99,
+"raw": 96,
 "error": null,
-"secs": 0.7
+"secs": 0.5
 },
 {
 "company": "Compass",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 166,
+"raw": 172,
 "error": null,
-"secs": 0.9
+"secs": 0.7
 },
 {
 "company": "BetterUp",
@@ -732,9 +732,9 @@ window.JOB_RADAR_DATA = {
 "company": "Intercom",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 118,
+"raw": 120,
 "error": null,
-"secs": 0.7
+"secs": 0.5
 },
 {
 "company": "Sentry",
@@ -742,7 +742,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "PagerDuty",
@@ -750,23 +750,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 47,
 "error": null,
-"secs": 0.6
+"secs": 0.3
 },
 {
 "company": "Snowflake",
 "ats": "ashby",
 "status": "ok",
-"raw": 378,
+"raw": 372,
 "error": null,
-"secs": 1.1
+"secs": 0.8
 },
 {
 "company": "Palantir",
 "ats": "lever",
 "status": "ok",
-"raw": 307,
+"raw": 308,
 "error": null,
-"secs": 0.8
+"secs": 0.6
 },
 {
 "company": "Flock Safety",
@@ -780,9 +780,9 @@ window.JOB_RADAR_DATA = {
 "company": "Ramp",
 "ats": "ashby",
 "status": "ok",
-"raw": 183,
+"raw": 185,
 "error": null,
-"secs": 0.5
+"secs": 0.6
 },
 {
 "company": "Linear",
@@ -790,23 +790,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 32,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Vanta",
 "ats": "ashby",
 "status": "ok",
-"raw": 73,
+"raw": 69,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Cursor (Anysphere)",
 "ats": "ashby",
 "status": "ok",
-"raw": 90,
+"raw": 88,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Perplexity",
@@ -814,15 +814,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 148,
 "error": null,
-"secs": 0.7
+"secs": 0.6
 },
 {
 "company": "ElevenLabs",
 "ats": "ashby",
 "status": "ok",
-"raw": 128,
+"raw": 124,
 "error": null,
-"secs": 0.5
+"secs": 0.8
 },
 {
 "company": "Replit",
@@ -836,9 +836,9 @@ window.JOB_RADAR_DATA = {
 "company": "Supabase",
 "ats": "ashby",
 "status": "ok",
-"raw": 78,
+"raw": 80,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "PostHog",
@@ -846,21 +846,21 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 9,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Modal",
 "ats": "ashby",
 "status": "ok",
-"raw": 51,
+"raw": 52,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Hex",
 "ats": "ashby",
 "status": "ok",
-"raw": 41,
+"raw": 42,
 "error": null,
 "secs": 0.2
 },
@@ -868,17 +868,17 @@ window.JOB_RADAR_DATA = {
 "company": "Sierra",
 "ats": "ashby",
 "status": "ok",
-"raw": 195,
+"raw": 194,
 "error": null,
-"secs": 0.8
+"secs": 1.2
 },
 {
 "company": "Harvey",
 "ats": "ashby",
 "status": "ok",
-"raw": 393,
+"raw": 387,
 "error": null,
-"secs": 0.9
+"secs": 2.3
 },
 {
 "company": "Cohere",
@@ -886,7 +886,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 125,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Writer",
@@ -894,7 +894,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 46,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Hebbia",
@@ -902,7 +902,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Runway",
@@ -918,7 +918,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 128,
 "error": null,
-"secs": 0.5
+"secs": 0.8
 },
 {
 "company": "Quora",
@@ -926,23 +926,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 8,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Attentive",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 30,
+"raw": 29,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Zoox",
 "ats": "lever",
 "status": "ok",
-"raw": 248,
+"raw": 246,
 "error": null,
-"secs": 8.5
+"secs": 0.5
 },
 {
 "company": "Nuro",
@@ -950,7 +950,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 103,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Wealthfront",
@@ -958,39 +958,39 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Gong",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 87,
+"raw": 84,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Strava",
 "ats": "ashby",
 "status": "ok",
-"raw": 23,
+"raw": 22,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Block",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 186,
+"raw": 185,
 "error": null,
-"secs": 0.6
+"secs": 2.7
 },
 {
 "company": "Spotify",
 "ats": "lever",
 "status": "ok",
-"raw": 92,
+"raw": 89,
 "error": null,
-"secs": 0.7
+"secs": 5.7
 },
 {
 "company": "Twitch",
@@ -998,7 +998,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 52,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Via",
@@ -1006,31 +1006,31 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 173,
 "error": null,
-"secs": 0.3
+"secs": 1.4
 },
 {
 "company": "Angi",
 "ats": "ashby",
 "status": "ok",
-"raw": 25,
+"raw": 26,
 "error": null,
-"secs": 0.1
+"secs": 0.5
 },
 {
 "company": "Rubrik",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 202,
+"raw": 207,
 "error": null,
-"secs": 0.5
+"secs": 2.6
 },
 {
 "company": "Wiz",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 107,
+"raw": 108,
 "error": null,
-"secs": 0.2
+"secs": 1.2
 },
 {
 "company": "Alloy",
@@ -1038,23 +1038,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 33,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Olo",
 "ats": "lever",
 "status": "ok",
-"raw": 15,
+"raw": 14,
 "error": null,
-"secs": 2.4
+"secs": 0.5
 },
 {
 "company": "Yext",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 30,
+"raw": 29,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Taboola",
@@ -1062,7 +1062,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 58,
 "error": null,
-"secs": 0.2
+"secs": 0.9
 },
 {
 "company": "Maven Clinic",
@@ -1070,23 +1070,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 33,
 "error": null,
-"secs": 0.2
+"secs": 0.7
 },
 {
 "company": "Headway",
 "ats": "ashby",
 "status": "ok",
-"raw": 93,
+"raw": 94,
 "error": null,
-"secs": 0.3
+"secs": 1.2
 },
 {
 "company": "Alma",
 "ats": "ashby",
 "status": "ok",
-"raw": 26,
+"raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Capsule",
@@ -1100,9 +1100,9 @@ window.JOB_RADAR_DATA = {
 "company": "Lemonade",
 "ats": "ashby",
 "status": "ok",
-"raw": 41,
+"raw": 42,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Current",
@@ -1118,7 +1118,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Kalshi",
@@ -1126,7 +1126,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 41,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Polymarket",
@@ -1134,39 +1134,39 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 33,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Zip",
 "ats": "ashby",
 "status": "ok",
-"raw": 104,
+"raw": 107,
 "error": null,
-"secs": 0.1
+"secs": 1.1
 },
 {
 "company": "Navan",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 235,
+"raw": 237,
 "error": null,
-"secs": 0.3
+"secs": 1.9
 },
 {
 "company": "Komodo Health",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 18,
+"raw": 19,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Rho",
 "ats": "ashby",
 "status": "ok",
-"raw": 46,
+"raw": 48,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Payoneer",
@@ -1174,15 +1174,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.2
+"secs": 1.4
 },
 {
 "company": "Ridgeline",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 31,
+"raw": 30,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Figure",
@@ -1190,7 +1190,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.1
+"secs": 0.5
 },
 {
 "company": "Public",
@@ -1198,15 +1198,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Salesforce",
 "ats": "workday",
 "status": "ok",
-"raw": 5,
+"raw": 6,
 "error": null,
-"secs": 46.8
+"secs": 10.5
 },
 {
 "company": "Adobe",
@@ -1214,15 +1214,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 24.6
+"secs": 25.0
 },
 {
 "company": "NVIDIA",
 "ats": "workday",
 "status": "ok",
-"raw": 47,
+"raw": 50,
 "error": null,
-"secs": 51.0
+"secs": 58.1
 },
 {
 "company": "PayPal",
@@ -1230,23 +1230,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 50.4
+"secs": 73.2
 },
 {
 "company": "Capital One",
 "ats": "workday",
 "status": "ok",
-"raw": 209,
+"raw": 218,
 "error": null,
-"secs": 345.7
+"secs": 320.0
 },
 {
 "company": "Mastercard",
 "ats": "workday",
 "status": "ok",
-"raw": 4,
+"raw": 2,
 "error": null,
-"secs": 38.3
+"secs": 80.3
 },
 {
 "company": "Disney",
@@ -1254,15 +1254,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 27.0
+"secs": 12.3
 },
 {
 "company": "Warner Bros. Discovery",
 "ats": "workday",
 "status": "ok",
-"raw": 5,
+"raw": 4,
 "error": null,
-"secs": 58.3
+"secs": 78.2
 },
 {
 "company": "Autodesk",
@@ -1270,15 +1270,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 53.1
+"secs": 61.4
 },
 {
 "company": "Workday",
 "ats": "workday",
 "status": "ok",
-"raw": 22,
+"raw": 20,
 "error": null,
-"secs": 100.3
+"secs": 55.2
 },
 {
 "company": "Zillow",
@@ -1286,15 +1286,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 98.6
+"secs": 93.9
 },
 {
 "company": "BlackRock",
 "ats": "workday",
 "status": "ok",
-"raw": 12,
+"raw": 13,
 "error": null,
-"secs": 97.3
+"secs": 62.8
 },
 {
 "company": "Netflix",
@@ -1302,7 +1302,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 3.5
+"secs": 7.0
 },
 {
 "company": "Amazon",
@@ -1310,15 +1310,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 3600,
 "error": null,
-"secs": 22.3
+"secs": 23.1
 },
 {
 "company": "Google",
 "ats": "google",
 "status": "ok",
-"raw": 159,
+"raw": 149,
 "error": null,
-"secs": 124.4
+"secs": 115.6
 }
 ],
 "companies_tracked": 163
@@ -1403,44 +1403,42 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "bfbc7461a1f9",
-"title": "Product Manager, Legal",
-"company": "Perplexity",
-"url": "https://jobs.ashbyhq.com/Perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a",
-"source": "ashby",
+"id": "12c9b054a67a",
+"title": "Product Manager",
+"company": "Peloton",
+"url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8399956",
+"source": "greenhouse",
 "locations": [
-"New York City",
-"San Francisco",
-"San Francisco, California"
+"Headquarters - NY",
+"New York, New York"
 ],
-"primary_location": "New York City",
+"primary_location": "New York, New York",
 "buckets": [
-"bay",
 "nyc"
 ],
 "role": "pm",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 250000,
-"max": 340000,
-"source": "structured",
+"min": 140400,
+"max": 166100,
+"source": "parsed",
 "all": [
 [
-250000,
-340000
+140400,
+166100
 ]
 ]
 },
-"years_min": 1,
-"posted": "2026-11-12",
-"snippet": "In 2026, we launched Computer, the defining product for the new era of agentic AI. We’ve scaled beyond the millions of people using Perplexity every day for research, shopping, investing, and curiosity into a new paradigm of using AI to transform knowledge into action. Thousands of attorneys, Am Law firms, and corporate legal teams already rely on Perplexity every week—and Legal is one of our highest-conviction enter",
+"years_min": 2,
+"posted": "2026-11-19",
+"snippet": "ABOUT THE ROLE Peloton is looking for a skilled Product Manager to take ownership of our proprietary library management and content production software – tools essential for supporting Peloton’s core business of delivering fitness content and software features. In this IC (Individual Contributor) role, you will lead projects that expand our content and product portfolio and will be responsible for ensuring software i",
 "tags": [
-"ai"
+"consumer"
 ],
 "score": 86,
-"first_seen": "2026-11-14",
-"is_new": false
+"first_seen": "2026-11-20",
+"is_new": true
 },
 {
 "id": "46ac4eae5995",
@@ -1600,6 +1598,46 @@ window.JOB_RADAR_DATA = {
 "is_new": true
 },
 {
+"id": "bfbc7461a1f9",
+"title": "Product Manager, Legal",
+"company": "Perplexity",
+"url": "https://jobs.ashbyhq.com/Perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a",
+"source": "ashby",
+"locations": [
+"New York City",
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "New York City",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 250000,
+"max": 320000,
+"source": "structured",
+"all": [
+[
+250000,
+320000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-11-12",
+"snippet": "In 2026, we launched Computer, the defining product for the new era of agentic AI. We’ve scaled beyond the millions of people using Perplexity every day for research, shopping, investing, and curiosity into a new paradigm of using AI to transform knowledge into action. Thousands of attorneys, Am Law firms, and corporate legal teams already rely on Perplexity every week—and Legal is one of our highest-conviction enter",
+"tags": [
+"ai"
+],
+"score": 81,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "69c91c6f5cd5",
 "title": "Product Manager: New Grad Accelerator",
 "company": "Stripe",
@@ -1631,100 +1669,6 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 80,
 "first_seen": "2026-11-15",
-"is_new": false
-},
-{
-"id": "d14afedacadc",
-"title": "Senior Associate, Product Manager-Small Business Bank Associate Servicing",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager-Small-Business-Bank-Associate-Servicing_R1004284",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-12",
-"snippet": "Senior Associate, Product Manager-Small Business Bank Associate Servicing Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale,",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "943d175b9532",
-"title": "Senior Associate, Product Manager",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager_R1003908-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-12",
-"snippet": "Senior Associate, Product Manager Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-14",
 "is_new": false
 },
 {
@@ -1918,7 +1862,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 80,
 "first_seen": "2026-11-17",
-"is_new": true
+"is_new": false
 },
 {
 "id": "cc93e65d2d5e",
@@ -2007,6 +1951,147 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 80,
 "first_seen": "2026-11-18",
+"is_new": true
+},
+{
+"id": "f8fafa3a99c3",
+"title": "Senior Associate, Product Manager - Upmarket",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager---Upmarket_R1006232-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+111200,
+126900
+],
+[
+121300,
+138400
+],
+[
+101100,
+115400
+]
+]
+},
+"years_min": 1,
+"posted": "2026-11-19",
+"snippet": "Senior Associate, Product Manager - Upmarket Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, ca",
+"tags": [
+"fintech"
+],
+"score": 80,
+"first_seen": "2026-11-20",
+"is_new": true
+},
+{
+"id": "57e1cbffbb7f",
+"title": "Senior Associate, Product Management, Insourcing Data Product Team",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Management--Insourcing-Data-Product-Team_R1006086-1",
+"source": "workday",
+"locations": [
+"Chicago, IL",
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+101100,
+115400
+],
+[
+111200,
+126900
+],
+[
+121300,
+138400
+],
+[
+101100,
+115400
+]
+]
+},
+"years_min": 1,
+"posted": "2026-11-20",
+"snippet": "Senior Associate, Product Management, Insourcing Data Product Team Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company wit",
+"tags": [
+"fintech"
+],
+"score": 80,
+"first_seen": "2026-11-20",
+"is_new": true
+},
+{
+"id": "ac6d6af7e596",
+"title": "Senior Associate Product Manager, Retail Bank Data",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate-Product-Manager--Retail-Bank-Data_R1006146-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+111200,
+126900
+],
+[
+121300,
+138400
+]
+]
+},
+"years_min": 1,
+"posted": "2026-11-20",
+"snippet": "Senior Associate Product Manager, Retail Bank Data Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, t",
+"tags": [
+"fintech"
+],
+"score": 80,
+"first_seen": "2026-11-20",
 "is_new": true
 },
 {
@@ -2247,43 +2332,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "bb712990ffd6",
-"title": "Manager, Corporate Development",
-"company": "Mastercard",
-"url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Purchase-New-York/Manager--Corporate-Development_R-290900",
-"source": "workday",
-"locations": [
-"Purchase, New York"
-],
-"primary_location": "Purchase, New York",
-"buckets": [
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 137000,
-"max": 218000,
-"source": "parsed",
-"all": [
-[
-137000,
-218000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-13",
-"snippet": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and ",
-"tags": [
-"fintech"
-],
-"score": 79,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "04b2915561db",
 "title": "GTM Strategy & Operations - Strategic Planning",
 "company": "Anthropic",
@@ -2321,100 +2369,6 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 79,
 "first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "b65b155e16be",
-"title": "Manager, Product Management - CreditWise",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---CreditWise_R1000715",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-12",
-"snippet": "Manager, Product Management - CreditWise At CreditWise we're on a mission to build an intelligent financial co-pilot that empowers everyone in America to take charge of their finances. As part of that mission, our platform team will be building the important foundation of this experience. You will ensure features can be delivered rapidly, consistently, and resiliently across every destination channel. You will own th",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "980e0a240fa0",
-"title": "Manager, Product Manager, Small Business Bank",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager--Small-Business-Bank_R1005923",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-16",
-"snippet": "Manager, Product Manager, Small Business Bank Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
 "is_new": false
 },
 {
@@ -2596,6 +2550,90 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "d37097ca511a",
+"title": "Business Manager, Marketing, Analytics & Product Strategy",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Business-Manager--Marketing--Analytics---Product-Strategy_R1000962",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 179700,
+"max": 205100,
+"source": "parsed",
+"all": [
+[
+164800,
+188100
+],
+[
+179700,
+205100
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-20",
+"snippet": "Business Manager, Marketing, Analytics & Product Strategy Marketing, Analytics & Product Strategy (MAPS) delivers intelligent marketing and innovative product strategies to fund the Enterprise and fuel the Retail Bank’s growth, customer engagement and retention. As a Business Analysis Manager at Capital One, you will apply your strategic and analytical skills to major company challenges. You'll team with world-class ",
+"tags": [
+"fintech"
+],
+"score": 78,
+"first_seen": "2026-11-20",
+"is_new": true
+},
+{
+"id": "87b8c05e158b",
+"title": "Manager, Product Management - Account Opening Decisioning",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---Account-Opening-Decisioning_R1003755-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 179700,
+"max": 205100,
+"source": "parsed",
+"all": [
+[
+164800,
+188100
+],
+[
+179700,
+205100
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-20",
+"snippet": "Manager, Product Management - Account Opening Decisioning Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabili",
+"tags": [
+"fintech"
+],
+"score": 78,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "e983babd18a5",
 "title": "Product Manager I, YouTube Premium Member Experience",
 "company": "YouTube",
@@ -2703,47 +2741,6 @@ window.JOB_RADAR_DATA = {
 "snippet": "Hudson River Trading (HRT) is seeking a Corporate Development Associate to join our Corporate Finance Team in New York! We’re looking for someone with an interest in capital markets, financial analysis, financial technology, and strategy to join our team. You will work closely with teams across HRT to analyze business opportunities, improve processes, and also interact with external parties. A core component of this ",
 "tags": [
 "finance"
-],
-"score": 76,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "d94657dfc196",
-"title": "Product Manager | Procurement",
-"company": "Ramp",
-"url": "https://jobs.ashbyhq.com/ramp/3f4509ad-1858-478b-a7fb-bcd792d9575a",
-"source": "ashby",
-"locations": [
-"New York City, NY",
-"New York, NY (HQ)",
-"San Francisco, CA"
-],
-"primary_location": "New York, NY (HQ)",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 230000,
-"max": 325000,
-"source": "structured",
-"all": [
-[
-230000,
-325000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-05",
-"snippet": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look f",
-"tags": [
-"fintech"
 ],
 "score": 76,
 "first_seen": "2026-11-14",
@@ -2872,45 +2869,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "e00270d344ef",
-"title": "Product Manager, AI Foundations",
-"company": "Reddit",
-"url": "https://job-boards.greenhouse.io/reddit/jobs/8367400",
-"source": "greenhouse",
-"locations": [
-"Remote - United States",
-"San Francisco"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 260800,
-"max": 365100,
-"source": "parsed",
-"all": [
-[
-260800,
-365100
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-12",
-"snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info",
-"tags": [
-"consumer"
-],
-"score": 76,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "3a4a4cd384c1",
 "title": "Technical Product Manager, GRC Systems",
 "company": "OpenAI",
@@ -2984,6 +2942,45 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 76,
 "first_seen": "2026-11-19",
+"is_new": true
+},
+{
+"id": "2b45ba2213d6",
+"title": "Product Manager, Native Learning and Credentials",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/43d75302-2eef-46b6-b991-611e705f9fb1",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 347000,
+"max": 445000,
+"source": "structured",
+"all": [
+[
+347000,
+445000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-20",
+"snippet": "About the Team Customer Education helps customers build the practical skills and confidence to use AI and OpenAI products safely and effectively. We bring together customer insight, learning and enablement expertise, product signals, and measurement to help organizations move from access to durable adoption. We are exploring how learning, practice, assessment, and evidence of capability can become part of the product",
+"tags": [
+"ai"
+],
+"score": 76,
+"first_seen": "2026-11-20",
 "is_new": true
 },
 {
@@ -3120,6 +3117,100 @@ window.JOB_RADAR_DATA = {
 "years_min": 1,
 "posted": "2026-11-09",
 "snippet": "Senior Associate, Product Management - Secured Card Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, br",
+"tags": [
+"fintech"
+],
+"score": 75,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "d14afedacadc",
+"title": "Senior Associate, Product Manager-Small Business Bank Associate Servicing",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager-Small-Business-Bank-Associate-Servicing_R1004284",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+111200,
+126900
+],
+[
+121300,
+138400
+],
+[
+101100,
+115400
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-12",
+"snippet": "Senior Associate, Product Manager-Small Business Bank Associate Servicing Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale,",
+"tags": [
+"fintech"
+],
+"score": 75,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "943d175b9532",
+"title": "Senior Associate, Product Manager",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager_R1003908-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+111200,
+126900
+],
+[
+121300,
+138400
+],
+[
+101100,
+115400
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-12",
+"snippet": "Senior Associate, Product Manager Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values",
 "tags": [
 "fintech"
 ],
@@ -3324,45 +3415,6 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 74,
 "first_seen": "2026-11-19",
-"is_new": true
-},
-{
-"id": "6eb393269bbd",
-"title": "GTM Strategy & Operations, Strategic Programs",
-"company": "OpenAI",
-"url": "https://jobs.ashbyhq.com/openai/513e213c-2cb1-40d2-950d-3919ff5a68b5",
-"source": "ashby",
-"locations": [
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 239000,
-"max": 265000,
-"source": "structured",
-"all": [
-[
-239000,
-265000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-18",
-"snippet": "About the Team At OpenAI, we are building AI systems that expand human capability and transform how work gets done. Our Go-To-Market (GTM) organization brings these capabilities to customers by driving adoption, usage, and long-term value. We are hiring a GTM Strategy & Operations, Strategic Programs lead to help drive OpenAI's highest-priority GTM programs from strategy through execution. This role sits at the cente",
-"tags": [
-"ai"
-],
-"score": 74,
-"first_seen": "2026-11-18",
 "is_new": true
 },
 {
@@ -3880,48 +3932,6 @@ window.JOB_RADAR_DATA = {
 "years_min": 3,
 "posted": "2026-10-19",
 "snippet": "Manager, Product Management, Card Data Manager, Product Management (PXDP50) Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scal",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "87b8c05e158b",
-"title": "Manager, Product Management - Account Opening Decisioning",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---Account-Opening-Decisioning_R1003755-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-19",
-"snippet": "Manager, Product Management - Account Opening Decisioning Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabili",
 "tags": [
 "fintech"
 ],
@@ -4555,58 +4565,6 @@ window.JOB_RADAR_DATA = {
 "years_min": 3,
 "posted": "2026-10-29",
 "snippet": "Manager Product Management - Collections & Recoveries Platform, Offers, Integration, and Experience Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "e5fb75f8715c",
-"title": "Manager, Product Manager - Case Servicing",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager---Case-Servicing_R247126-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-29",
-"snippet": "Manager, Product Manager - Case Servicing Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, an",
 "tags": [
 "fintech"
 ],
@@ -5546,6 +5504,53 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "980e0a240fa0",
+"title": "Manager, Product Manager-Small Business Bank",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Manager--Product-Manager-Small-Business-Bank_R1000555-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 179700,
+"max": 205100,
+"source": "parsed",
+"all": [
+[
+164800,
+188100
+],
+[
+179700,
+205100
+],
+[
+149800,
+171000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-10",
+"snippet": "Manager, Product Manager-Small Business Bank Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent,",
+"tags": [
+"fintech"
+],
+"score": 73,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "79817f943723",
 "title": "Manager, Product Management, Enterprise Data Publishing & Modernization",
 "company": "Capital One",
@@ -5632,6 +5637,53 @@ window.JOB_RADAR_DATA = {
 "years_min": 4,
 "posted": "2026-11-10",
 "snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
+"tags": [
+"fintech"
+],
+"score": 73,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "b65b155e16be",
+"title": "Manager, Product Management - CreditWise",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---CreditWise_R1000715",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 179700,
+"max": 205100,
+"source": "parsed",
+"all": [
+[
+164800,
+188100
+],
+[
+179700,
+205100
+],
+[
+149800,
+171000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-12",
+"snippet": "Manager, Product Management - CreditWise At CreditWise we're on a mission to build an intelligent financial co-pilot that empowers everyone in America to take charge of their finances. As part of that mission, our platform team will be building the important foundation of this experience. You will ensure features can be delivered rapidly, consistently, and resiliently across every destination channel. You will own th",
 "tags": [
 "fintech"
 ],
@@ -5798,45 +5850,6 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 71,
 "first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "e4b6f7d4d088",
-"title": "Product Activation Manager, YouTube Go-To-Market Strategy and Operations",
-"company": "YouTube",
-"url": "https://www.google.com/about/careers/applications/jobs/results/83279596580938438-product-activation-manager-youtube-gotomarket-strategy-and-operations",
-"source": "google",
-"locations": [
-"New York, NY, USA",
-"San Bruno, CA, USA"
-],
-"primary_location": "New York, NY, USA",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 124000,
-"max": 177000,
-"source": "parsed",
-"all": [
-[
-124000,
-177000
-]
-]
-},
-"years_min": 4,
-"posted": null,
-"snippet": "ation from the following: New York, NY, USA; San Bruno, CA, USA . Minimum qualifications: Bachelor's degree or equivalent practical experience. 4 years of experience in a management consulting, sales operations, business strategy or corporate advisory role. 3 years of experience in a strategy and operations or consulting role. 3 years of experience working with executive stakeholders. Preferred qualifications: Knowle",
-"tags": [
-"bigtech"
-],
-"score": 71,
-"first_seen": "2026-11-14",
 "is_new": false
 },
 {
@@ -6063,6 +6076,47 @@ window.JOB_RADAR_DATA = {
 "snippet": "What you’ll do Understand the needs of the teams that use our platforms and the customers who depend on them. Use product data, operational feedback, and recurring quality issues to identify the highest-impact problems, and then solve them. Turn recurring needs into shared services, tools, and workflows that reduce duplicated work. Exercise judgment about when to build a reusable capability, use an existing solution,",
 "tags": [
 "ai"
+],
+"score": 71,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "d94657dfc196",
+"title": "Product Manager | Procurement",
+"company": "Ramp",
+"url": "https://jobs.ashbyhq.com/ramp/3f4509ad-1858-478b-a7fb-bcd792d9575a",
+"source": "ashby",
+"locations": [
+"New York City, NY",
+"New York, NY (HQ)",
+"San Francisco, CA"
+],
+"primary_location": "New York, NY (HQ)",
+"buckets": [
+"bay",
+"nyc",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 230000,
+"max": 325000,
+"source": "structured",
+"all": [
+[
+230000,
+325000
+]
+]
+},
+"years_min": null,
+"posted": "2026-10-05",
+"snippet": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look f",
+"tags": [
+"fintech"
 ],
 "score": 71,
 "first_seen": "2026-11-14",
@@ -6470,49 +6524,41 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "02331fd03cac",
-"title": "Senior Associate, Product Manager- Airport Lounges",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Product-Associate--Airport-Lounges_R1000711-1",
-"source": "workday",
+"id": "e00270d344ef",
+"title": "Product Manager, AI Foundations",
+"company": "Reddit",
+"url": "https://job-boards.greenhouse.io/reddit/jobs/8367400",
+"source": "greenhouse",
 "locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY"
+"Remote - United States",
+"San Francisco"
 ],
-"primary_location": "New York, NY",
+"primary_location": "San Francisco",
 "buckets": [
-"nyc"
+"bay",
+"remote"
 ],
 "role": "pm",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 121300,
-"max": 138400,
+"min": 260800,
+"max": 365100,
 "source": "parsed",
 "all": [
 [
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
+260800,
+365100
 ]
 ]
 },
-"years_min": 1,
-"posted": "2026-09-24",
-"snippet": "Senior Associate, Product Manager- Airport Lounges Product Management The Airport Lounge Digital Product team is hiring a Senior Associate level product manager for a backend tech team with the responsibility of delivering critical pieces of backend technology to power the frontend digital lounge experiences. We are looking for an experienced Product Manager who has delivered full-stack features and influenced across",
+"years_min": null,
+"posted": "2026-11-12",
+"snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info",
 "tags": [
-"fintech"
+"consumer"
 ],
-"score": 70,
+"score": 71,
 "first_seen": "2026-11-14",
 "is_new": false
 },
@@ -6571,43 +6617,6 @@ window.JOB_RADAR_DATA = {
 "snippet": "Senior Associate, Product Manager - Card Team Senior Associate, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We have multiple openings across our specialized Card teams . While each team has a unique focus, they all share a ",
 "tags": [
 "fintech"
-],
-"score": 70,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "5dab9412d331",
-"title": "Product Manager, Ecosystem Relevance",
-"company": "Reddit",
-"url": "https://job-boards.greenhouse.io/reddit/jobs/8148055",
-"source": "greenhouse",
-"locations": [
-"Remote - United States"
-],
-"primary_location": "Remote - United States",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 232500,
-"max": 325500,
-"source": "parsed",
-"all": [
-[
-232500,
-325500
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-12",
-"snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info",
-"tags": [
-"consumer"
 ],
 "score": 70,
 "first_seen": "2026-11-14",
@@ -6771,45 +6780,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "e4af16110de0",
-"title": "GTM Strategy & Operations, FDE",
-"company": "Anthropic",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5427938008",
-"source": "greenhouse",
-"locations": [
-"San Francisco, CA",
-"San Francisco, CA | New York City, NY"
-],
-"primary_location": "San Francisco, CA | New York City, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 270000,
-"max": 310000,
-"source": "parsed",
-"all": [
-[
-270000,
-310000
-]
-]
-},
-"years_min": null,
-"posted": "2026-09-30",
-"snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Forward Deployed Engineering (FDE) embeds with our most strategic c",
-"tags": [
-"ai"
-],
-"score": 69,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "eb01d92f5a95",
 "title": "Strategist, Agent Development - Travel, Transportation and Hospitality",
 "company": "Sierra",
@@ -6843,44 +6813,6 @@ window.JOB_RADAR_DATA = {
 "snippet": "About us Sierra is the leading platform for customer-facing AI agents, working with many of the world's biggest brands — including The GAP, Rocket Mortgage, SoFi, Sutter Health, and SoftBank — to transform how they serve customers and grow their businesses. We are primarily an in-person company based in San Francisco, with growing offices across North America, Europe, and Asia. We are guided by a set of values that a",
 "tags": [
 "ai"
-],
-"score": 69,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "f6f131367611",
-"title": "Strategic Finance Analyst",
-"company": "Datadog",
-"url": "https://careers.datadoghq.com/detail/8257306/?gh_jid=8257306",
-"source": "greenhouse",
-"locations": [
-"New York",
-"New York, New York, USA"
-],
-"primary_location": "New York, New York, USA",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 99000,
-"max": 132000,
-"source": "parsed",
-"all": [
-[
-99000,
-132000
-]
-]
-},
-"years_min": 2,
-"posted": "2026-10-06",
-"snippet": "About Datadog: Datadog is the essential monitoring and security platform for cloud applications. We bring together end-to-end traces, metrics, and logs to make your applications, infrastructure, and third-party services entirely observable. These capabilities help businesses secure their systems, avoid downtime, and ensure customers are getting the best user experience. The Team: Datadog's Finance team collaborates w",
-"tags": [
-"saas"
 ],
 "score": 69,
 "first_seen": "2026-11-14",
@@ -7010,10 +6942,11 @@ window.JOB_RADAR_DATA = {
 "id": "1c25c03445bc",
 "title": "Pricing & Monetization Associate",
 "company": "MongoDB",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=8372135",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8372137",
 "source": "greenhouse",
 "locations": [
-"New York City"
+"New York City",
+"Toronto"
 ],
 "primary_location": "New York City",
 "buckets": [
@@ -7023,13 +6956,13 @@ window.JOB_RADAR_DATA = {
 "seniority": "entry",
 "program": false,
 "salary": {
-"min": 84000,
-"max": 165000,
+"min": 101000,
+"max": 140000,
 "source": "parsed",
 "all": [
 [
-84000,
-165000
+101000,
+140000
 ]
 ]
 },
@@ -7193,53 +7126,6 @@ window.JOB_RADAR_DATA = {
 "years_min": 4,
 "posted": "2026-09-21",
 "snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortun",
-"tags": [
-"fintech"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "00ac843e8e17",
-"title": "Manager, Product Management - Card Site Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Manager--Product-Management---Card-Site-Team_R1001668-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-09-22",
-"snippet": "Manager, Product Management - Card Site Team Manager, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, ",
 "tags": [
 "fintech"
 ],
@@ -7585,41 +7471,6 @@ window.JOB_RADAR_DATA = {
 "years_min": 4,
 "posted": "2026-11-11",
 "snippet": "What is Kalshi? Kalshi has defined a new category: prediction markets. Kalshi allows people to trade on the outcome of any events and turn any question about the future into a financial asset. Kalshi fought for years and legalized prediction markets in the US for the first time in history, is currently the fastest growing financial market in America, and has thousands of markets across politics, economics, financials",
-"tags": [
-"fintech"
-],
-"score": 67,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "a4e4d9a2cdc3",
-"title": "Product Manager, Consumer Bank Network",
-"company": "Stripe",
-"url": "https://stripe.com/jobs/search?gh_jid=8384438",
-"source": "greenhouse",
-"locations": [
-"SF, SEA, NYC, Chicago, Toronto",
-"US"
-],
-"primary_location": "SF, SEA, NYC, Chicago, Toronto",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": null,
-"posted": "2026-11-12",
-"snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world’s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity ",
 "tags": [
 "fintech"
 ],
@@ -8047,6 +7898,43 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "5dab9412d331",
+"title": "Product Manager, Ecosystem Relevance",
+"company": "Reddit",
+"url": "https://job-boards.greenhouse.io/reddit/jobs/8148055",
+"source": "greenhouse",
+"locations": [
+"Remote - United States"
+],
+"primary_location": "Remote - United States",
+"buckets": [
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 232500,
+"max": 325500,
+"source": "parsed",
+"all": [
+[
+232500,
+325500
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-12",
+"snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info",
+"tags": [
+"consumer"
+],
+"score": 65,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "76ad565fe340",
 "title": "Corporate Development Manager",
 "company": "Zillow",
@@ -8122,7 +8010,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 65,
 "first_seen": "2026-11-17",
-"is_new": true
+"is_new": false
 },
 {
 "id": "90874550ed98",
@@ -8240,10 +8128,10 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "85c843a1e80d",
+"id": "59f918b9293d",
 "title": "Strategic Finance Associate, GTM",
 "company": "Mixpanel",
-"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075971",
+"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075972",
 "source": "greenhouse",
 "locations": [
 "New York City",
@@ -8251,7 +8139,7 @@ window.JOB_RADAR_DATA = {
 "San Francisco",
 "San Francisco, US (Hybrid)"
 ],
-"primary_location": "New York City",
+"primary_location": "New York City, US (Hybrid)",
 "buckets": [
 "bay",
 "nyc"
@@ -8362,46 +8250,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "cff946756f93",
-"title": "Product Manager, Ad Formats",
-"company": "Instacart",
-"url": "https://instacart.careers/job/?gh_jid=8281407",
-"source": "greenhouse",
-"locations": [
-"Canada - Remote (ON, AB, BC, or NS Only)",
-"Remote - Canada",
-"Remote - United States"
-],
-"primary_location": "Remote - United States",
-"buckets": [
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 165000,
-"max": 174000,
-"source": "parsed",
-"all": [
-[
-165000,
-174000
-]
-]
-},
-"years_min": 4,
-"posted": "2026-10-14",
-"snippet": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to ",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 62,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "0166d0591a85",
 "title": "Product Manager, Ad Formats",
 "company": "Instacart",
@@ -8439,6 +8287,46 @@ window.JOB_RADAR_DATA = {
 [
 158000,
 166500
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-14",
+"snippet": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to ",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 62,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "cff946756f93",
+"title": "Product Manager, Ad Formats",
+"company": "Instacart",
+"url": "https://instacart.careers/job/?gh_jid=8281407",
+"source": "greenhouse",
+"locations": [
+"Canada - Remote (ON, AB, BC, or NS Only)",
+"Remote - Canada",
+"Remote - United States"
+],
+"primary_location": "Remote - United States",
+"buckets": [
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 165000,
+"max": 174000,
+"source": "parsed",
+"all": [
+[
+165000,
+174000
 ]
 ]
 },
@@ -8695,6 +8583,41 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "a4e4d9a2cdc3",
+"title": "Product Manager, Consumer Bank Network",
+"company": "Stripe",
+"url": "https://stripe.com/jobs/search?gh_jid=8384438",
+"source": "greenhouse",
+"locations": [
+"SF, SEA, NYC, Chicago, Toronto",
+"US"
+],
+"primary_location": "SF, SEA, NYC, Chicago, Toronto",
+"buckets": [
+"bay",
+"nyc",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": null,
+"max": null,
+"source": "none",
+"all": []
+},
+"years_min": null,
+"posted": "2026-11-12",
+"snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world’s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity ",
+"tags": [
+"fintech"
+],
+"score": 62,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "e181ac47d319",
 "title": "Corporate Finance and Systems",
 "company": "Hex",
@@ -8731,6 +8654,45 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 62,
 "first_seen": "2026-11-19",
+"is_new": true
+},
+{
+"id": "0e0d8f8d7eca",
+"title": "Certification Operations and Policy Program Manager",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/4311ea62-f628-4689-bec5-de886bb1f191",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 207000,
+"max": 230000,
+"source": "structured",
+"all": [
+[
+207000,
+230000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-19",
+"snippet": "About the Team Customer Education helps customers build the practical skills and confidence to use AI and OpenAI products safely and effectively. We bring together customer insight, learning and enablement expertise, product signals, and measurement to help organizations move from access to durable adoption. Within Customer Education, the Certification team helps individuals demonstrate competence for in-demand AI sk",
+"tags": [
+"ai"
+],
+"score": 62,
+"first_seen": "2026-11-20",
 "is_new": true
 },
 {
@@ -8993,7 +8955,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 59,
 "first_seen": "2026-11-17",
-"is_new": true
+"is_new": false
 },
 {
 "id": "20fd9957bd9a",
@@ -9297,12 +9259,12 @@ window.JOB_RADAR_DATA = {
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 180800,
+"min": 151200,
 "max": 226000,
 "source": "parsed",
 "all": [
 [
-180800,
+151200,
 226000
 ]
 ]
@@ -9467,45 +9429,6 @@ window.JOB_RADAR_DATA = {
 "snippet": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and dbt Labs are bringing",
 "tags": [
 "data"
-],
-"score": 59,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "3d33d1d71f18",
-"title": "Global Sales Program Manager (SMB Sales)",
-"company": "OpenAI",
-"url": "https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c",
-"source": "ashby",
-"locations": [
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 198000,
-"max": 220000,
-"source": "structured",
-"all": [
-[
-198000,
-220000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-12",
-"snippet": "About the Role We’re looking for a hands-on sales program manager to build and scale new revenue programs across OpenAI’s global SMB sales teams. Your first focus will be outbound: designing acquisition plays, launching pilots and turning what works into repeatable programs. You’ll combine sales judgment, program management and the ability to drive execution through other teams. Working closely with regional vendor m",
-"tags": [
-"ai"
 ],
 "score": 59,
 "first_seen": "2026-11-14",
@@ -9705,45 +9628,6 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 57,
 "first_seen": "2026-11-17",
-"is_new": true
-},
-{
-"id": "de18ecae904b",
-"title": "AI Partnerships Manager",
-"company": "Ramp",
-"url": "https://jobs.ashbyhq.com/ramp/cc0af88a-2a19-493d-93cf-c5090f986f1f",
-"source": "ashby",
-"locations": [
-"San Francisco, CA",
-"San Fransisco, California "
-],
-"primary_location": "San Francisco, CA",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 220000,
-"max": 330000,
-"source": "structured",
-"all": [
-[
-220000,
-330000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-06",
-"snippet": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look f",
-"tags": [
-"fintech"
-],
-"score": 57,
-"first_seen": "2026-11-14",
 "is_new": false
 },
 {
@@ -9861,7 +9745,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 57,
 "first_seen": "2026-11-17",
-"is_new": true
+"is_new": false
 },
 {
 "id": "703a9644c3b9",
@@ -10064,6 +9948,44 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "f6f67d6631e6",
+"title": "Revenue Operations Manager",
+"company": "GitLab",
+"url": "https://job-boards.greenhouse.io/gitlab/jobs/8945942002",
+"source": "greenhouse",
+"locations": [
+"Remote, United States",
+"United States of America"
+],
+"primary_location": "Remote, United States",
+"buckets": [
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 115200,
+"max": 194400,
+"source": "parsed",
+"all": [
+[
+115200,
+194400
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-19",
+"snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r",
+"tags": [
+"saas"
+],
+"score": 56,
+"first_seen": "2026-11-20",
+"is_new": true
+},
+{
 "id": "ae4a42ef6c73",
 "title": "Rotational Development Program",
 "company": "Flexport",
@@ -10258,7 +10180,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 55,
 "first_seen": "2026-11-17",
-"is_new": true
+"is_new": false
 },
 {
 "id": "60bdaa3764ea",
@@ -10454,42 +10376,41 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "cd13c59e1357",
-"title": "Senior Associate, Finance & Strategy - G&A, Legal",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8256078",
-"source": "greenhouse",
+"id": "3d33d1d71f18",
+"title": "Global Sales Program Manager (SMB Sales)",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/680833a1-01e4-4689-917c-71a4f00ff86c",
+"source": "ashby",
 "locations": [
-"San Francisco, CA",
-"San Francisco, CA; Los Angeles, CA; Seattle, WA; Tempe, AZ; Chicago, IL; New York, NY"
+"San Francisco",
+"San Francisco, California"
 ],
-"primary_location": "San Francisco, CA; Los Angeles, CA; Seattle, WA; Tempe, AZ; Chicago, IL; New York, NY",
+"primary_location": "San Francisco",
 "buckets": [
 "bay",
-"nyc"
+"remote"
 ],
 "role": "adjacent",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 104700,
-"max": 154000,
-"source": "parsed",
+"min": 198000,
+"max": 220000,
+"source": "structured",
 "all": [
 [
-104700,
-154000
+198000,
+220000
 ]
 ]
 },
-"years_min": 4,
-"posted": "2026-10-05",
-"snippet": "About the Team Within Finance & Strategy, the General & Administrative (G&A) Finance & Strategy team partners with leaders across DoorDash’s corporate functions to plan resources, track performance, and support investment decisions as the company grows. This role will be the primary finance partner to our Legal organization, including Litigation, Legal Operations, Corporate Legal, and Product Legal, and will help bui",
+"years_min": 3,
+"posted": "2026-11-12",
+"snippet": "About the Role We’re looking for a hands-on sales program manager to build and scale new revenue programs across OpenAI’s global SMB sales teams. Your first focus will be outbound: designing acquisition plays, launching pilots and turning what works into repeatable programs. You’ll combine sales judgment, program management and the ability to drive execution through other teams. Working closely with regional vendor m",
 "tags": [
-"consumer",
-"s&o"
+"ai"
 ],
-"score": 53,
+"score": 54,
 "first_seen": "2026-11-14",
 "is_new": false
 },
@@ -10534,10 +10455,10 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "81f060467d94",
+"id": "6958e7697389",
 "title": "Program Manager, AV Safety Policy & Programs",
 "company": "Lyft",
-"url": "https://app.careerpuck.com/job-board/lyft/job/8900191002?gh_jid=8900191002",
+"url": "https://app.careerpuck.com/job-board/lyft/job/8900349002?gh_jid=8900349002",
 "source": "greenhouse",
 "locations": [
 "New York Office",
@@ -10545,7 +10466,7 @@ window.JOB_RADAR_DATA = {
 "San Francisco Office",
 "San Francisco, CA"
 ],
-"primary_location": "New York Office",
+"primary_location": "New York, NY",
 "buckets": [
 "bay",
 "nyc"
@@ -10972,6 +10893,46 @@ window.JOB_RADAR_DATA = {
 "snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to",
 "tags": [
 "fintech"
+],
+"score": 48,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "cd13c59e1357",
+"title": "Senior Associate, Finance & Strategy - G&A, Legal",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8256078",
+"source": "greenhouse",
+"locations": [
+"San Francisco, CA",
+"San Francisco, CA; Los Angeles, CA; Seattle, WA; Tempe, AZ; Chicago, IL; New York, NY"
+],
+"primary_location": "San Francisco, CA; Los Angeles, CA; Seattle, WA; Tempe, AZ; Chicago, IL; New York, NY",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 104700,
+"max": 154000,
+"source": "parsed",
+"all": [
+[
+104700,
+154000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-05",
+"snippet": "About the Team Within Finance & Strategy, the General & Administrative (G&A) Finance & Strategy team partners with leaders across DoorDash’s corporate functions to plan resources, track performance, and support investment decisions as the company grows. This role will be the primary finance partner to our Legal organization, including Litigation, Legal Operations, Corporate Legal, and Product Legal, and will help bui",
+"tags": [
+"consumer",
+"s&o"
 ],
 "score": 48,
 "first_seen": "2026-11-14",
@@ -11539,6 +11500,44 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "7e00a8f883c6",
+"title": "Associate Insurance Product Manager, Car",
+"company": "Lemonade",
+"url": "https://jobs.ashbyhq.com/Lemonade/70be3cf8-107a-4352-bdbe-648de1040e33",
+"source": "ashby",
+"locations": [
+"Remote",
+"Remote, "
+],
+"primary_location": "Remote",
+"buckets": [
+"remote"
+],
+"role": "pm",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 85000,
+"max": 107500,
+"source": "parsed",
+"all": [
+[
+85000,
+107500
+]
+]
+},
+"years_min": 4,
+"posted": "2026-11-20",
+"snippet": "We're looking for an Associate Insurance Product Manager to help grow Lemonade Car into the most loved car insurance on the planet. You'll join the Insurance Product team at a pivotal moment — working closely with Actuarial and Underwriting experts to shape coverage, pricing, and the product roadmap that drives profitable, scalable growth. Your work sits at the intersection of data, regulation, and real customer impa",
+"tags": [
+"fintech"
+],
+"score": 43,
+"first_seen": "2026-11-20",
+"is_new": true
+},
+{
 "id": "b78fef147df3",
 "title": "Growth Manager, GEO / AEO",
 "company": "Supabase",
@@ -11646,6 +11645,39 @@ window.JOB_RADAR_DATA = {
 "score": 42,
 "first_seen": "2026-11-14",
 "is_new": false
+},
+{
+"id": "76987c3d9c15",
+"title": "Business Development Rep, Enterprise, DACH",
+"company": "Fivetran",
+"url": "https://www.fivetran.com/careers/job?gh_jid=8209310003",
+"source": "greenhouse",
+"locations": [
+"DEU - Remote",
+"Remote, Germany, EMEA"
+],
+"primary_location": "DEU - Remote",
+"buckets": [
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": null,
+"max": null,
+"source": "none",
+"all": []
+},
+"years_min": null,
+"posted": "2026-11-20",
+"snippet": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and dbt Labs are bringing",
+"tags": [
+"data"
+],
+"score": 42,
+"first_seen": "2026-11-20",
+"is_new": true
 },
 {
 "id": "d211fd89d1df",
