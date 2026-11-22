@@ -1,6 +1,6 @@
 window.JOB_RADAR_DATA = {
 "meta": {
-"generated_at": "2026-11-21T17:59:42Z",
+"generated_at": "2026-11-22T18:25:46Z",
 "salary_floor": {
 "nyc": 130000,
 "bay": 150000,
@@ -8,21 +8,21 @@ window.JOB_RADAR_DATA = {
 },
 "new_days": 3,
 "counts": {
-"total": 259,
-"nyc": 185,
-"bay": 130,
+"total": 256,
+"nyc": 183,
+"bay": 128,
 "remote": 60,
-"new": 18,
-"with_salary": 236
+"new": 13,
+"with_salary": 233
 },
 "sources": [
 {
 "company": "Stripe",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 778,
+"raw": 777,
 "error": null,
-"secs": 2.3
+"secs": 2.0
 },
 {
 "company": "Airbnb",
@@ -30,7 +30,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 202,
 "error": null,
-"secs": 1.2
+"secs": 0.9
 },
 {
 "company": "Figma",
@@ -38,15 +38,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 147,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "Databricks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 895,
+"raw": 893,
 "error": null,
-"secs": 4.3
+"secs": 7.1
 },
 {
 "company": "Coinbase",
@@ -54,7 +54,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 252,
 "error": null,
-"secs": 1.3
+"secs": 1.1
 },
 {
 "company": "Robinhood",
@@ -62,7 +62,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 163,
 "error": null,
-"secs": 0.8
+"secs": 0.7
 },
 {
 "company": "Dropbox",
@@ -70,13 +70,13 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 47,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Lyft",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 148,
+"raw": 145,
 "error": null,
 "secs": 0.5
 },
@@ -86,7 +86,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 174,
 "error": null,
-"secs": 0.9
+"secs": 0.7
 },
 {
 "company": "DoorDash",
@@ -94,7 +94,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 408,
 "error": null,
-"secs": 3.1
+"secs": 2.4
 },
 {
 "company": "Instacart",
@@ -102,7 +102,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 92,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Discord",
@@ -110,7 +110,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Reddit",
@@ -118,7 +118,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 148,
 "error": null,
-"secs": 0.9
+"secs": 0.5
 },
 {
 "company": "Duolingo",
@@ -126,7 +126,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 54,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Brex",
@@ -134,7 +134,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 249,
 "error": null,
-"secs": 1.0
+"secs": 0.9
 },
 {
 "company": "Plaid",
@@ -142,7 +142,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 147,
 "error": null,
-"secs": 1.0
+"secs": 0.9
 },
 {
 "company": "Affirm",
@@ -150,7 +150,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 222,
 "error": null,
-"secs": 1.1
+"secs": 0.9
 },
 {
 "company": "Chime",
@@ -158,7 +158,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 80,
 "error": null,
-"secs": 0.8
+"secs": 0.5
 },
 {
 "company": "Carta",
@@ -166,7 +166,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 80,
 "error": null,
-"secs": 0.5
+"secs": 0.3
 },
 {
 "company": "Gusto",
@@ -174,13 +174,13 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 82,
 "error": null,
-"secs": 0.9
+"secs": 0.4
 },
 {
 "company": "Scale AI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 169,
+"raw": 166,
 "error": null,
 "secs": 0.7
 },
@@ -188,9 +188,9 @@ window.JOB_RADAR_DATA = {
 "company": "Anthropic",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 635,
+"raw": 633,
 "error": null,
-"secs": 5.2
+"secs": 3.5
 },
 {
 "company": "OpenAI",
@@ -198,7 +198,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 852,
 "error": null,
-"secs": 6.8
+"secs": 4.6
 },
 {
 "company": "xAI",
@@ -206,7 +206,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 299,
 "error": null,
-"secs": 1.0
+"secs": 0.6
 },
 {
 "company": "Datadog",
@@ -214,7 +214,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 382,
 "error": null,
-"secs": 2.0
+"secs": 1.6
 },
 {
 "company": "MongoDB",
@@ -222,7 +222,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 417,
 "error": null,
-"secs": 2.2
+"secs": 1.9
 },
 {
 "company": "Cloudflare",
@@ -230,7 +230,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 504,
 "error": null,
-"secs": 5.4
+"secs": 3.4
 },
 {
 "company": "Twilio",
@@ -238,15 +238,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 1.0
+"secs": 0.3
 },
 {
 "company": "Okta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 372,
+"raw": 373,
 "error": null,
-"secs": 3.2
+"secs": 1.9
 },
 {
 "company": "Squarespace",
@@ -254,7 +254,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Peloton",
@@ -262,7 +262,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.6
+"secs": 0.3
 },
 {
 "company": "Oscar Health",
@@ -270,7 +270,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 180,
 "error": null,
-"secs": 0.8
+"secs": 1.0
 },
 {
 "company": "Flatiron Health",
@@ -286,7 +286,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Zocdoc",
@@ -302,7 +302,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 107,
 "error": null,
-"secs": 1.2
+"secs": 0.9
 },
 {
 "company": "Ro",
@@ -310,7 +310,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 56,
 "error": null,
-"secs": 0.8
+"secs": 1.0
 },
 {
 "company": "NerdWallet",
@@ -318,7 +318,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 28,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Gemini",
@@ -326,7 +326,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.4
+"secs": 0.1
 },
 {
 "company": "Klaviyo",
@@ -334,7 +334,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 126,
 "error": null,
-"secs": 2.2
+"secs": 1.0
 },
 {
 "company": "HubSpot",
@@ -342,15 +342,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 141,
 "error": null,
-"secs": 2.0
+"secs": 0.8
 },
 {
 "company": "Toast",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 326,
+"raw": 324,
 "error": null,
-"secs": 3.4
+"secs": 1.6
 },
 {
 "company": "Samsara",
@@ -358,7 +358,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 299,
 "error": null,
-"secs": 4.0
+"secs": 2.3
 },
 {
 "company": "Nextdoor",
@@ -374,7 +374,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 43,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Faire",
@@ -382,7 +382,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 74,
 "error": null,
-"secs": 0.9
+"secs": 0.4
 },
 {
 "company": "Checkr",
@@ -390,7 +390,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.5
+"secs": 0.1
 },
 {
 "company": "Amplitude",
@@ -398,7 +398,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 48,
 "error": null,
-"secs": 0.9
+"secs": 0.3
 },
 {
 "company": "Mixpanel",
@@ -406,7 +406,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 1.0
+"secs": 0.3
 },
 {
 "company": "Asana",
@@ -414,7 +414,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 111,
 "error": null,
-"secs": 1.2
+"secs": 0.5
 },
 {
 "company": "Box",
@@ -422,7 +422,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 125,
 "error": null,
-"secs": 1.1
+"secs": 0.8
 },
 {
 "company": "Waymo",
@@ -430,7 +430,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 363,
 "error": null,
-"secs": 2.2
+"secs": 1.5
 },
 {
 "company": "Notion",
@@ -438,7 +438,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 170,
 "error": null,
-"secs": 1.7
+"secs": 1.6
 },
 {
 "company": "Airtable",
@@ -454,7 +454,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 31,
 "error": null,
-"secs": 0.2
+"secs": 0.9
 },
 {
 "company": "Calendly",
@@ -470,7 +470,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 70,
 "error": null,
-"secs": 0.7
+"secs": 0.8
 },
 {
 "company": "Vercel",
@@ -478,7 +478,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.8
+"secs": 0.9
 },
 {
 "company": "GitLab",
@@ -486,7 +486,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 246,
 "error": null,
-"secs": 3.4
+"secs": 1.7
 },
 {
 "company": "Lattice",
@@ -494,7 +494,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Benchling",
@@ -502,7 +502,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 60,
 "error": null,
-"secs": 1.3
+"secs": 0.7
 },
 {
 "company": "Verkada",
@@ -510,7 +510,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 352,
 "error": null,
-"secs": 3.6
+"secs": 1.7
 },
 {
 "company": "Flexport",
@@ -518,7 +518,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 212,
 "error": null,
-"secs": 2.0
+"secs": 1.1
 },
 {
 "company": "Sweetgreen",
@@ -526,7 +526,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 72,
 "error": null,
-"secs": 1.0
+"secs": 0.4
 },
 {
 "company": "Glossier",
@@ -534,7 +534,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 18,
 "error": null,
-"secs": 0.5
+"secs": 0.3
 },
 {
 "company": "Rent the Runway",
@@ -550,7 +550,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "StockX",
@@ -558,7 +558,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Cockroach Labs",
@@ -566,7 +566,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 12,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Fivetran",
@@ -574,7 +574,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 196,
 "error": null,
-"secs": 3.1
+"secs": 1.4
 },
 {
 "company": "Forter",
@@ -582,7 +582,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Clear Street",
@@ -590,7 +590,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 34,
 "error": null,
-"secs": 0.4
+"secs": 0.1
 },
 {
 "company": "Hudson River Trading",
@@ -598,7 +598,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.5
+"secs": 0.3
 },
 {
 "company": "Jane Street",
@@ -606,7 +606,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 216,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Point72",
@@ -614,23 +614,23 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 202,
 "error": null,
-"secs": 0.8
+"secs": 0.6
 },
 {
 "company": "SpaceX",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2824,
+"raw": 2845,
 "error": null,
-"secs": 6.9
+"secs": 6.8
 },
 {
 "company": "Anduril",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2632,
+"raw": 2633,
 "error": null,
-"secs": 9.2
+"secs": 8.7
 },
 {
 "company": "The New York Times",
@@ -638,15 +638,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 124,
 "error": null,
-"secs": 2.0
+"secs": 0.8
 },
 {
 "company": "Roblox",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 260,
+"raw": 259,
 "error": null,
-"secs": 2.3
+"secs": 1.0
 },
 {
 "company": "Elastic",
@@ -654,7 +654,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 382,
 "error": null,
-"secs": 3.6
+"secs": 3.5
 },
 {
 "company": "Snyk",
@@ -662,15 +662,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 39,
 "error": null,
-"secs": 0.5
+"secs": 0.1
 },
 {
 "company": "1Password",
 "ats": "ashby",
 "status": "ok",
-"raw": 81,
+"raw": 80,
 "error": null,
-"secs": 1.6
+"secs": 0.6
 },
 {
 "company": "Doximity",
@@ -686,7 +686,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 112,
 "error": null,
-"secs": 1.1
+"secs": 0.6
 },
 {
 "company": "Oura",
@@ -694,7 +694,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 96,
 "error": null,
-"secs": 1.3
+"secs": 0.6
 },
 {
 "company": "Compass",
@@ -702,7 +702,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 176,
 "error": null,
-"secs": 1.6
+"secs": 0.7
 },
 {
 "company": "BetterUp",
@@ -710,7 +710,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 8,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Calm",
@@ -718,7 +718,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 1,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Noom",
@@ -726,7 +726,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Intercom",
@@ -734,7 +734,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 120,
 "error": null,
-"secs": 0.9
+"secs": 0.6
 },
 {
 "company": "Sentry",
@@ -742,7 +742,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "PagerDuty",
@@ -750,7 +750,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 48,
 "error": null,
-"secs": 0.5
+"secs": 0.3
 },
 {
 "company": "Snowflake",
@@ -758,7 +758,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 374,
 "error": null,
-"secs": 1.3
+"secs": 1.9
 },
 {
 "company": "Palantir",
@@ -766,7 +766,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 308,
 "error": null,
-"secs": 13.9
+"secs": 1.8
 },
 {
 "company": "Flock Safety",
@@ -782,7 +782,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 187,
 "error": null,
-"secs": 0.9
+"secs": 1.2
 },
 {
 "company": "Linear",
@@ -790,7 +790,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 32,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Vanta",
@@ -798,7 +798,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 69,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Cursor (Anysphere)",
@@ -806,7 +806,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 89,
 "error": null,
-"secs": 0.5
+"secs": 0.2
 },
 {
 "company": "Perplexity",
@@ -814,15 +814,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 151,
 "error": null,
-"secs": 0.5
+"secs": 1.2
 },
 {
 "company": "ElevenLabs",
 "ats": "ashby",
 "status": "ok",
-"raw": 121,
+"raw": 122,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Replit",
@@ -830,7 +830,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Supabase",
@@ -838,7 +838,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 80,
 "error": null,
-"secs": 0.3
+"secs": 0.6
 },
 {
 "company": "PostHog",
@@ -854,7 +854,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 52,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Hex",
@@ -862,7 +862,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 42,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Sierra",
@@ -870,7 +870,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 194,
 "error": null,
-"secs": 0.8
+"secs": 2.6
 },
 {
 "company": "Harvey",
@@ -878,7 +878,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 390,
 "error": null,
-"secs": 1.3
+"secs": 2.9
 },
 {
 "company": "Cohere",
@@ -886,7 +886,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 124,
 "error": null,
-"secs": 0.4
+"secs": 1.9
 },
 {
 "company": "Writer",
@@ -894,7 +894,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 46,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Hebbia",
@@ -902,7 +902,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Runway",
@@ -910,7 +910,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 3,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Glean",
@@ -918,7 +918,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 129,
 "error": null,
-"secs": 0.9
+"secs": 2.0
 },
 {
 "company": "Quora",
@@ -934,7 +934,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Zoox",
@@ -942,7 +942,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 244,
 "error": null,
-"secs": 0.9
+"secs": 1.5
 },
 {
 "company": "Nuro",
@@ -950,7 +950,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 105,
 "error": null,
-"secs": 0.6
+"secs": 1.1
 },
 {
 "company": "Wealthfront",
@@ -958,15 +958,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.5
+"secs": 17.3
 },
 {
 "company": "Gong",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 84,
+"raw": 82,
 "error": null,
-"secs": 0.7
+"secs": 1.0
 },
 {
 "company": "Strava",
@@ -974,7 +974,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 24,
 "error": null,
-"secs": 0.2
+"secs": 0.5
 },
 {
 "company": "Block",
@@ -982,7 +982,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 184,
 "error": null,
-"secs": 1.1
+"secs": 1.4
 },
 {
 "company": "Spotify",
@@ -998,7 +998,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 50,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Via",
@@ -1006,7 +1006,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 173,
 "error": null,
-"secs": 0.5
+"secs": 0.6
 },
 {
 "company": "Angi",
@@ -1014,7 +1014,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 26,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Rubrik",
@@ -1022,15 +1022,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 208,
 "error": null,
-"secs": 1.0
+"secs": 0.9
 },
 {
 "company": "Wiz",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 108,
+"raw": 106,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "Alloy",
@@ -1046,7 +1046,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 15,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Yext",
@@ -1060,7 +1060,7 @@ window.JOB_RADAR_DATA = {
 "company": "Taboola",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 58,
+"raw": 57,
 "error": null,
 "secs": 0.2
 },
@@ -1078,7 +1078,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 94,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Alma",
@@ -1086,7 +1086,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Capsule",
@@ -1094,7 +1094,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Lemonade",
@@ -1102,7 +1102,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 43,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Current",
@@ -1126,7 +1126,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 41,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Polymarket",
@@ -1142,15 +1142,15 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 111,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Navan",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 237,
+"raw": 236,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Komodo Health",
@@ -1172,9 +1172,9 @@ window.JOB_RADAR_DATA = {
 "company": "Payoneer",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 100,
+"raw": 101,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Ridgeline",
@@ -1206,7 +1206,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 8,
 "error": null,
-"secs": 11.7
+"secs": 10.8
 },
 {
 "company": "Adobe",
@@ -1214,7 +1214,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 22.0
+"secs": 20.7
 },
 {
 "company": "NVIDIA",
@@ -1222,7 +1222,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 51,
 "error": null,
-"secs": 51.7
+"secs": 45.1
 },
 {
 "company": "PayPal",
@@ -1230,7 +1230,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 51.5
+"secs": 68.4
 },
 {
 "company": "Capital One",
@@ -1238,7 +1238,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 219,
 "error": null,
-"secs": 257.9
+"secs": 232.0
 },
 {
 "company": "Mastercard",
@@ -1246,7 +1246,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 1,
 "error": null,
-"secs": 80.3
+"secs": 91.7
 },
 {
 "company": "Disney",
@@ -1254,7 +1254,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 14.0
+"secs": 12.7
 },
 {
 "company": "Warner Bros. Discovery",
@@ -1262,7 +1262,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 43.3
+"secs": 22.7
 },
 {
 "company": "Autodesk",
@@ -1270,7 +1270,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 54.5
+"secs": 23.6
 },
 {
 "company": "Workday",
@@ -1278,7 +1278,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 82.0
+"secs": 71.4
 },
 {
 "company": "Zillow",
@@ -1286,7 +1286,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 75.4
+"secs": 92.8
 },
 {
 "company": "BlackRock",
@@ -1294,7 +1294,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 42.7
+"secs": 80.3
 },
 {
 "company": "Netflix",
@@ -1302,7 +1302,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 7.1
+"secs": 2.6
 },
 {
 "company": "Amazon",
@@ -1310,7 +1310,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 3600,
 "error": null,
-"secs": 20.5
+"secs": 17.8
 },
 {
 "company": "Google",
@@ -1318,7 +1318,7 @@ window.JOB_RADAR_DATA = {
 "status": "ok",
 "raw": 145,
 "error": null,
-"secs": 118.4
+"secs": 119.8
 }
 ],
 "companies_tracked": 163
@@ -2214,46 +2214,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "469e2443aead",
-"title": "Associate Manager, Merchant Strategy & Operations",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8261297",
-"source": "greenhouse",
-"locations": [
-"New York, NY; San Francisco, CA; Tempe, AZ; Seattle, WA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA",
-"San Francisco, CA"
-],
-"primary_location": "New York, NY; San Francisco, CA; Tempe, AZ; Seattle, WA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "strategy",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 105400,
-"max": 155000,
-"source": "parsed",
-"all": [
-[
-105400,
-155000
-]
-]
-},
-"years_min": 4,
-"posted": "2026-10-07",
-"snippet": "About the Team On the Merchant Strategy & Operations team, our mission is to have best-in-class restaurant selection for Consumers and build products and services for our Merchants to grow their businesses profitably on DoorDash. We work on problems ranging from acquiring and onboarding new merchants to building a positive experience and solving pain points for existing merchants, to growing their sales through new p",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 79,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "a5522b099c52",
 "title": "Associate Manager, New Verticals - In-Store AI Platform Strategy & Operations",
 "company": "DoorDash",
@@ -2503,7 +2463,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 78,
 "first_seen": "2026-11-19",
-"is_new": true
+"is_new": false
 },
 {
 "id": "098420c00303",
@@ -2875,7 +2835,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 76,
 "first_seen": "2026-11-19",
-"is_new": true
+"is_new": false
 },
 {
 "id": "2b45ba2213d6",
@@ -3310,6 +3270,46 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "469e2443aead",
+"title": "Associate Manager, Merchant Strategy & Operations",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8261297",
+"source": "greenhouse",
+"locations": [
+"New York, NY; San Francisco, CA; Tempe, AZ; Seattle, WA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA",
+"San Francisco, CA"
+],
+"primary_location": "New York, NY; San Francisco, CA; Tempe, AZ; Seattle, WA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 105400,
+"max": 155000,
+"source": "parsed",
+"all": [
+[
+105400,
+155000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-07",
+"snippet": "About the Team On the Merchant Strategy & Operations team, our mission is to have best-in-class restaurant selection for Consumers and build products and services for our Merchants to grow their businesses profitably on DoorDash. We work on problems ranging from acquiring and onboarding new merchants to building a positive experience and solving pain points for existing merchants, to growing their sales through new p",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 74,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "8c8d3d75ee37",
 "title": "Sales Strategy & Operations, Enterprise",
 "company": "Vercel",
@@ -3426,7 +3426,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 74,
 "first_seen": "2026-11-19",
-"is_new": true
+"is_new": false
 },
 {
 "id": "d7400d593212",
@@ -5768,7 +5768,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 71,
 "first_seen": "2026-11-19",
-"is_new": true
+"is_new": false
 },
 {
 "id": "92e1327f32b1",
@@ -6896,50 +6896,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "42a32a1bbd2f",
-"title": "Product Manager",
-"company": "Mixpanel",
-"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8223567",
-"source": "greenhouse",
-"locations": [
-"New York City",
-"San Francisco",
-"San Francisco, US (Hybrid)"
-],
-"primary_location": "New York City",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 184000,
-"max": 216500,
-"source": "parsed",
-"all": [
-[
-184000,
-216500
-],
-[
-184000,
-216500
-]
-]
-},
-"years_min": 3,
-"posted": "2026-09-22",
-"snippet": "About Mixpanel Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com . About the Team AI has made it possible to build alm",
-"tags": [
-"saas"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "22d12679e019",
 "title": "Manager, Product Manager - Claims",
 "company": "Capital One",
@@ -7433,48 +7389,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "40b70ab634fa",
-"title": "Program Manager, Customer Education",
-"company": "Harvey",
-"url": "https://jobs.ashbyhq.com/harvey/8933bce6-f85b-4a74-9530-d5c8916af055",
-"source": "ashby",
-"locations": [
-"New York",
-"New York, New York",
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "New York",
-"buckets": [
-"bay",
-"nyc",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 120900,
-"max": 166200,
-"source": "structured",
-"all": [
-[
-120900,
-166200
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-14",
-"snippet": "Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling",
-"tags": [
-"ai"
-],
-"score": 67,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "9550ec9998f4",
 "title": "Revenue Operations",
 "company": "Modal",
@@ -7849,44 +7763,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "90874550ed98",
-"title": "FP&A Analyst R&D",
-"company": "Datadog",
-"url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554",
-"source": "greenhouse",
-"locations": [
-"New York",
-"New York, New York, USA"
-],
-"primary_location": "New York, New York, USA",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 99000,
-"max": 132000,
-"source": "parsed",
-"all": [
-[
-99000,
-132000
-]
-]
-},
-"years_min": 2,
-"posted": "2026-09-22",
-"snippet": "About Datadog: Datadog is the essential monitoring and security platform for cloud applications. We bring together end-to-end traces, metrics, and logs to make your applications, infrastructure, and third-party services entirely observable. These capabilities help businesses secure their systems, avoid downtime, and ensure customers are getting the best user experience. The Team: The Financial Planning & Analysis (FP",
-"tags": [
-"saas"
-],
-"score": 64,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "3ff5ef83d86e",
 "title": "Product Manager II, Workflows",
 "company": "Box",
@@ -8012,11 +7888,12 @@ window.JOB_RADAR_DATA = {
 "id": "1eda940900f8",
 "title": "Brex Rotational Program",
 "company": "Brex",
-"url": "https://www.brex.com/careers/8864174002?gh_jid=8864174002",
+"url": "https://www.brex.com/careers/8864176002?gh_jid=8864176002",
 "source": "greenhouse",
 "locations": [
 "Brazil",
 "Canada",
+"Salt Lake City, Utah, United States",
 "São Paulo, São Paulo, Brazil",
 "United States"
 ],
@@ -8041,47 +7918,6 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 62,
 "first_seen": "2026-11-15",
-"is_new": false
-},
-{
-"id": "ee10c72f43d3",
-"title": "Compensation Program Manager",
-"company": "Datadog",
-"url": "https://careers.datadoghq.com/detail/8238495/?gh_jid=8238495",
-"source": "greenhouse",
-"locations": [
-"Boston",
-"Boston, Massachusetts, USA; New York, New York, USA; San Francisco, California, USA",
-"New York",
-"San Francisco"
-],
-"primary_location": "Boston, Massachusetts, USA; New York, New York, USA; San Francisco, California, USA",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 143000,
-"max": 190000,
-"source": "parsed",
-"all": [
-[
-143000,
-190000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-07",
-"snippet": "The Team: At Datadog, People Operations is more than just human resources—it’s a data-driven team dedicated to constantly improving the way we hire, develop, and support our most valuable asset: our people. Our People team are strategic problem solvers who work closely with leadership and employees to ensure that Datadog keeps scaling smoothly and remains a great place to work. The Opportunity: As a Compensation Prog",
-"tags": [
-"saas"
-],
-"score": 62,
-"first_seen": "2026-11-14",
 "is_new": false
 },
 {
@@ -8490,6 +8326,48 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
+"id": "40b70ab634fa",
+"title": "Program Manager, Customer Education",
+"company": "Harvey",
+"url": "https://jobs.ashbyhq.com/harvey/8933bce6-f85b-4a74-9530-d5c8916af055",
+"source": "ashby",
+"locations": [
+"New York",
+"New York, New York",
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "New York",
+"buckets": [
+"bay",
+"nyc",
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 120900,
+"max": 166200,
+"source": "structured",
+"all": [
+[
+120900,
+166200
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-14",
+"snippet": "Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling",
+"tags": [
+"ai"
+],
+"score": 62,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "e181ac47d319",
 "title": "Corporate Finance and Systems",
 "company": "Hex",
@@ -8526,7 +8404,7 @@ window.JOB_RADAR_DATA = {
 ],
 "score": 62,
 "first_seen": "2026-11-19",
-"is_new": true
+"is_new": false
 },
 {
 "id": "0e0d8f8d7eca",
@@ -9309,7 +9187,7 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "65e75764fc9b",
+"id": "efde93b29ff5",
 "title": "Lifecycle Marketing Manager",
 "company": "Fivetran",
 "url": "https://www.fivetran.com/careers/job?gh_jid=8198264003",
@@ -9460,6 +9338,47 @@ window.JOB_RADAR_DATA = {
 "years_min": 2,
 "posted": "2026-10-01",
 "snippet": "About Zip Zip is the AI platform for enterprise procurement — built for humans and agents working together. By orchestrating procurement across teams, tools, and suppliers with the help of AI agents, companies can secure the resources they need to innovate faster than ever before. The world’s most influential enterprises trust Zip, including T-Mobile, OpenAI, AMD, Mars, Dollar Tree, and more. Together they’ve saved o",
+"tags": [
+"saas"
+],
+"score": 57,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "ee10c72f43d3",
+"title": "Compensation Program Manager",
+"company": "Datadog",
+"url": "https://careers.datadoghq.com/detail/8238495/?gh_jid=8238495",
+"source": "greenhouse",
+"locations": [
+"Boston",
+"Boston, Massachusetts, USA; New York, New York, USA; San Francisco, California, USA",
+"New York",
+"San Francisco"
+],
+"primary_location": "Boston, Massachusetts, USA; New York, New York, USA; San Francisco, California, USA",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 143000,
+"max": 190000,
+"source": "parsed",
+"all": [
+[
+143000,
+190000
+]
+]
+},
+"years_min": null,
+"posted": "2026-10-07",
+"snippet": "The Team: At Datadog, People Operations is more than just human resources—it’s a data-driven team dedicated to constantly improving the way we hire, develop, and support our most valuable asset: our people. Our People team are strategic problem solvers who work closely with leadership and employees to ensure that Datadog keeps scaling smoothly and remains a great place to work. The Opportunity: As a Compensation Prog",
 "tags": [
 "saas"
 ],
@@ -10020,82 +9939,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "d54c066bb27a",
-"title": "Customer Marketing Manager, Americas",
-"company": "Databricks",
-"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860643002",
-"source": "greenhouse",
-"locations": [
-"San Francisco, California"
-],
-"primary_location": "San Francisco, California",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 136600,
-"max": 187750,
-"source": "parsed",
-"all": [
-[
-136600,
-187750
-]
-]
-},
-"years_min": 4,
-"posted": "2026-10-07",
-"snippet": "MKTQ427R54 Location: San Francisco Bay Area Databricks is looking for a Customer Marketing Manager to turn the experiences of our largest strategic customers into compelling stories and advocacy programs that advance Databricks’ business priorities. This role owns customer marketing programs from strategy through execution, delivering trusted customer experiences and measurable impact across content, events, and advo",
-"tags": [
-"data"
-],
-"score": 54,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "94a14bbc2f25",
-"title": "Product Operations Manager",
-"company": "Zip",
-"url": "https://jobs.ashbyhq.com/zip/a9d07ec7-1080-469b-a40c-2a5433702846",
-"source": "ashby",
-"locations": [
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 170000,
-"max": 230000,
-"source": "parsed",
-"all": [
-[
-170000,
-230000
-]
-]
-},
-"years_min": 4,
-"posted": "2026-10-07",
-"snippet": "About Zip Zip is the AI platform for enterprise procurement — built for humans and agents working together. By orchestrating procurement across teams, tools, and suppliers with the help of AI agents, companies can secure the resources they need to innovate faster than ever before. The world’s most influential enterprises trust Zip, including T-Mobile, OpenAI, AMD, Mars, Dollar Tree, and more. Together they’ve saved o",
-"tags": [
-"saas"
-],
-"score": 54,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "6fe472aba5ea",
 "title": "Product Operations Manager",
 "company": "Checkr",
@@ -10399,44 +10242,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "05b338e0e359",
-"title": "Program Manager, Growth, Monetization & Strategic Initiatives",
-"company": "Fivetran",
-"url": "https://www.fivetran.com/careers/job?gh_jid=7997442003",
-"source": "greenhouse",
-"locations": [
-"Oakland, California, United States, AMER",
-"USA - Oakland"
-],
-"primary_location": "Oakland, California, United States, AMER",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 158284,
-"max": 197855,
-"source": "parsed",
-"all": [
-[
-158284,
-197855
-]
-]
-},
-"years_min": null,
-"posted": "2026-09-22",
-"snippet": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and dbt Labs are bringing",
-"tags": [
-"data"
-],
-"score": 52,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "fab4e3d76c1c",
 "title": "Revenue Operations Manager",
 "company": "Scale AI",
@@ -10581,6 +10386,82 @@ window.JOB_RADAR_DATA = {
 "snippet": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100+ of the Fortune 500), a $5.8B valuation , more than $1 billion in ann",
 "tags": [
 "hardware"
+],
+"score": 49,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "d54c066bb27a",
+"title": "Customer Marketing Manager, Americas",
+"company": "Databricks",
+"url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860643002",
+"source": "greenhouse",
+"locations": [
+"San Francisco, California"
+],
+"primary_location": "San Francisco, California",
+"buckets": [
+"bay"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 136600,
+"max": 187750,
+"source": "parsed",
+"all": [
+[
+136600,
+187750
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-07",
+"snippet": "MKTQ427R54 Location: San Francisco Bay Area Databricks is looking for a Customer Marketing Manager to turn the experiences of our largest strategic customers into compelling stories and advocacy programs that advance Databricks’ business priorities. This role owns customer marketing programs from strategy through execution, delivering trusted customer experiences and measurable impact across content, events, and advo",
+"tags": [
+"data"
+],
+"score": 49,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "94a14bbc2f25",
+"title": "Product Operations Manager",
+"company": "Zip",
+"url": "https://jobs.ashbyhq.com/zip/a9d07ec7-1080-469b-a40c-2a5433702846",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 170000,
+"max": 230000,
+"source": "parsed",
+"all": [
+[
+170000,
+230000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-07",
+"snippet": "About Zip Zip is the AI platform for enterprise procurement — built for humans and agents working together. By orchestrating procurement across teams, tools, and suppliers with the help of AI agents, companies can secure the resources they need to innovate faster than ever before. The world’s most influential enterprises trust Zip, including T-Mobile, OpenAI, AMD, Mars, Dollar Tree, and more. Together they’ve saved o",
+"tags": [
+"saas"
 ],
 "score": 49,
 "first_seen": "2026-11-14",
@@ -10992,45 +10873,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "1ebe83b92311",
-"title": "Enterprise AI Development Strategist",
-"company": "Scale AI",
-"url": "https://job-boards.greenhouse.io/scaleai/jobs/4741087005",
-"source": "greenhouse",
-"locations": [
-"New York, NY; San Francisco, CA",
-"San Francisco, CA"
-],
-"primary_location": "New York, NY; San Francisco, CA",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 100800,
-"max": 126000,
-"source": "parsed",
-"all": [
-[
-100800,
-126000
-]
-]
-},
-"years_min": 1,
-"posted": "2026-10-07",
-"snippet": "The AI Development Strategist will report directly to vertical sales leadership and will play a critical role in generating and qualifying pipeline across Scale AI’s enterprise business. This is an education-focused, customer-facing role responsible for owning early-stage enterprise opportunities through Stage 2 qualification while helping prospective customers understand Scale AI’s capabilities, AI infrastructure of",
-"tags": [
-"ai"
-],
-"score": 47,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "3625f7377d06",
 "title": "Senior Associate, Strategy & Operations, DoorDash for Business (Self Serve Meal Manager)",
 "company": "DoorDash",
@@ -11335,6 +11177,45 @@ window.JOB_RADAR_DATA = {
 "score": 43,
 "first_seen": "2026-11-20",
 "is_new": true
+},
+{
+"id": "1ebe83b92311",
+"title": "Enterprise AI Development Strategist",
+"company": "Scale AI",
+"url": "https://job-boards.greenhouse.io/scaleai/jobs/4741087005",
+"source": "greenhouse",
+"locations": [
+"New York, NY; San Francisco, CA",
+"San Francisco, CA"
+],
+"primary_location": "New York, NY; San Francisco, CA",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "strategy",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 100800,
+"max": 126000,
+"source": "parsed",
+"all": [
+[
+100800,
+126000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-10-07",
+"snippet": "The AI Development Strategist will report directly to vertical sales leadership and will play a critical role in generating and qualifying pipeline across Scale AI’s enterprise business. This is an education-focused, customer-facing role responsible for owning early-stage enterprise opportunities through Stage 2 qualification while helping prospective customers understand Scale AI’s capabilities, AI infrastructure of",
+"tags": [
+"ai"
+],
+"score": 42,
+"first_seen": "2026-11-14",
+"is_new": false
 },
 {
 "id": "b78fef147df3",
@@ -11859,44 +11740,6 @@ window.JOB_RADAR_DATA = {
 "is_new": false
 },
 {
-"id": "93c7fb64a7ba",
-"title": "Restaurant General Manager",
-"company": "Sweetgreen",
-"url": "https://careers.sweetgreen.com/jobs/8262139?gh_jid=8262139",
-"source": "greenhouse",
-"locations": [
-"1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
-"Campbell"
-],
-"primary_location": "1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 80000,
-"max": 100000,
-"source": "parsed",
-"all": [
-[
-80000,
-100000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-07",
-"snippet": "A Healthier Future Starts With You As a Head Coach (General Manager), you're the leader, strategist, and mentor of your store. You'll inspire your team, drive operational excellence, and deliver exceptional guest experiences using data-driven insights to build healthier communities through real food. What You’ll Do Lead your team by balancing people, operations, and business performance. Build an inclusive culture wh",
-"tags": [
-"consumer"
-],
-"score": 22,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "fa0bf1962f69",
 "title": "Restaurant General Manager",
 "company": "Sweetgreen",
@@ -11970,6 +11813,44 @@ window.JOB_RADAR_DATA = {
 "s&o"
 ],
 "score": 19,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "93c7fb64a7ba",
+"title": "Restaurant General Manager",
+"company": "Sweetgreen",
+"url": "https://careers.sweetgreen.com/jobs/8262139?gh_jid=8262139",
+"source": "greenhouse",
+"locations": [
+"1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
+"Campbell"
+],
+"primary_location": "1200 El Paseo de Saratoga, Suite 30, San Jose, CA 95129",
+"buckets": [
+"bay"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 80000,
+"max": 100000,
+"source": "parsed",
+"all": [
+[
+80000,
+100000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-10-07",
+"snippet": "A Healthier Future Starts With You As a Head Coach (General Manager), you're the leader, strategist, and mentor of your store. You'll inspire your team, drive operational excellence, and deliver exceptional guest experiences using data-driven insights to build healthier communities through real food. What You’ll Do Lead your team by balancing people, operations, and business performance. Build an inclusive culture wh",
+"tags": [
+"consumer"
+],
+"score": 17,
 "first_seen": "2026-11-14",
 "is_new": false
 }
