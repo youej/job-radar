@@ -1,6 +1,6 @@
 {
 "meta": {
-"generated_at": "2026-11-23T22:33:53Z",
+"generated_at": "2026-11-24T21:05:59Z",
 "salary_floor": {
 "nyc": 130000,
 "bay": 150000,
@@ -8,21 +8,21 @@
 },
 "new_days": 3,
 "counts": {
-"total": 250,
-"nyc": 178,
-"bay": 121,
-"remote": 62,
-"new": 10,
-"with_salary": 228
+"total": 184,
+"nyc": 109,
+"bay": 119,
+"remote": 66,
+"new": 17,
+"with_salary": 163
 },
 "sources": [
 {
 "company": "Stripe",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 769,
+"raw": 770,
 "error": null,
-"secs": 1.5
+"secs": 23.3
 },
 {
 "company": "Airbnb",
@@ -30,47 +30,47 @@
 "status": "ok",
 "raw": 199,
 "error": null,
-"secs": 0.7
+"secs": 3.3
 },
 {
 "company": "Figma",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 148,
+"raw": 145,
 "error": null,
-"secs": 0.4
+"secs": 2.5
 },
 {
 "company": "Databricks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 882,
+"raw": 889,
 "error": null,
-"secs": 2.5
+"secs": 5.4
 },
 {
 "company": "Coinbase",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 250,
+"raw": 251,
 "error": null,
-"secs": 1.1
+"secs": 1.0
 },
 {
 "company": "Robinhood",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 160,
+"raw": 157,
 "error": null,
-"secs": 0.6
+"secs": 2.3
 },
 {
 "company": "Dropbox",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 54,
+"raw": 52,
 "error": null,
-"secs": 0.3
+"secs": 0.6
 },
 {
 "company": "Lyft",
@@ -78,23 +78,23 @@
 "status": "ok",
 "raw": 144,
 "error": null,
-"secs": 0.4
+"secs": 3.1
 },
 {
 "company": "Pinterest",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 171,
+"raw": 167,
 "error": null,
-"secs": 0.5
+"secs": 2.4
 },
 {
 "company": "DoorDash",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 408,
+"raw": 399,
 "error": null,
-"secs": 1.6
+"secs": 2.8
 },
 {
 "company": "Instacart",
@@ -102,7 +102,7 @@
 "status": "ok",
 "raw": 96,
 "error": null,
-"secs": 0.3
+"secs": 2.9
 },
 {
 "company": "Discord",
@@ -110,15 +110,15 @@
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.2
+"secs": 2.4
 },
 {
 "company": "Reddit",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 147,
+"raw": 149,
 "error": null,
-"secs": 0.5
+"secs": 2.6
 },
 {
 "company": "Duolingo",
@@ -126,15 +126,15 @@
 "status": "ok",
 "raw": 53,
 "error": null,
-"secs": 0.2
+"secs": 1.8
 },
 {
 "company": "Brex",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 259,
+"raw": 264,
 "error": null,
-"secs": 0.6
+"secs": 22.8
 },
 {
 "company": "Plaid",
@@ -142,47 +142,47 @@
 "status": "ok",
 "raw": 145,
 "error": null,
-"secs": 0.6
+"secs": 0.2
 },
 {
 "company": "Affirm",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 218,
+"raw": 216,
 "error": null,
-"secs": 0.6
+"secs": 1.4
 },
 {
 "company": "Chime",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 81,
+"raw": 79,
 "error": null,
-"secs": 0.3
+"secs": 0.5
 },
 {
 "company": "Carta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 80,
+"raw": 81,
 "error": null,
-"secs": 0.2
+"secs": 3.3
 },
 {
 "company": "Gusto",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 85,
+"raw": 84,
 "error": null,
-"secs": 0.3
+"secs": 0.9
 },
 {
 "company": "Scale AI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 161,
+"raw": 158,
 "error": null,
-"secs": 0.4
+"secs": 1.3
 },
 {
 "company": "Anthropic",
@@ -196,41 +196,41 @@
 "company": "OpenAI",
 "ats": "ashby",
 "status": "ok",
-"raw": 857,
+"raw": 872,
 "error": null,
-"secs": 3.9
+"secs": 0.7
 },
 {
 "company": "xAI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 299,
+"raw": 297,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Datadog",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 384,
+"raw": 386,
 "error": null,
-"secs": 1.3
+"secs": 1.1
 },
 {
 "company": "MongoDB",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 421,
+"raw": 419,
 "error": null,
-"secs": 1.2
+"secs": 1.5
 },
 {
 "company": "Cloudflare",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 503,
+"raw": 510,
 "error": null,
-"secs": 3.0
+"secs": 1.2
 },
 {
 "company": "Twilio",
@@ -238,15 +238,15 @@
 "status": "ok",
 "raw": 115,
 "error": null,
-"secs": 0.8
+"secs": 2.8
 },
 {
 "company": "Okta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 372,
+"raw": 374,
 "error": null,
-"secs": 1.7
+"secs": 1.2
 },
 {
 "company": "Squarespace",
@@ -254,23 +254,23 @@
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.1
+"secs": 0.8
 },
 {
 "company": "Peloton",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 44,
+"raw": 45,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Oscar Health",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 179,
+"raw": 177,
 "error": null,
-"secs": 0.6
+"secs": 10.6
 },
 {
 "company": "Flatiron Health",
@@ -278,29 +278,29 @@
 "status": "ok",
 "raw": 22,
 "error": null,
-"secs": 0.2
+"secs": 13.2
 },
 {
 "company": "Betterment",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 25,
+"raw": 23,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Zocdoc",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 65,
+"raw": 63,
 "error": null,
-"secs": 0.4
+"secs": 2.3
 },
 {
 "company": "Justworks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 102,
+"raw": 103,
 "error": null,
 "secs": 0.6
 },
@@ -308,7 +308,7 @@
 "company": "Ro",
 "ats": "lever",
 "status": "ok",
-"raw": 55,
+"raw": 54,
 "error": null,
 "secs": 0.9
 },
@@ -318,55 +318,55 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.0
 },
 {
 "company": "Gemini",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 26,
+"raw": 24,
 "error": null,
-"secs": 0.3
+"secs": 0.8
 },
 {
 "company": "Klaviyo",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 122,
+"raw": 120,
 "error": null,
-"secs": 1.1
+"secs": 0.7
 },
 {
 "company": "HubSpot",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 138,
+"raw": 141,
 "error": null,
-"secs": 1.2
+"secs": 0.5
 },
 {
 "company": "Toast",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 312,
+"raw": 306,
 "error": null,
-"secs": 2.0
+"secs": 2.3
 },
 {
 "company": "Samsara",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 286,
+"raw": 288,
 "error": null,
-"secs": 2.4
+"secs": 0.6
 },
 {
 "company": "Nextdoor",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 24,
+"raw": 23,
 "error": null,
-"secs": 0.3
+"secs": 2.0
 },
 {
 "company": "Thumbtack",
@@ -374,39 +374,39 @@
 "status": "ok",
 "raw": 43,
 "error": null,
-"secs": 0.5
+"secs": 0.1
 },
 {
 "company": "Faire",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 73,
+"raw": 72,
 "error": null,
-"secs": 0.7
+"secs": 0.3
 },
 {
 "company": "Checkr",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 38,
+"raw": 37,
 "error": null,
-"secs": 0.6
+"secs": 2.0
 },
 {
 "company": "Amplitude",
 "ats": "ashby",
 "status": "ok",
-"raw": 48,
+"raw": 47,
 "error": null,
-"secs": 0.5
+"secs": 0.0
 },
 {
 "company": "Mixpanel",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 39,
+"raw": 41,
 "error": null,
-"secs": 0.4
+"secs": 1.1
 },
 {
 "company": "Asana",
@@ -414,15 +414,15 @@
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Box",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 125,
+"raw": 133,
 "error": null,
-"secs": 0.9
+"secs": 1.0
 },
 {
 "company": "Waymo",
@@ -430,7 +430,7 @@
 "status": "ok",
 "raw": 358,
 "error": null,
-"secs": 1.1
+"secs": 0.5
 },
 {
 "company": "Notion",
@@ -438,15 +438,15 @@
 "status": "ok",
 "raw": 172,
 "error": null,
-"secs": 0.9
+"secs": 0.1
 },
 {
 "company": "Airtable",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 11,
+"raw": 10,
 "error": null,
-"secs": 0.1
+"secs": 1.1
 },
 {
 "company": "Webflow",
@@ -454,7 +454,7 @@
 "status": "ok",
 "raw": 31,
 "error": null,
-"secs": 0.2
+"secs": 0.0
 },
 {
 "company": "Calendly",
@@ -462,15 +462,15 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Mercury",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 69,
+"raw": 71,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Vercel",
@@ -478,15 +478,15 @@
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.6
+"secs": 1.6
 },
 {
 "company": "GitLab",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 246,
+"raw": 252,
 "error": null,
-"secs": 2.0
+"secs": 1.2
 },
 {
 "company": "Lattice",
@@ -494,7 +494,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.2
+"secs": 0.7
 },
 {
 "company": "Benchling",
@@ -502,15 +502,15 @@
 "status": "ok",
 "raw": 61,
 "error": null,
-"secs": 0.4
+"secs": 0.1
 },
 {
 "company": "Verkada",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 352,
+"raw": 350,
 "error": null,
-"secs": 1.9
+"secs": 1.1
 },
 {
 "company": "Flexport",
@@ -518,7 +518,7 @@
 "status": "ok",
 "raw": 209,
 "error": null,
-"secs": 1.4
+"secs": 0.4
 },
 {
 "company": "Sweetgreen",
@@ -526,7 +526,7 @@
 "status": "ok",
 "raw": 73,
 "error": null,
-"secs": 0.2
+"secs": 0.6
 },
 {
 "company": "Glossier",
@@ -534,31 +534,31 @@
 "status": "ok",
 "raw": 18,
 "error": null,
-"secs": 0.2
+"secs": 1.4
 },
 {
 "company": "Rent the Runway",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 24,
+"raw": 25,
 "error": null,
-"secs": 0.2
+"secs": 26.8
 },
 {
 "company": "Stitch Fix",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 13,
+"raw": 12,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "StockX",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 28,
+"raw": 26,
 "error": null,
-"secs": 0.2
+"secs": 26.7
 },
 {
 "company": "Cockroach Labs",
@@ -566,23 +566,23 @@
 "status": "ok",
 "raw": 11,
 "error": null,
-"secs": 0.2
+"secs": 1.6
 },
 {
 "company": "Fivetran",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 202,
+"raw": 206,
 "error": null,
-"secs": 1.8
+"secs": 1.2
 },
 {
 "company": "Forter",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 20,
+"raw": 19,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Clear Street",
@@ -590,7 +590,7 @@
 "status": "ok",
 "raw": 33,
 "error": null,
-"secs": 0.1
+"secs": 2.5
 },
 {
 "company": "Hudson River Trading",
@@ -598,71 +598,71 @@
 "status": "ok",
 "raw": 85,
 "error": null,
-"secs": 0.9
+"secs": 1.1
 },
 {
 "company": "Jane Street",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 216,
+"raw": 217,
 "error": null,
-"secs": 0.9
+"secs": 2.5
 },
 {
 "company": "Point72",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 201,
+"raw": 202,
 "error": null,
-"secs": 1.0
+"secs": 0.8
 },
 {
 "company": "SpaceX",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2853,
+"raw": 2855,
 "error": null,
-"secs": 4.2
+"secs": 15.3
 },
 {
 "company": "Anduril",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2610,
+"raw": 2606,
 "error": null,
-"secs": 15.2
+"secs": 26.8
 },
 {
 "company": "The New York Times",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 118,
+"raw": 119,
 "error": null,
-"secs": 1.0
+"secs": 4.9
 },
 {
 "company": "Roblox",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 257,
+"raw": 255,
 "error": null,
-"secs": 1.1
+"secs": 2.7
 },
 {
 "company": "Elastic",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 384,
+"raw": 379,
 "error": null,
-"secs": 2.0
+"secs": 1.2
 },
 {
 "company": "Snyk",
 "ats": "ashby",
 "status": "ok",
-"raw": 39,
+"raw": 37,
 "error": null,
-"secs": 0.3
+"secs": 0.0
 },
 {
 "company": "1Password",
@@ -670,7 +670,7 @@
 "status": "ok",
 "raw": 80,
 "error": null,
-"secs": 0.6
+"secs": 0.1
 },
 {
 "company": "Doximity",
@@ -678,7 +678,7 @@
 "status": "ok",
 "raw": 11,
 "error": null,
-"secs": 0.2
+"secs": 1.6
 },
 {
 "company": "WHOOP",
@@ -686,31 +686,31 @@
 "status": "ok",
 "raw": 109,
 "error": null,
-"secs": 0.4
+"secs": 0.1
 },
 {
 "company": "Oura",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 94,
+"raw": 97,
 "error": null,
-"secs": 0.5
+"secs": 10.0
 },
 {
 "company": "Compass",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 172,
+"raw": 171,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "BetterUp",
 "ats": "ashby",
 "status": "ok",
-"raw": 8,
+"raw": 9,
 "error": null,
-"secs": 0.2
+"secs": 0.0
 },
 {
 "company": "Calm",
@@ -718,21 +718,21 @@
 "status": "ok",
 "raw": 1,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "Noom",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 4,
+"raw": 3,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Intercom",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 122,
+"raw": 124,
 "error": null,
 "secs": 0.5
 },
@@ -740,33 +740,33 @@
 "company": "Sentry",
 "ats": "ashby",
 "status": "ok",
-"raw": 41,
+"raw": 42,
 "error": null,
-"secs": 0.2
+"secs": 0.0
 },
 {
 "company": "PagerDuty",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 48,
+"raw": 49,
 "error": null,
-"secs": 0.4
+"secs": 0.7
 },
 {
 "company": "Snowflake",
 "ats": "ashby",
 "status": "ok",
-"raw": 374,
+"raw": 370,
 "error": null,
-"secs": 0.8
+"secs": 0.2
 },
 {
 "company": "Palantir",
 "ats": "lever",
 "status": "ok",
-"raw": 306,
+"raw": 305,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Flock Safety",
@@ -774,39 +774,39 @@
 "status": "ok",
 "raw": 12,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Ramp",
 "ats": "ashby",
 "status": "ok",
-"raw": 181,
+"raw": 180,
 "error": null,
-"secs": 0.4
+"secs": 0.1
 },
 {
 "company": "Linear",
 "ats": "ashby",
 "status": "ok",
-"raw": 31,
+"raw": 30,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Vanta",
 "ats": "ashby",
 "status": "ok",
-"raw": 68,
+"raw": 63,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Cursor (Anysphere)",
 "ats": "ashby",
 "status": "ok",
-"raw": 88,
+"raw": 87,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Perplexity",
@@ -820,9 +820,9 @@
 "company": "ElevenLabs",
 "ats": "ashby",
 "status": "ok",
-"raw": 123,
+"raw": 118,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Replit",
@@ -830,23 +830,23 @@
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Supabase",
 "ats": "ashby",
 "status": "ok",
-"raw": 81,
+"raw": 80,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "PostHog",
 "ats": "ashby",
 "status": "ok",
-"raw": 9,
+"raw": 10,
 "error": null,
-"secs": 0.2
+"secs": 0.0
 },
 {
 "company": "Modal",
@@ -860,7 +860,7 @@
 "company": "Hex",
 "ats": "ashby",
 "status": "ok",
-"raw": 42,
+"raw": 43,
 "error": null,
 "secs": 0.1
 },
@@ -868,25 +868,25 @@
 "company": "Sierra",
 "ats": "ashby",
 "status": "ok",
-"raw": 199,
+"raw": 203,
 "error": null,
-"secs": 0.5
+"secs": 0.1
 },
 {
 "company": "Harvey",
 "ats": "ashby",
 "status": "ok",
-"raw": 391,
+"raw": 393,
 "error": null,
-"secs": 0.8
+"secs": 0.3
 },
 {
 "company": "Cohere",
 "ats": "ashby",
 "status": "ok",
-"raw": 124,
+"raw": 122,
 "error": null,
-"secs": 0.5
+"secs": 0.2
 },
 {
 "company": "Writer",
@@ -894,7 +894,7 @@
 "status": "ok",
 "raw": 45,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Hebbia",
@@ -910,15 +910,15 @@
 "status": "ok",
 "raw": 3,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Glean",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 129,
+"raw": 128,
 "error": null,
-"secs": 0.6
+"secs": 2.0
 },
 {
 "company": "Quora",
@@ -934,39 +934,39 @@
 "status": "ok",
 "raw": 30,
 "error": null,
-"secs": 0.3
+"secs": 1.0
 },
 {
 "company": "Zoox",
 "ats": "lever",
 "status": "ok",
-"raw": 245,
+"raw": 246,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Nuro",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 106,
+"raw": 107,
 "error": null,
-"secs": 0.4
+"secs": 26.6
 },
 {
 "company": "Wealthfront",
 "ats": "lever",
 "status": "ok",
-"raw": 20,
+"raw": 19,
 "error": null,
-"secs": 0.6
+"secs": 0.1
 },
 {
 "company": "Gong",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 80,
+"raw": 83,
 "error": null,
-"secs": 0.2
+"secs": 1.5
 },
 {
 "company": "Strava",
@@ -974,23 +974,23 @@
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Block",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 184,
+"raw": 182,
 "error": null,
-"secs": 0.5
+"secs": 0.7
 },
 {
 "company": "Spotify",
 "ats": "lever",
 "status": "ok",
-"raw": 88,
+"raw": 90,
 "error": null,
-"secs": 2.0
+"secs": 0.2
 },
 {
 "company": "Twitch",
@@ -1004,15 +1004,15 @@
 "company": "Via",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 171,
+"raw": 174,
 "error": null,
-"secs": 0.3
+"secs": 11.0
 },
 {
 "company": "Angi",
 "ats": "ashby",
 "status": "ok",
-"raw": 26,
+"raw": 28,
 "error": null,
 "secs": 0.0
 },
@@ -1020,17 +1020,17 @@
 "company": "Rubrik",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 219,
+"raw": 225,
 "error": null,
-"secs": 0.6
+"secs": 1.0
 },
 {
 "company": "Wiz",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 106,
+"raw": 104,
 "error": null,
-"secs": 0.3
+"secs": 0.8
 },
 {
 "company": "Alloy",
@@ -1038,7 +1038,7 @@
 "status": "ok",
 "raw": 34,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Olo",
@@ -1052,17 +1052,17 @@
 "company": "Yext",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 32,
+"raw": 34,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Taboola",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 51,
+"raw": 48,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Maven Clinic",
@@ -1076,9 +1076,9 @@
 "company": "Headway",
 "ats": "ashby",
 "status": "ok",
-"raw": 91,
+"raw": 89,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Alma",
@@ -1086,7 +1086,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.0
 },
 {
 "company": "Capsule",
@@ -1094,7 +1094,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Lemonade",
@@ -1102,7 +1102,7 @@
 "status": "ok",
 "raw": 43,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Current",
@@ -1118,15 +1118,15 @@
 "status": "ok",
 "raw": 15,
 "error": null,
-"secs": 0.1
+"secs": 0.7
 },
 {
 "company": "Kalshi",
 "ats": "ashby",
 "status": "ok",
-"raw": 41,
+"raw": 40,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Polymarket",
@@ -1134,23 +1134,23 @@
 "status": "ok",
 "raw": 33,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Zip",
 "ats": "ashby",
 "status": "ok",
-"raw": 112,
+"raw": 114,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Navan",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 238,
+"raw": 237,
 "error": null,
-"secs": 0.3
+"secs": 0.9
 },
 {
 "company": "Komodo Health",
@@ -1158,13 +1158,13 @@
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.2
+"secs": 0.9
 },
 {
 "company": "Rho",
 "ats": "ashby",
 "status": "ok",
-"raw": 49,
+"raw": 48,
 "error": null,
 "secs": 0.0
 },
@@ -1174,23 +1174,23 @@
 "status": "ok",
 "raw": 100,
 "error": null,
-"secs": 0.2
+"secs": 1.9
 },
 {
 "company": "Ridgeline",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 29,
+"raw": 27,
 "error": null,
-"secs": 0.1
+"secs": 0.8
 },
 {
 "company": "Figure",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 30,
+"raw": 31,
 "error": null,
-"secs": 0.2
+"secs": 1.3
 },
 {
 "company": "Public",
@@ -1198,103 +1198,103 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Salesforce",
 "ats": "workday",
-"status": "ok",
-"raw": 5,
-"error": null,
-"secs": 9.6
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
+"secs": 45.8
 },
 {
 "company": "Adobe",
 "ats": "workday",
-"status": "ok",
-"raw": 22,
-"error": null,
-"secs": 23.3
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+"secs": 69.2
 },
 {
 "company": "NVIDIA",
 "ats": "workday",
-"status": "ok",
-"raw": 50,
-"error": null,
-"secs": 50.6
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+"secs": 45.8
 },
 {
 "company": "PayPal",
 "ats": "workday",
-"status": "ok",
-"raw": 41,
-"error": null,
-"secs": 94.5
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs",
+"secs": 182.9
 },
 {
 "company": "Capital One",
 "ats": "workday",
-"status": "ok",
-"raw": 221,
-"error": null,
-"secs": 254.7
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs",
+"secs": 109.2
 },
 {
 "company": "Mastercard",
 "ats": "workday",
 "status": "ok",
-"raw": 0,
+"raw": 1,
 "error": null,
-"secs": 58.0
+"secs": 181.2
 },
 {
 "company": "Disney",
 "ats": "workday",
-"status": "ok",
+"status": "fail",
 "raw": 0,
-"error": null,
-"secs": 25.7
+"error": "RuntimeError: HTTP 429 after retries: https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+"secs": 97.4
 },
 {
 "company": "Warner Bros. Discovery",
 "ats": "workday",
-"status": "ok",
-"raw": 4,
-"error": null,
-"secs": 20.2
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs",
+"secs": 109.0
 },
 {
 "company": "Autodesk",
 "ats": "workday",
-"status": "ok",
+"status": "fail",
 "raw": 0,
-"error": null,
-"secs": 49.6
+"error": "RuntimeError: HTTP 429 after retries: https://autodesk.wd1.myworkdayjobs.com/wday/cxs/autodesk/Ext/jobs",
+"secs": 133.3
 },
 {
 "company": "Workday",
 "ats": "workday",
-"status": "ok",
-"raw": 20,
-"error": null,
-"secs": 87.2
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
+"secs": 178.8
 },
 {
 "company": "Zillow",
 "ats": "workday",
-"status": "ok",
-"raw": 23,
-"error": null,
-"secs": 114.8
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs",
+"secs": 142.7
 },
 {
 "company": "BlackRock",
 "ats": "workday",
-"status": "ok",
-"raw": 12,
-"error": null,
-"secs": 36.8
+"status": "fail",
+"raw": 0,
+"error": "RuntimeError: HTTP 429 after retries: https://blackrock.wd1.myworkdayjobs.com/wday/cxs/blackrock/BlackRock_Professional/jobs",
+"secs": 183.0
 },
 {
 "company": "Netflix",
@@ -1302,7 +1302,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 3.7
+"secs": 3.0
 },
 {
 "company": "Amazon",
@@ -1310,7 +1310,7 @@
 "status": "ok",
 "raw": 3600,
 "error": null,
-"secs": 25.5
+"secs": 19.4
 },
 {
 "company": "Google",
@@ -1318,7 +1318,7 @@
 "status": "ok",
 "raw": 142,
 "error": null,
-"secs": 114.0
+"secs": 121.0
 }
 ],
 "companies_tracked": 163
@@ -1441,6 +1441,43 @@
 ],
 "score": 92,
 "first_seen": "2026-11-21",
+"is_new": false
+},
+{
+"id": "7cc58bab0d02",
+"title": "RFP Strategy & Operations Analyst",
+"company": "Sierra",
+"url": "https://jobs.ashbyhq.com/Sierra/03424869-528d-4db1-b099-5d7f736d1a39",
+"source": "ashby",
+"locations": [
+"San Francisco, CA"
+],
+"primary_location": "San Francisco, CA",
+"buckets": [
+"bay"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 150000,
+"max": 180000,
+"source": "structured",
+"all": [
+[
+150000,
+180000
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-24",
+"snippet": "About us Sierra is the leading platform for customer-facing AI agents, working with many of the world's biggest brands — including The GAP, Rocket Mortgage, SoFi, Sutter Health, and SoftBank — to transform how they serve customers and grow their businesses. We are primarily an in-person company based in San Francisco, with growing offices across North America, Europe, and Asia. We are guided by a set of values that a",
+"tags": [
+"ai"
+],
+"score": 87,
+"first_seen": "2026-11-24",
 "is_new": true
 },
 {
@@ -1480,6 +1517,54 @@
 "score": 86,
 "first_seen": "2026-11-20",
 "is_new": false
+},
+{
+"id": "c251cad4e964",
+"title": "Product Marketing Manager - Banking & Payments",
+"company": "Mercury",
+"url": "https://job-boards.greenhouse.io/mercury/jobs/6270505004",
+"source": "greenhouse",
+"locations": [
+"Any Office or Remote",
+"San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States"
+],
+"primary_location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+"buckets": [
+"bay",
+"nyc",
+"remote"
+],
+"role": "pmm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 142900,
+"max": 160700,
+"source": "parsed",
+"all": [
+[
+142900,
+160700
+],
+[
+128600,
+144600
+],
+[
+135000,
+151900
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-24",
+"snippet": "In 1933, Harry Beck introduced a radically different map of the London Underground. Rather than faithfully depicting the geography of London, he simplified the sprawling transit network into clean lines, clear connections, and a system that anyone could navigate. Distances were distorted, angles were standardized, and unnecessary details disappeared. The result was something far more useful than a geographically accu",
+"tags": [
+"fintech"
+],
+"score": 84,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "46ac4eae5995",
@@ -1713,429 +1798,6 @@
 "is_new": false
 },
 {
-"id": "4863f8225b99",
-"title": "Senior Associate, Product Manager - Data Platform",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Senior-Associate--Product-Manager---Data-Platform_R246522-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-16",
-"snippet": "Senior Associate, Product Manager - Data Platform Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, ta",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "bd978bca7711",
-"title": "Senior Associate, Product Manager – Core Banking Operations & Enablement",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager---Core-Banking-Operations---Enablement_R1005803-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Philadelphia, PA",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-],
-[
-101100,
-115400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-16",
-"snippet": "Senior Associate, Product Manager – Core Banking Operations & Enablement At Capital One, we believe great products begin with a deep understanding of our customers. From our earliest days, we pioneered the use of predictive modeling to individually personalize credit card offers, turning the entire industry on its head. As we’ve grown bigger, we’ve found more and more ways to use technology and face-to-face conversat",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "8f6caba2f5f2",
-"title": "Senior Associate, Product Management - Profiles & Favorites | Capital One Travel",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Management---Profiles---Favorites---Capital-One-Travel_R1005882-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-17",
-"snippet": "Senior Associate, Product Management - Profiles & Favorites | Capital One Travel About Capital One Travel & The Role Capital One Travel is reimagining how travelers discover, plan, and book their journeys. As a Senior Associate Product Manager (SA, PdM) on the Consumer Web team, you will own the end-to-end product strategy, discovery, and execution for two foundational pillars of the digital travel journey: Favorites",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-17",
-"is_new": false
-},
-{
-"id": "cc93e65d2d5e",
-"title": "Senior Associate Product Manager, Enterprise Payments",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate-Product-Manager--Enterprise-Payments_R999381-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-18",
-"snippet": "Senior Associate Product Manager, Enterprise Payments At Capital One, we believe great products begin with a deep understanding of our customers. From our earliest days, we pioneered the use of predictive modeling to individually personalize credit card offers, turning the entire industry on its head. As we’ve grown bigger, we’ve found more and more ways to use technology and face-to-face conversations to understand ",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-18",
-"is_new": false
-},
-{
-"id": "4c5810e02a2f",
-"title": "Senior Associate, Product Manager - Capital One Travel",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager---Capital-One-Travel_R1006092-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-18",
-"snippet": "Senior Associate, Product Manager - Capital One Travel As a Senior Associate, Product Manager in Capital One Travel, you will own the strategy, roadmap, and end-to-end execution of high-impact customer experiences across web and mobile. Operating at the intersection of fintech, e-commerce, and hospitality, you will partner closely with engineering, design, data science, and external travel suppliers to build intuitiv",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-18",
-"is_new": false
-},
-{
-"id": "f8fafa3a99c3",
-"title": "Senior Associate, Product Manager - Upmarket",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager---Upmarket_R1006232-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-19",
-"snippet": "Senior Associate, Product Manager - Upmarket Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, ca",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-20",
-"is_new": false
-},
-{
-"id": "d14afedacadc",
-"title": "Senior Associate, Product Manager-Small Business Bank Associate Servicing",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager-Small-Business-Bank-Associate-Servicing_R1004284",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-20",
-"snippet": "Senior Associate, Product Manager-Small Business Bank Associate Servicing Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale,",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "57e1cbffbb7f",
-"title": "Senior Associate, Product Management, Insourcing Data Product Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Management--Insourcing-Data-Product-Team_R1006086-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-101100,
-115400
-],
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-20",
-"snippet": "Senior Associate, Product Management, Insourcing Data Product Team Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company wit",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-20",
-"is_new": false
-},
-{
-"id": "ac6d6af7e596",
-"title": "Senior Associate Product Manager, Retail Bank Data",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate-Product-Manager--Retail-Bank-Data_R1006146-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-20",
-"snippet": "Senior Associate Product Manager, Retail Bank Data Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, t",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-20",
-"is_new": false
-},
-{
 "id": "e99135fae954",
 "title": "Associate, Business Operations and Strategy",
 "company": "Google",
@@ -2293,94 +1955,41 @@
 "is_new": false
 },
 {
-"id": "04b2915561db",
-"title": "GTM Strategy & Operations - Strategic Planning",
-"company": "Anthropic",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5481842008",
-"source": "greenhouse",
+"id": "d10884d972f6",
+"title": "RFP Strategy & Operations, Public Sector",
+"company": "Sierra",
+"url": "https://jobs.ashbyhq.com/Sierra/ff028e8c-4406-4888-bfef-69646be37cb8",
+"source": "ashby",
 "locations": [
-"New York City, NY",
-"New York City, NY; San Francisco, CA | New York City, NY",
 "San Francisco, CA"
 ],
-"primary_location": "New York City, NY; San Francisco, CA | New York City, NY",
+"primary_location": "San Francisco, CA",
 "buckets": [
-"bay",
-"nyc"
+"bay"
 ],
 "role": "strategy",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 190000,
-"max": 270000,
-"source": "parsed",
+"min": 180000,
+"max": 220000,
+"source": "structured",
 "all": [
 [
-190000,
-270000
+180000,
+220000
 ]
 ]
 },
-"years_min": null,
-"posted": "2026-11-16",
-"snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic's go-to-market organization is growing quickly, and every",
+"years_min": 2,
+"posted": "2026-11-24",
+"snippet": "About us Sierra is the leading platform for customer-facing AI agents, working with many of the world's biggest brands — including The GAP, Rocket Mortgage, SoFi, Sutter Health, and SoftBank — to transform how they serve customers and grow their businesses. We are primarily an in-person company based in San Francisco, with growing offices across North America, Europe, and Asia. We are guided by a set of values that a",
 "tags": [
 "ai"
 ],
 "score": 79,
-"first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "5b5b89b96277",
-"title": "Manager,  Risk Data Product Manager",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager---Risk-Data-Product-Manager_R1006017-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-200700,
-229100
-],
-[
-179700,
-205100
-],
-[
-219000,
-249900
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-17",
-"snippet": "Manager, Risk Data Product Manager Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and value",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-18",
-"is_new": false
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "17410d7f289a",
@@ -2416,388 +2025,6 @@
 "score": 78,
 "first_seen": "2026-11-18",
 "is_new": false
-},
-{
-"id": "061237153308",
-"title": "Manager, Product Management - Enterprise Model Platforms",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Enterprise-Model-Platforms_R1006158-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"San Francisco,  CA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-18",
-"snippet": "Manager, Product Management - Enterprise Model Platforms Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilit",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-19",
-"is_new": false
-},
-{
-"id": "098420c00303",
-"title": "Manager, Product Manager - Bank Modernization",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager---Bank-Modernization_R1005904-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Philadelphia, PA",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-19",
-"snippet": "Manager, Product Manager - Bank Modernization Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "ca48a7b9128e",
-"title": "Manager, Product Manager, Customer Restrictions",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager--Customer-Restrictions_R1001995-2",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Philadelphia, PA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-20",
-"snippet": "Manager, Product Manager, Customer Restrictions Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, tale",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "d37097ca511a",
-"title": "Business Manager, Marketing, Analytics & Product Strategy",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Business-Manager--Marketing--Analytics---Product-Strategy_R1000962",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-20",
-"snippet": "Business Manager, Marketing, Analytics & Product Strategy Marketing, Analytics & Product Strategy (MAPS) delivers intelligent marketing and innovative product strategies to fund the Enterprise and fuel the Retail Bank’s growth, customer engagement and retention. As a Business Analysis Manager at Capital One, you will apply your strategic and analytical skills to major company challenges. You'll team with world-class ",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-20",
-"is_new": false
-},
-{
-"id": "87b8c05e158b",
-"title": "Manager, Product Management - Account Opening Decisioning",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---Account-Opening-Decisioning_R1003755-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-20",
-"snippet": "Manager, Product Management - Account Opening Decisioning Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabili",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "6f1642dfbbde",
-"title": "Manager, Product Manager, Retail Bank Data",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager--Retail-Bank-Data_R1003781-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-22",
-"snippet": "Manager, Product Manager, Retail Bank Data At Capital One, we believe great products begin with a deep understanding of our customers. From our earliest days, we pioneered the use of predictive modeling to individually personalize credit card offers, turning the entire industry on its head. As we’ve grown bigger, we’ve found more and more ways to use technology and face-to-face conversations to understand the human p",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "5a98b94e5beb",
-"title": "Product Management, GenAI Platforms",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Management--GenAI-Platforms_R1004353-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 219000,
-"max": 249900,
-"source": "parsed",
-"all": [
-[
-182500,
-208300
-],
-[
-149800,
-171000
-],
-[
-200700,
-229100
-],
-[
-164800,
-188100
-],
-[
-219000,
-249900
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 4,
-"posted": "2026-11-23",
-"snippet": "Product Management, GenAI Platforms Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and valu",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-23",
-"is_new": true
-},
-{
-"id": "966ceb4c19e7",
-"title": "Manager, Product Manager - Identity Theft Protection",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager---Identity-Theft-Protection_R1006343-2",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-23",
-"snippet": "Manager, Product Manager - Identity Theft Protection Manager, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-23",
-"is_new": true
 },
 {
 "id": "0949dffcf8c7",
@@ -3028,195 +2255,97 @@
 ],
 "score": 76,
 "first_seen": "2026-11-21",
+"is_new": false
+},
+{
+"id": "f6006eec3abc",
+"title": "Sales Strategy and Analytics Manager",
+"company": "Box",
+"url": "https://job-boards.greenhouse.io/boxinc/jobs/8397132",
+"source": "greenhouse",
+"locations": [
+"Chicago, Illinois, United States, New York, NY, United States, Redwood City, CA, United States, San Francisco, CA, United States, United States",
+"New York City Office"
+],
+"primary_location": "Chicago, Illinois, United States, New York, NY, United States, Redwood City, CA, United States, San Francisco, CA, United States, United States",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "strategy",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 109500,
+"max": 152000,
+"source": "parsed",
+"all": [
+[
+109500,
+152000
+],
+[
+109500,
+152000
+],
+[
+109500,
+152000
+],
+[
+109500,
+152000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-11-24",
+"snippet": "WHAT IS BOX? Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in the new AI-first era of business. Founded in 2005, Box simplifies work for leading global organizations, including JLL, Morgan Stanley, and Na",
+"tags": [
+"saas"
+],
+"score": 76,
+"first_seen": "2026-11-24",
 "is_new": true
 },
 {
-"id": "33642e01fdf0",
-"title": "Senior Associate, Product Manager - Trade Credit",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager---Trade-Credit_R1002699",
-"source": "workday",
+"id": "53f289be491c",
+"title": "Product Manager, Self-serve Growth",
+"company": "Cloudflare",
+"url": "https://boards.greenhouse.io/cloudflare/jobs/8406966?gh_jid=8406966",
+"source": "greenhouse",
 "locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY"
+"Austin, TX",
+"Hybrid",
+"San Francisco, CA"
 ],
-"primary_location": "New York, NY",
+"primary_location": "San Francisco, CA",
 "buckets": [
-"nyc"
+"bay"
 ],
 "role": "pm",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 121300,
-"max": 138400,
+"min": 179000,
+"max": 230000,
 "source": "parsed",
 "all": [
 [
-101100,
-115400
-],
-[
-111200,
-126900
-],
-[
-121300,
-138400
+179000,
+230000
 ]
 ]
 },
-"years_min": 1,
-"posted": "2026-11-09",
-"snippet": "Senior Associate, Product Manager - Trade Credit Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand",
+"years_min": null,
+"posted": "2026-11-24",
+"snippet": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code",
 "tags": [
-"fintech"
+"saas"
 ],
-"score": 75,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "ddf0a5910706",
-"title": "Senior Associate, Product Management - Secured Card",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Management---Secured-Card_R1005145-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-09",
-"snippet": "Senior Associate, Product Management - Secured Card Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, br",
-"tags": [
-"fintech"
-],
-"score": 75,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "943d175b9532",
-"title": "Senior Associate, Product Manager",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager_R1003908-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-12",
-"snippet": "Senior Associate, Product Manager Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values",
-"tags": [
-"fintech"
-],
-"score": 75,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "e0ca4d349f72",
-"title": "Senior Associate, Product Manager - CreditWise",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager---CreditWise_R1005774-2",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-13",
-"snippet": "Senior Associate, Product Manager - CreditWise Product Management At CreditWise we're on a mission to build an intelligent financial co-pilot that empowers everyone in America to take charge of their finances. As a Senior Associate, Product Manager in the Credit & Identity space, you’ll play a critical role in customers receiving alerts and notifications related to credit report changes and identity protection. In th",
-"tags": [
-"fintech"
-],
-"score": 75,
-"first_seen": "2026-11-14",
-"is_new": false
+"score": 76,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "e680eba077e1",
@@ -3418,6 +2547,46 @@
 "is_new": false
 },
 {
+"id": "04b2915561db",
+"title": "GTM Strategy & Operations - Strategic Planning",
+"company": "Anthropic",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5481842008",
+"source": "greenhouse",
+"locations": [
+"New York City, NY",
+"New York City, NY; San Francisco, CA | New York City, NY",
+"San Francisco, CA"
+],
+"primary_location": "New York City, NY; San Francisco, CA | New York City, NY",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "strategy",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 190000,
+"max": 270000,
+"source": "parsed",
+"all": [
+[
+190000,
+270000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-16",
+"snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic's go-to-market organization is growing quickly, and every",
+"tags": [
+"ai"
+],
+"score": 74,
+"first_seen": "2026-11-16",
+"is_new": false
+},
+{
 "id": "e9a21d822acf",
 "title": "Senior Associate, Corporate Development",
 "company": "DoorDash",
@@ -3458,394 +2627,43 @@
 "is_new": false
 },
 {
-"id": "d7400d593212",
-"title": "Manager, Product Manager-Small Business Bank Digital Servicing",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager-Small-Business-Bank-Digital-Servicing_R246759-1",
-"source": "workday",
+"id": "775ead29214e",
+"title": "Product Marketing Manager, SMB",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/894ba35c-c6b6-4cf0-9451-f996aa695e49",
+"source": "ashby",
 "locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
+"San Francisco",
+"San Francisco, California"
 ],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-11",
-"snippet": "Manager, Product Manager-Small Business Bank Digital Servicing Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, cap",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "c4bf5796f483",
-"title": "Manager, Product Management - People Data Hub",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Manager--Product-Management---People-Data-Hub_R1003462-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-149800,
-171000
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-14",
-"snippet": "Manager, Product Management - People Data Hub Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "dfb335f3970b",
-"title": "Manager, Product Manager-Airkey",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Manager--Product-Manager-Airkey_R1003023",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"San Francisco,  CA"
-],
-"primary_location": "New York, NY",
+"primary_location": "San Francisco",
 "buckets": [
 "bay",
-"nyc"
+"remote"
 ],
-"role": "pm",
+"role": "pmm",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
+"min": 225000,
+"max": 300000,
+"source": "structured",
 "all": [
 [
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-179700,
-205100
+225000,
+300000
 ]
 ]
 },
-"years_min": 3,
-"posted": "2026-10-15",
-"snippet": "Manager, Product Manager-Airkey Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values t",
+"years_min": null,
+"posted": "2026-11-20",
+"snippet": "About the Team OpenAI’s mission is to ensure the responsible and widespread adoption of artificial intelligence. In support of that mission, the SMB Marketing team helps small and medium-sized businesses understand and adopt ChatGPT Business and OpenAI’s B2B solutions. We build a deep understanding of business owners and teams, shape relevant product narratives, and drive awareness, adoption, and growth. We take a da",
 "tags": [
-"fintech"
+"ai"
 ],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "5b862ac43919",
-"title": "Manager, Product Management - Business Cards & Payments",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Business-Cards---Payments_R1000202-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-15",
-"snippet": "Manager, Product Management - Business Cards & Payments Business Cards & Payments (BC&P) | Build the Future. At BC&P, we bring a builder's mindset to work, just like the business owners we serve. Small businesses are a different kind of customer. They're the people turning ideas into opportunities, and opportunities into livelihoods. When we build for them, we build something bigger. That's why we have a high bar for",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "72a5bdc2db94",
-"title": "Manager, Product Management - Data Infrastructure for Collections Platform",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Data-Infrastructure-for-Collections-Platform_R1003760-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-16",
-"snippet": "Manager, Product Management - Data Infrastructure for Collections Platform Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "b193dc145345",
-"title": "Manager, Product Management – Customer Resiliency Data Platform (US Card)",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Customer-Resiliency-Data-Platform--US-Card-_R1003393-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-16",
-"snippet": "Manager, Product Management – Customer Resiliency Data Platform (US Card) Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale,",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "648d1f163e09",
-"title": "Manager, Product Management, Card Data",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Card-Data_R1000854-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-19",
-"snippet": "Manager, Product Management, Card Data Manager, Product Management (PXDP50) Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scal",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "54ce4406b7f7",
-"title": "Manager, Product Management- Customer Core and Identity",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Customer-Core-and-Identity_R246429",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-182500,
-208300
-],
-[
-164800,
-188100
-],
-[
-200700,
-229100
-],
-[
-179700,
-205100
-],
-[
-219000,
-249900
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-20",
-"snippet": "Manager, Product Management- Customer Core and Identity Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabiliti",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
+"score": 74,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "57d74875c7d2",
@@ -3889,110 +2707,6 @@
 "is_new": false
 },
 {
-"id": "644f962f712f",
-"title": "Manager Product Management; Innovation",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager-Product-Management--Innovation_R1002828-2",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-26",
-"snippet": "Manager Product Management; Innovation Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and v",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "136b04009e55",
-"title": "Manager Product Management; Speed to Market",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager-Product-Management--Speed-to-Market_R1002832-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-26",
-"snippet": "Manager Product Management; Speed to Market Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, ",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "73490c2dac65",
 "title": "Technical Product Manager II, Data Platforms",
 "company": "The New York Times",
@@ -4030,152 +2744,6 @@
 "is_new": false
 },
 {
-"id": "9e7f0748c9f9",
-"title": "Manager, Product Management, Alaric",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Alaric_R248984-2",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-27",
-"snippet": "Manager, Product Management, Alaric Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and valu",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "e2f5e8f59ef6",
-"title": "Manager, Product Manager - In Person Transactions",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager---In-Person-Transactions_R1003045-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-27",
-"snippet": "Manager, Product Manager - In Person Transactions Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, ta",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "9cdd335e39c2",
-"title": "Manager, Product Manager - Incentive Core Platform",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager---Incentive-Platform_R246607-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-27",
-"snippet": "Manager, Product Manager - Incentive Core Platform Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, t",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "98cdf962ca5e",
 "title": "Technical Product Manager II, Content Data Products",
 "company": "The New York Times",
@@ -4207,776 +2775,6 @@
 "snippet": "The mission of The New York Times is to seek the truth and help people understand the world. That means independent journalism is at the heart of all we do as a company. It’s why we have a world-renowned newsroom that sends journalists to report on the ground from nearly 160 countries. It’s why we focus deeply on how our readers will experience our journalism, from print to audio to a world-class digital and app dest",
 "tags": [
 "media"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "ad092f8c7f52",
-"title": "Manager, Product Management - US Card",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---US-Card_R1004714-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-28",
-"snippet": "Manager, Product Management - US Card Manager, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, ",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "4ac144b187fc",
-"title": "Manager, Product Manager- Global Payment Network",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager--Global-Payment-Network_R246357",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA",
-"Riverwoods, IL"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-28",
-"snippet": "Manager, Product Manager- Global Payment Network Manager, Product Management (PXDP50) Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company wit",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "a44d859f84d4",
-"title": "Manager, Product Management - US Card Customer Servicing Platforms",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---US-Card-Customer-Servicing-Platforms_R1004775-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-29",
-"snippet": "Manager, Product Management - US Card Customer Servicing Platforms Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand,",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "5fc6fa5503b4",
-"title": "Manager Product Management - Collections & Recoveries Platform, Offers, Integration, and Experience",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager-Product-Management---Collections---Recoveries-Platform--Offers--Integration--and-Experience_R1004766-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-29",
-"snippet": "Manager Product Management - Collections & Recoveries Platform, Offers, Integration, and Experience Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "2744c5eb7501",
-"title": "Manager, Product Management Enterprise Data",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management-Enterprise-Data_R1004879-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-200700,
-229100
-],
-[
-179700,
-205100
-],
-[
-219000,
-249900
-],
-[
-149800,
-171000
-],
-[
-182500,
-208300
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-30",
-"snippet": "Manager, Product Management Enterprise Data Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, ",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "c3af527d471f",
-"title": "Manager - Product Management - Travel Communication Platform",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager---Product-Management---Travel-Communication-Platform_R1003028-2",
-"source": "workday",
-"locations": [
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-02",
-"snippet": "Manager - Product Management - Travel Communication Platform Manager, Product Management (PXDP50) Do you want to build and scale the communication platforms that reach every Capital One Travel customer at every stage of their journey? Are you ready to evolve a foundational communications architecture into an intelligent, multi-channel engine that powers both critical servicing and dynamic marketing? Do you thrive in ",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "108264a6888f",
-"title": "Manager, Product Management - Recoveries Third-Party Integrations (3PI)",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---Recoveries-Third-Party-Integrations--3PI-_R1004968",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-02",
-"snippet": "Manager, Product Management - Recoveries Third-Party Integrations (3PI) Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, b",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "0fe84f26b752",
-"title": "Manager, Product Management- Payments Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Payments-Team_R1004956-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-03",
-"snippet": "Manager, Product Management- Payments Team Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, a",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "4eb63398555f",
-"title": "Manager, Product Management- Self-Service User Experience",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Self-Service-User-Experience_R247116-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-04",
-"snippet": "Manager, Product Management- Self-Service User Experience Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabili",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "4661f5f4fe12",
-"title": "Manager, Product Management- Card Core Data Consumption",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Card-Core-Data-Consumption_R248348-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-04",
-"snippet": "Manager, Product Management- Card Core Data Consumption Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabiliti",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "b7f43f7de501",
-"title": "Manager, Product Management- Credit Card Data Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management--Credit-Card-Data-Team_R1000257-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-04",
-"snippet": "Manager, Product Management- Credit Card Data Team Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, t",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "4f0388bc4bcf",
-"title": "Product Manager- Consumer and Developer Experience",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Product-Manager--Consumer-and-Developer-Experience_R1005013-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA",
-"San Francisco,  CA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-04",
-"snippet": "Product Manager- Consumer and Developer Experience Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, t",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "67e96f8e9b64",
-"title": "Manager, Product Management- Bedrock Payments Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management--Bedrock-Payments-Team_R999632-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-05",
-"snippet": "Manager, Product Management- Bedrock Payments Team Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, t",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "7798aa8f4c6b",
-"title": "Manager, Product Management - Enterprise Platforms and Service",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Prometheus-Financial-Core--PFC-_R246393-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-05",
-"snippet": "Manager, Product Management - Enterprise Platforms and Service Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, cap",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "75a2cb1a4d1d",
-"title": "Manager, Product Management- Credit Card Posted Transactions Data Product",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Manager--Product-Management--Credit-Card-Posted-Transactions-Data-Product_R246373-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-05",
-"snippet": "Manager, Product Management- Credit Card Posted Transactions Data Product Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale,",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "4a73117c37f8",
-"title": "Manager, Product Management - Accounts Data Product",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---Accounts-Data-Product_R246390-1",
-"source": "workday",
-"locations": [
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-05",
-"snippet": "Manager, Product Management - Accounts Data Product Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, ",
-"tags": [
-"fintech"
 ],
 "score": 73,
 "first_seen": "2026-11-14",
@@ -5022,95 +2820,6 @@
 "is_new": false
 },
 {
-"id": "18bc92d083ed",
-"title": "Manager, Product Management- Data Capabilities",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--Data-Capabilities_R1005395-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-149800,
-171000
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-06",
-"snippet": "Manager, Product Management- Data Capabilities Manager, Product Management (PXDP50) Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with ",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "68d9356acc07",
-"title": "Manager, Product Management - Customer Identity & Core",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---Customer-Identity---Core_R248564-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-09",
-"snippet": "Manager, Product Management - Customer Identity & Core Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilitie",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "b553397768e8",
 "title": "Product Manager, Lucie Platform",
 "company": "Oscar Health",
@@ -5143,204 +2852,6 @@
 "snippet": "Hi, we're Oscar. We're hiring a Product Manager to join our Lucie Health Marketplace Product team. Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family. About the role: As a Product Manager, ",
 "tags": [
 "health"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "5e65e36d5d49",
-"title": "Manager, Product Manager-Small Business Bank Associate Servicing",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager-Small-Business-Bank-Associate-Servicing_R1004658-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-10",
-"snippet": "Manager, Product Manager-Small Business Bank Associate Servicing Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, c",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "83c7243b81aa",
-"title": "Manager, Product Management - Card Servicing AI Strategy",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Card-Servicing-AI-Strategy_R1005157-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-10",
-"snippet": "Manager, Product Management - Card Servicing AI Strategy Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilit",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "980e0a240fa0",
-"title": "Manager, Product Manager-Small Business Bank",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Manager--Product-Manager-Small-Business-Bank_R1000555-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-10",
-"snippet": "Manager, Product Manager-Small Business Bank Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent,",
-"tags": [
-"fintech"
-],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "79817f943723",
-"title": "Manager, Product Management, Enterprise Data Publishing & Modernization",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management--OneStream-Data-Publishing---Modernization_R1000666-2",
-"source": "workday",
-"locations": [
-"Cambridge, MA",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-10",
-"snippet": "Manager, Product Management, Enterprise Data Publishing & Modernization Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, b",
-"tags": [
-"fintech"
 ],
 "score": 73,
 "first_seen": "2026-11-14",
@@ -5389,89 +2900,41 @@
 "is_new": false
 },
 {
-"id": "b65b155e16be",
-"title": "Manager, Product Management - CreditWise",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Management---CreditWise_R1000715",
-"source": "workday",
+"id": "cf27e28b4147",
+"title": "Associate, Ads Finance & Strategy",
+"company": "Netflix",
+"url": "https://explore.jobs.netflix.net/careers/job/790319702952",
+"source": "eightfold",
 "locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
+"New York, New York, United States of America"
 ],
-"primary_location": "New York, NY",
+"primary_location": "New York, New York, United States of America",
 "buckets": [
 "nyc"
 ],
-"role": "pm",
-"seniority": "mid",
+"role": "adjacent",
+"seniority": "entry",
 "program": false,
 "salary": {
-"min": 179700,
-"max": 205100,
+"min": 180000,
+"max": 275000,
 "source": "parsed",
 "all": [
 [
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
+180000,
+275000
 ]
 ]
 },
 "years_min": 3,
-"posted": "2026-11-12",
-"snippet": "Manager, Product Management - CreditWise At CreditWise we're on a mission to build an intelligent financial co-pilot that empowers everyone in America to take charge of their finances. As part of that mission, our platform team will be building the important foundation of this experience. You will ensure features can be delivered rapidly, consistently, and resiliently across every destination channel. You will own th",
+"posted": "2026-11-23",
+"snippet": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable a reality. We are a dream team obsessed with the uncomfortable excitement of discovering what happens when you merge creativity, intuition and cutting-edge technology. Come be a part of what’s next. The Advertising team is charged with buildin",
 "tags": [
-"fintech"
+"media"
 ],
-"score": 73,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "b41407d6bb14",
-"title": "Strategy and Operations Senior Associate, GTM Launch",
-"company": "Google",
-"url": "https://www.google.com/about/careers/applications/jobs/results/95891896894661318-strategy-and-operations-senior-associate-gtm-launch",
-"source": "google",
-"locations": [
-"Atlanta, GA, USA",
-"New York, NY, USA"
-],
-"primary_location": "New York, NY, USA",
-"buckets": [
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 124000,
-"max": 177000,
-"source": "parsed",
-"all": [
-[
-124000,
-177000
-]
-]
-},
-"years_min": 4,
-"posted": null,
-"snippet": "untain View, CA, USA; Los Angeles, CA, USA; San Francisco, CA, USA . Minimum qualifications: Bachelor's degree or equivalent practical experience. 4 years of experience in a management consulting, sales operations, business strategy or corporate advisory role. Preferred qualifications: MBA or graduate degree, or equivalent practical experience. 2 years of experience working with complex data sets, data modeling, and ",
-"tags": [
-"bigtech"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": false
+"score": 72,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "66c22aaa77c6",
@@ -5711,44 +3174,6 @@
 "is_new": false
 },
 {
-"id": "92e1327f32b1",
-"title": "Growth Product Manager - Reactivation",
-"company": "Kalshi",
-"url": "https://jobs.ashbyhq.com/kalshi/a2e482ee-e520-4182-b383-3be4f9ca8155",
-"source": "ashby",
-"locations": [
-"New York City, New York",
-"New York Office"
-],
-"primary_location": "New York Office",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 200000,
-"max": 300000,
-"source": "parsed",
-"all": [
-[
-200000,
-300000
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-02",
-"snippet": "What is Kalshi? Kalshi has defined a new category: prediction markets. Kalshi allows people to trade on the outcome of any events and turn any question about the future into a financial asset. Kalshi fought for years and legalized prediction markets in the US for the first time in history, is currently the fastest growing financial market in America, and has thousands of markets across politics, economics, financials",
-"tags": [
-"fintech"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "e1355e063234",
 "title": "Product Manager, Platform",
 "company": "Perplexity",
@@ -5870,47 +3295,6 @@
 "is_new": false
 },
 {
-"id": "1c5479d87dae",
-"title": "Product Manager",
-"company": "Adobe",
-"url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Product-Manager_R172087",
-"source": "workday",
-"locations": [
-"San Francisco"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 148100,
-"max": 282100,
-"source": "parsed",
-"all": [
-[
-148100,
-282100
-],
-[
-194800,
-282100
-]
-]
-},
-"years_min": null,
-"posted": "2026-10-14",
-"snippet": "Are you motivated by the opportunity to have a big impact? The Opportunity We are seeking a stellar individual for a high-impact role focused on defining monetization strategy within Adobe’s Creativity and Productivity business segment (historically referred to as Digital Media and home to such premier products as Creative Cloud, Acrobat, Photoshop, Illustrator and Firefly). We are a highly visible team responsible f",
-"tags": [
-"saas"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "4aac4c1227ff",
 "title": "Product Manager, Connections",
 "company": "Notion",
@@ -5942,49 +3326,6 @@
 "snippet": "Who We Are Notion is the collaborative AI workspace where teams and agents think together . We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion. Notinos (our employees) are customer zero in bringing this future of work to life. We care about",
 "tags": [
 "saas"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "118e8cda83ab",
-"title": "Sr Associate, Corporate Strategy",
-"company": "PayPal",
-"url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Sr-Associate--Corporate-Strategy_R0138410",
-"source": "workday",
-"locations": [
-"New York City, New York, United States of America",
-"San Jose, California, United States of America"
-],
-"primary_location": "New York City, New York, United States of America",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 109000,
-"max": 156200,
-"source": "parsed",
-"all": [
-[
-109000,
-156200
-],
-[
-109000,
-156200
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-15",
-"snippet": "The Company PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowers consumers and businesses in approximately 200 markets to join and thrive in the global economy. We operate a global, two-sided network at scale that connects hundreds of millions of merchants and consumers.",
-"tags": [
-"fintech"
 ],
 "score": 71,
 "first_seen": "2026-11-14",
@@ -6140,53 +3481,6 @@
 "snippet": "Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling",
 "tags": [
 "ai"
-],
-"score": 71,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "828f48222adf",
-"title": "Business Manager - AI Coding Tools Strategy & Analytics",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Business-Manager---AI-Coding-Tools-Strategy---Analytics_R1004451-2",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-09",
-"snippet": "Business Manager - AI Coding Tools Strategy & Analytics Capital One is embarking on a bold new enterprise imperative to Transform Analysis with AI across the company. This imperative will transform how enterprise data, AI, and analytical capabilities are delivered and consumed across the company to drive business outcomes, accelerate analytical workflows, and create more seamless experiences for our analysts and mode",
-"tags": [
-"fintech"
 ],
 "score": 71,
 "first_seen": "2026-11-14",
@@ -6349,66 +3643,6 @@
 "is_new": true
 },
 {
-"id": "4543f0086cb7",
-"title": "Senior Associate, Product Manager - Card Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Associate--Product-Manager---Card-Team_R1001786-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-101100,
-115400
-],
-[
-149800,
-171000
-],
-[
-111200,
-126900
-],
-[
-164800,
-188100
-],
-[
-121300,
-138400
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 1,
-"posted": "2026-09-30",
-"snippet": "Senior Associate, Product Manager - Card Team Senior Associate, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We have multiple openings across our specialized Card teams . While each team has a unique focus, they all share a ",
-"tags": [
-"fintech"
-],
-"score": 70,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "eb01d92f5a95",
 "title": "Strategist, Agent Development - Travel, Transportation and Hospitality",
 "company": "Sierra",
@@ -6527,11 +3761,10 @@
 "id": "1c25c03445bc",
 "title": "Pricing & Monetization Associate",
 "company": "MongoDB",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=8372137",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8372135",
 "source": "greenhouse",
 "locations": [
-"New York City",
-"Toronto"
+"New York City"
 ],
 "primary_location": "New York City",
 "buckets": [
@@ -6541,13 +3774,13 @@
 "seniority": "entry",
 "program": false,
 "salary": {
-"min": 101000,
-"max": 140000,
+"min": 84000,
+"max": 165000,
 "source": "parsed",
 "all": [
 [
-101000,
-140000
+84000,
+165000
 ]
 ]
 },
@@ -6562,8 +3795,8 @@
 "is_new": false
 },
 {
-"id": "80ea662251a4",
-"title": "Analyst, Strategic Finance - AI & Data Systems",
+"id": "cb5caba9125f",
+"title": "Strategic Finance Analyst II - AI & Data Systems",
 "company": "Snowflake",
 "url": "https://jobs.ashbyhq.com/snowflake/e8b43774-6ade-4c0a-ab68-9d92fc4ace7b",
 "source": "ashby",
@@ -6590,14 +3823,14 @@
 ]
 ]
 },
-"years_min": 1,
-"posted": "2026-11-23",
+"years_min": 2,
+"posted": "2026-11-24",
 "snippet": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dyn",
 "tags": [
 "data"
 ],
 "score": 69,
-"first_seen": "2026-11-21",
+"first_seen": "2026-11-24",
 "is_new": true
 },
 {
@@ -6675,105 +3908,6 @@
 "is_new": false
 },
 {
-"id": "22d12679e019",
-"title": "Manager, Product Manager - Claims",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager---Claims_R1002069-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-09-24",
-"snippet": "Manager, Product Manager - Claims Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values",
-"tags": [
-"fintech"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "e5179b7844a3",
-"title": "Product Manager - Card Team",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Manager---Card-Team_R1001787-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-09-30",
-"snippet": "Product Manager - Card Team Manager, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabiliti",
-"tags": [
-"fintech"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "14acf978c97d",
 "title": "Product Manager, Care Delivery",
 "company": "Maven Clinic",
@@ -6815,198 +3949,50 @@
 "is_new": false
 },
 {
-"id": "aaa38bb56edd",
-"title": "Business Manager - AIML Product Strategy",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Business-Manager---AIML-Product-Strategy_R1000634-1",
-"source": "workday",
+"id": "dc2dbac3ddcc",
+"title": "Chief of Staff, ETI",
+"company": "Cloudflare",
+"url": "https://boards.greenhouse.io/cloudflare/jobs/8412125?gh_jid=8412125",
+"source": "greenhouse",
 "locations": [
-"McLean, VA",
-"New York, NY",
-"San Francisco,  CA"
+"Hybrid",
+"Remote US"
 ],
-"primary_location": "New York, NY",
+"primary_location": "Remote US",
 "buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-06",
-"snippet": "Business Manager - AIML Product Strategy About Capital One : At Capital One, we have been relentlessly innovating since Day 1. We are a nationally recognized brand and a leading tech company touching over 100 million households. Founder-led, Capital One has grown to annualized ~$75 billion in revenue in just over 20 years. We consider ourselves the bank a technology company would build. We are the only large bank who",
-"tags": [
-"fintech"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "2fd8eb3f7d71",
-"title": "Manager, Product Manager - Enterprise Payments - Core Platform",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Manager---Enterprise-Payments---Core-Platform_R246402-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-06",
-"snippet": "Manager, Product Manager - Enterprise Payments - Core Platform Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, cap",
-"tags": [
-"fintech"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "a94218e1fb85",
-"title": "Manager, Product Manager - EP Payments",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager---EP-Payments_R249666-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-06",
-"snippet": "Manager, Product Manager - EP Payments Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and v",
-"tags": [
-"fintech"
-],
-"score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "dddcf1fcafaf",
-"title": "Sr Associate, Corporate Strategy",
-"company": "Adobe",
-"url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Sr-Associate--Corporate-Strategy_R173025",
-"source": "workday",
-"locations": [
-"San Francisco",
-"San Jose"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay"
+"remote"
 ],
 "role": "strategy",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 87800,
-"max": 167250,
+"min": 216000,
+"max": 297000,
 "source": "parsed",
 "all": [
 [
-87800,
-167250
+216000,
+297000
 ],
 [
-115500,
-167250
+207000,
+285000
+],
+[
+188000,
+259000
 ]
 ]
 },
-"years_min": 2,
-"posted": "2026-10-23",
-"snippet": "The Opportunity The Corporate Strategy team works closely with Adobe’s top executives and our three business units (the Creative Cloud, Document Cloud and Experience Cloud) to ensure that the company stays on its fast growth trajectory. We have played an active role in some of Adobe’s boldest and most strategic decisions, such as its well-publicized transition to cloud, and its expansion into a leadership position in",
+"years_min": null,
+"posted": "2026-11-24",
+"snippet": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code",
 "tags": [
 "saas"
 ],
 "score": 68,
-"first_seen": "2026-11-14",
-"is_new": false
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "48a97dabd25d",
@@ -7128,76 +4114,6 @@
 "is_new": false
 },
 {
-"id": "9550ec9998f4",
-"title": "Revenue Operations",
-"company": "Modal",
-"url": "https://jobs.ashbyhq.com/modal/0656b9d5-fea1-4838-a291-8e5316058319",
-"source": "ashby",
-"locations": [
-"New York",
-"new york, new york"
-],
-"primary_location": "New York",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 180000,
-"max": 200000,
-"source": "structured",
-"all": [
-[
-180000,
-200000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-16",
-"snippet": "About Us: AI needs a new infrastructure layer. We're building it at Modal. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now. ",
-"tags": [
-"ai"
-],
-"score": 67,
-"first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "7ff9cd6e884f",
-"title": "Product Manager - Open Models",
-"company": "NVIDIA",
-"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Manager---Open-Models_JR2026207",
-"source": "workday",
-"locations": [
-"US, CA, Santa Clara"
-],
-"primary_location": "US, CA, Santa Clara",
-"buckets": [
-"bay"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": null,
-"max": null,
-"source": "none",
-"all": []
-},
-"years_min": 2,
-"posted": "2026-11-19",
-"snippet": "Ready to help developers and researchers get more from open AI models? At NVIDIA, our team improves support for leading community models such as Nemotron, Llama, Gemma, DeepSeek, and Qwen. As a Product Manager for Open Models, you will help coordinate model enablement, developer experiences, technical content, and product launches across NVIDIA’s accelerated computing platform. You will work alongside experienced pro",
-"tags": [
-"hardware"
-],
-"score": 67,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "f277f66608a2",
 "title": "Program Manager, Cloud Partners",
 "company": "Anthropic",
@@ -7236,46 +4152,6 @@
 "score": 67,
 "first_seen": "2026-11-23",
 "is_new": true
-},
-{
-"id": "b649e8489c9b",
-"title": "Associate Business Development Manager",
-"company": "Warner Bros. Discovery",
-"url": "https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/Associate-Business-Development-Manager_R000107776-1",
-"source": "workday",
-"locations": [
-"DC Washington 820 1st Street NE",
-"GA Atlanta 1050 Techwood Drive NW",
-"Hybrid",
-"NY New York 30 Hudson Yards"
-],
-"primary_location": "NY New York 30 Hudson Yards",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 77000,
-"max": 143000,
-"source": "parsed",
-"all": [
-[
-77000,
-143000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-16",
-"snippet": "Storytelling is, and will always be, the heart of what we do at Skydance. Our vision is to build a thriving entertainment ecosystem where stories and worlds are imagined, brought to life and experienced. We create for every age and audience, anchored by the strength of our content and experiences and the depth of our connection with fans. We are creator-first, audience-focused, tech-forward, globally scaled. Here, yo",
-"tags": [
-"media"
-],
-"score": 66,
-"first_seen": "2026-11-16",
-"is_new": false
 },
 {
 "id": "b005fb9e7263",
@@ -7588,10 +4464,10 @@
 "is_new": false
 },
 {
-"id": "59f918b9293d",
+"id": "85c843a1e80d",
 "title": "Strategic Finance Associate, GTM",
 "company": "Mixpanel",
-"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075972",
+"url": "https://job-boards.greenhouse.io/mixpanel/jobs/8075971",
 "source": "greenhouse",
 "locations": [
 "New York City",
@@ -7599,7 +4475,7 @@
 "San Francisco",
 "San Francisco, US (Hybrid)"
 ],
-"primary_location": "New York City, US (Hybrid)",
+"primary_location": "New York City",
 "buckets": [
 "bay",
 "nyc"
@@ -7642,6 +4518,7 @@
 "Brazil",
 "Canada",
 "Salt Lake City, Utah, United States",
+"São Paulo, São Paulo, Brazil",
 "United States"
 ],
 "primary_location": "United States",
@@ -8115,6 +4992,44 @@
 "is_new": false
 },
 {
+"id": "9550ec9998f4",
+"title": "Revenue Operations",
+"company": "Modal",
+"url": "https://jobs.ashbyhq.com/modal/0656b9d5-fea1-4838-a291-8e5316058319",
+"source": "ashby",
+"locations": [
+"New York",
+"new york, new york"
+],
+"primary_location": "New York",
+"buckets": [
+"nyc"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 180000,
+"max": 200000,
+"source": "structured",
+"all": [
+[
+180000,
+200000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-16",
+"snippet": "About Us: AI needs a new infrastructure layer. We're building it at Modal. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now. ",
+"tags": [
+"ai"
+],
+"score": 62,
+"first_seen": "2026-11-16",
+"is_new": false
+},
+{
 "id": "e181ac47d319",
 "title": "Corporate Finance and Systems",
 "company": "Hex",
@@ -8378,89 +5293,6 @@
 "is_new": false
 },
 {
-"id": "76ad565fe340",
-"title": "Corporate Development Manager",
-"company": "Zillow",
-"url": "https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Remote-USA/Corporate-Development-Manager_P751866",
-"source": "workday",
-"locations": [
-"Remote",
-"Remote-USA"
-],
-"primary_location": "Remote-USA",
-"buckets": [
-"remote"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 130100,
-"max": 207900,
-"source": "parsed",
-"all": [
-[
-130100,
-207900
-],
-[
-123700,
-197500
-]
-]
-},
-"years_min": 4,
-"posted": "2026-11-13",
-"snippet": "About the team The Corporate Development team at Zillow is a high-impact, entrepreneurial function advancing Zillow's Housing Super App vision through acquisitions and strategic investments, as well as financial and strategic analysis across the business. We have been active on the M&A front, including acquisitions such as Virtual Staging AI, Follow Up Boss, Spruce, Aryeo, and VRX Media in recent years, and partner c",
-"tags": [
-"proptech"
-],
-"score": 60,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "104605b87d12",
-"title": "2027 University Graduate - Sales Strategy & Operations Manager",
-"company": "Adobe",
-"url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Sales-Strategy---Operations-Manager_R173463",
-"source": "workday",
-"locations": [
-"San Jose"
-],
-"primary_location": "San Jose",
-"buckets": [
-"bay"
-],
-"role": "strategy",
-"seniority": "entry",
-"program": true,
-"salary": {
-"min": 65600,
-"max": 144150,
-"source": "parsed",
-"all": [
-[
-65600,
-144150
-],
-[
-99600,
-144150
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-23",
-"snippet": "The Opportunity We are looking to hire an MBA Graduate for the Global Sales Operations team! You will help drive the strategy and execution that delivers growth and sales success across two of Adobe’s largest products: Creative Cloud and Document Cloud. Your expertise at breaking down problems, coupled with the ability to build structure and process will serve you well to improve our operations and execute growth str",
-"tags": [
-"saas"
-],
-"score": 60,
-"first_seen": "2026-11-23",
-"is_new": true
-},
-{
 "id": "27655f78e759",
 "title": "Integrated Marketing Manager, Frontier AI",
 "company": "Google",
@@ -8567,7 +5399,7 @@
 },
 "years_min": 2,
 "posted": "2026-10-02",
-"snippet": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinba",
+"snippet": "Ready to do the most impactful work of your career? Coinbase is building the future of finance for people, institutions and their agents, with one place to trade crypto, equities, derivatives and prediction markets, use stablecoins, and connect AI agents with clear controls. The bar is high and the pace is intense, and we like it that way. This isn’t a place for complacency. It’s a place to be pushed past your percei",
 "tags": [
 "fintech"
 ],
@@ -8648,58 +5480,6 @@
 "snippet": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100+ of the Fortune 500), a $5.8B valuation , more than $1 billion in ann",
 "tags": [
 "hardware"
-],
-"score": 59,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "9b782aad800f",
-"title": "Manager, Product Management - Card Partnerships Marketing",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Manager--Product-Management---Card-Partnerships-Marketing_R1004810-1",
-"source": "workday",
-"locations": [
-"Chicago, IL",
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-149800,
-171000
-],
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-149800,
-171000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-03",
-"snippet": "Manager, Product Management - Card Partnerships Marketing Manager, Product Management Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company wit",
-"tags": [
-"fintech"
 ],
 "score": 59,
 "first_seen": "2026-11-14",
@@ -8977,45 +5757,42 @@
 "is_new": false
 },
 {
-"id": "0afcdcc7a8ae",
-"title": "Program Manager, Product Systems and Insights",
-"company": "Harvey",
-"url": "https://jobs.ashbyhq.com/harvey/aa5babaa-bd03-45d2-beea-c159a8bec305",
-"source": "ashby",
+"id": "15de910278f7",
+"title": "(Sr) Associate / Manager, Corporate Finance - Capital Markets",
+"company": "Verkada",
+"url": "https://job-boards.greenhouse.io/verkada/jobs/5308613007",
+"source": "greenhouse",
 "locations": [
-"New York",
-"New York, New York",
-"San Francisco",
-"San Francisco, California"
+"Bay-HQ office",
+"San Mateo, CA United States"
 ],
-"primary_location": "New York",
+"primary_location": "San Mateo, CA United States",
 "buckets": [
-"bay",
-"nyc"
+"bay"
 ],
 "role": "adjacent",
 "seniority": "mid",
 "program": false,
 "salary": {
-"min": 155400,
-"max": 233200,
-"source": "structured",
+"min": 170000,
+"max": 200000,
+"source": "parsed",
 "all": [
 [
-155400,
-233200
+170000,
+200000
 ]
 ]
 },
-"years_min": null,
-"posted": "2026-09-24",
-"snippet": "Why Harvey At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling",
+"years_min": 3,
+"posted": "2026-11-24",
+"snippet": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100+ of the Fortune 500), a $5.8B valuation , more than $1 billion in ann",
 "tags": [
-"ai"
+"hardware"
 ],
-"score": 57,
-"first_seen": "2026-11-14",
-"is_new": false
+"score": 59,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "6dd4ad0a9579",
@@ -9135,6 +5912,45 @@
 "score": 57,
 "first_seen": "2026-11-14",
 "is_new": false
+},
+{
+"id": "257bdbdc8706",
+"title": "Strategic Finance, OpenAI for Inference",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/096be63b-69cf-4295-9d29-d2e740058ea4",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 234000,
+"max": 260000,
+"source": "structured",
+"all": [
+[
+234000,
+260000
+]
+]
+},
+"years_min": null,
+"posted": "2026-10-14",
+"snippet": "About the Team We partner with technical, product and commercial leaders to build the financial foundations for new businesses. Our work spans planning, investment analysis, pricing and operating performance across software and hardware-enabled products. About the Role We are looking for a hands-on finance professional who enjoys building the operating detail behind new businesses and stepping back to evaluate where ",
+"tags": [
+"ai"
+],
+"score": 57,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "742a2f9c03dd",
@@ -9324,6 +6140,44 @@
 ],
 "score": 57,
 "first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "9145a7047e8d",
+"title": "Financial Analyst, Compute Infrastructure Business",
+"company": "Google",
+"url": "https://www.google.com/about/careers/applications/jobs/results/141408469944017606-financial-analyst-compute-infrastructure-business",
+"source": "google",
+"locations": [
+"Kirkland, WA, USA",
+"Sunnyvale, CA, USA"
+],
+"primary_location": "Sunnyvale, CA, USA",
+"buckets": [
+"bay"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 116000,
+"max": 166000,
+"source": "parsed",
+"all": [
+[
+116000,
+166000
+]
+]
+},
+"years_min": 4,
+"posted": null,
+"snippet": "lowing: Sunnyvale, CA, USA; Kirkland, WA, USA; Chicago, IL, USA . Minimum qualifications: Bachelor's degree in Business, Finance, Economics, Statistics, or another quantitative field, or equivalent practical experience. 4 years of experience in financial planning and analysis (FP&A), consulting, or a related function. Experience executing full-cycle FP&A functions including budgeting, forecasting, variance analysis, ",
+"tags": [
+"bigtech"
+],
+"score": 56,
+"first_seen": "2026-11-21",
 "is_new": false
 },
 {
@@ -9949,44 +6803,6 @@
 ],
 "score": 53,
 "first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "37bb2391e0cc",
-"title": "Revenue Marketing Manager",
-"company": "MongoDB",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=8367109",
-"source": "greenhouse",
-"locations": [
-"San Francisco",
-"San Francisco "
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 84000,
-"max": 165000,
-"source": "parsed",
-"all": [
-[
-84000,
-165000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-16",
-"snippet": "Regional Revenue Marketing Manager The Regional Revenue Marketing Manager will help drive account expansion and deal acceleration through integrated regional marketing programs, with Sales as a primary stakeholder. As a key marketing partner for assigned AMER markets, you’ll collaborate with sales and marketing to build and execute programs that engage decision makers, advance buying committees, accelerate the sales ",
-"tags": [
-"saas"
-],
-"score": 53,
-"first_seen": "2026-11-16",
 "is_new": false
 },
 {
@@ -10625,39 +7441,38 @@
 "is_new": false
 },
 {
-"id": "9ecfa863cbf8",
-"title": "Strategic Finance Associate",
-"company": "Maven Clinic",
-"url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8945207002",
+"id": "37bb2391e0cc",
+"title": "Revenue Marketing Manager",
+"company": "MongoDB",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8367109",
 "source": "greenhouse",
 "locations": [
-"New York, New York, United States",
-"Remote"
+"San Francisco",
+"San Francisco "
 ],
-"primary_location": "New York, New York, United States",
+"primary_location": "San Francisco",
 "buckets": [
-"nyc",
-"remote"
+"bay"
 ],
 "role": "adjacent",
-"seniority": "entry",
+"seniority": "mid",
 "program": false,
 "salary": {
-"min": 94000,
-"max": 110000,
+"min": 84000,
+"max": 165000,
 "source": "parsed",
 "all": [
 [
-94000,
-110000
+84000,
+165000
 ]
 ]
 },
-"years_min": 2,
+"years_min": 3,
 "posted": "2026-11-16",
-"snippet": "Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical o",
+"snippet": "Regional Revenue Marketing Manager The Regional Revenue Marketing Manager will help drive account expansion and deal acceleration through integrated regional marketing programs, with Sales as a primary stakeholder. As a key marketing partner for assigned AMER markets, you’ll collaborate with sales and marketing to build and execute programs that engage decision makers, advance buying committees, accelerate the sales ",
 "tags": [
-"health"
+"saas"
 ],
 "score": 48,
 "first_seen": "2026-11-16",
@@ -10774,84 +7589,6 @@
 "is_new": false
 },
 {
-"id": "2b89a5743e06",
-"title": "Business Development Associate, AI Labs",
-"company": "Via",
-"url": "https://job-boards.greenhouse.io/via/jobs/8882305002",
-"source": "greenhouse",
-"locations": [
-"New York City",
-"New York, New York"
-],
-"primary_location": "New York, New York",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 70000,
-"max": 80000,
-"source": "parsed",
-"all": [
-[
-70000,
-80000
-]
-]
-},
-"years_min": 1,
-"posted": "2026-10-09",
-"snippet": "Via is the global leader in transportation technology, powering modern, data-driven transit networks for hundreds of agency partners worldwide. Now, we are building our next frontier: AI Labs. This new, high-growth vertical combines Via’s global scale with cutting-edge artificial intelligence to build next-generation software for cities, automate complex systems, and unlock massive revenue opportunities. As a Busines",
-"tags": [
-"mobility",
-"s&o"
-],
-"score": 43,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "73a60fed5d81",
-"title": "Partnerships Associate, AI Labs",
-"company": "Via",
-"url": "https://job-boards.greenhouse.io/via/jobs/8882311002",
-"source": "greenhouse",
-"locations": [
-"New York City",
-"New York, New York"
-],
-"primary_location": "New York, New York",
-"buckets": [
-"nyc"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 70000,
-"max": 80000,
-"source": "parsed",
-"all": [
-[
-70000,
-80000
-]
-]
-},
-"years_min": 1,
-"posted": "2026-10-09",
-"snippet": "Via is the global leader in transportation technology, powering modern, data-driven transit networks for hundreds of agency partners worldwide. Now, we are building our next frontier: AI Labs. This new, high-growth vertical combines Via’s global scale with cutting-edge artificial intelligence to build next-generation software for cities, automate complex systems, and unlock massive revenue opportunities. As a Partner",
-"tags": [
-"mobility",
-"s&o"
-],
-"score": 43,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "fad36e0bf1b2",
 "title": "Associate, Finance & Strategy - Marketplace",
 "company": "DoorDash",
@@ -10929,6 +7666,45 @@
 ],
 "score": 43,
 "first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "9ecfa863cbf8",
+"title": "Strategic Finance Associate",
+"company": "Maven Clinic",
+"url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8945207002",
+"source": "greenhouse",
+"locations": [
+"New York, New York, United States",
+"Remote"
+],
+"primary_location": "New York, New York, United States",
+"buckets": [
+"nyc",
+"remote"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 94000,
+"max": 110000,
+"source": "parsed",
+"all": [
+[
+94000,
+110000
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-16",
+"snippet": "Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical o",
+"tags": [
+"health"
+],
+"score": 43,
+"first_seen": "2026-11-16",
 "is_new": false
 },
 {
@@ -11121,7 +7897,7 @@
 "id": "76987c3d9c15",
 "title": "Business Development Rep, Enterprise, DACH",
 "company": "Fivetran",
-"url": "https://www.fivetran.com/careers/job?gh_jid=8213939003",
+"url": "https://www.fivetran.com/careers/job?gh_jid=8209310003",
 "source": "greenhouse",
 "locations": [
 "DEU - Remote",
@@ -11142,7 +7918,7 @@
 "all": []
 },
 "years_min": null,
-"posted": "2026-11-23",
+"posted": "2026-11-20",
 "snippet": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and dbt Labs are bringing",
 "tags": [
 "data"
@@ -11265,6 +8041,84 @@
 "is_new": false
 },
 {
+"id": "2b89a5743e06",
+"title": "Business Development Associate, AI Labs",
+"company": "Via",
+"url": "https://job-boards.greenhouse.io/via/jobs/8882305002",
+"source": "greenhouse",
+"locations": [
+"New York City",
+"New York, New York"
+],
+"primary_location": "New York, New York",
+"buckets": [
+"nyc"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 70000,
+"max": 80000,
+"source": "parsed",
+"all": [
+[
+70000,
+80000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-10-09",
+"snippet": "Via is the global leader in transportation technology, powering modern, data-driven transit networks for hundreds of agency partners worldwide. Now, we are building our next frontier: AI Labs. This new, high-growth vertical combines Via’s global scale with cutting-edge artificial intelligence to build next-generation software for cities, automate complex systems, and unlock massive revenue opportunities. As a Busines",
+"tags": [
+"mobility",
+"s&o"
+],
+"score": 38,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "73a60fed5d81",
+"title": "Partnerships Associate, AI Labs",
+"company": "Via",
+"url": "https://job-boards.greenhouse.io/via/jobs/8882311002",
+"source": "greenhouse",
+"locations": [
+"New York City",
+"New York, New York"
+],
+"primary_location": "New York, New York",
+"buckets": [
+"nyc"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 70000,
+"max": 80000,
+"source": "parsed",
+"all": [
+[
+70000,
+80000
+]
+]
+},
+"years_min": 1,
+"posted": "2026-10-09",
+"snippet": "Via is the global leader in transportation technology, powering modern, data-driven transit networks for hundreds of agency partners worldwide. Now, we are building our next frontier: AI Labs. This new, high-growth vertical combines Via’s global scale with cutting-edge artificial intelligence to build next-generation software for cities, automate complex systems, and unlock massive revenue opportunities. As a Partner",
+"tags": [
+"mobility",
+"s&o"
+],
+"score": 38,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
 "id": "216eca7e7035",
 "title": "Sales and Partnerships",
 "company": "OpenAI",
@@ -11302,42 +8156,80 @@
 "is_new": false
 },
 {
-"id": "4ce3ec29d7e3",
-"title": "Associate, Pricing Configuration",
-"company": "Oscar Health",
-"url": "https://oscarhealth.com/careers/jobs?gh_jid=8374121",
+"id": "474b2638d5c5",
+"title": "Brand Partnership Associate - esports, Gaming & Internet Culture",
+"company": "Coinbase",
+"url": "https://www.coinbase.com/careers/positions/8411576?gh_jid=8411576",
 "source": "greenhouse",
 "locations": [
-"New York, New York, United States",
-"Tempe, AZ"
+"Remote - USA",
+"US - Remote Zone 1 (Job Requisitions Only)"
 ],
-"primary_location": "New York, New York, United States",
+"primary_location": "Remote - USA",
 "buckets": [
-"nyc"
+"remote"
 ],
 "role": "adjacent",
 "seniority": "entry",
 "program": false,
 "salary": {
-"min": 96876,
-"max": 127149,
+"min": 100725,
+"max": 118500,
 "source": "parsed",
 "all": [
 [
-96876,
-127149
+100725,
+118500
 ]
 ]
 },
-"years_min": 4,
-"posted": "2026-11-11",
-"snippet": "Hi, we're Oscar. We're hiring an Associate, Pricing Configuration to join our Claims T&O team. Oscar is the first health insurance company built around a full stack technology platform and a focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family. About the role: You will design processes and improve",
+"years_min": 2,
+"posted": "2026-11-24",
+"snippet": "Ready to do the most impactful work of your career? Coinbase is building the future of finance for people, institutions and their agents, with one place to trade crypto, equities, derivatives and prediction markets, use stablecoins, and connect AI agents with clear controls. The bar is high and the pace is intense, and we like it that way. This isn’t a place for complacency. It’s a place to be pushed past your percei",
 "tags": [
-"health"
+"fintech"
 ],
-"score": 35,
-"first_seen": "2026-11-14",
-"is_new": false
+"score": 37,
+"first_seen": "2026-11-24",
+"is_new": true
+},
+{
+"id": "0bbd6cbe24a1",
+"title": "Brand Partnership Associate, Sports",
+"company": "Coinbase",
+"url": "https://www.coinbase.com/careers/positions/8268156?gh_jid=8268156",
+"source": "greenhouse",
+"locations": [
+"Remote - USA",
+"US - Remote Zone 1 (Job Requisitions Only)"
+],
+"primary_location": "Remote - USA",
+"buckets": [
+"remote"
+],
+"role": "adjacent",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 100725,
+"max": 118500,
+"source": "parsed",
+"all": [
+[
+100725,
+118500
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-24",
+"snippet": "Ready to do the most impactful work of your career? Coinbase is building the future of finance for people, institutions and their agents, with one place to trade crypto, equities, derivatives and prediction markets, use stablecoins, and connect AI agents with clear controls. The bar is high and the pace is intense, and we like it that way. This isn’t a place for complacency. It’s a place to be pushed past your percei",
+"tags": [
+"fintech"
+],
+"score": 37,
+"first_seen": "2026-11-24",
+"is_new": true
 },
 {
 "id": "c9083f29021d",
@@ -11451,83 +8343,6 @@
 "fintech"
 ],
 "score": 30,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "8b55343d839d",
-"title": "Performance Marketing Analyst  Creatives (Mobile)",
-"company": "Warner Bros. Discovery",
-"url": "https://warnerbros.wd5.myworkdayjobs.com/global/job/CA-Burbank-Bldg-750-Second-Century-Tower-2/Marketing-Analyst_R000107465-1",
-"source": "workday",
-"locations": [
-"CA Burbank Bldg. 750, Second Century, Tower 2",
-"CA San Francisco 153 Kearny Street",
-"Hybrid",
-"MA Needham 117 Kendrick St"
-],
-"primary_location": "CA San Francisco 153 Kearny Street",
-"buckets": [
-"bay"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 63000,
-"max": 117000,
-"source": "parsed",
-"all": [
-[
-63000,
-117000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-10-21",
-"snippet": "Storytelling is, and will always be, the heart of what we do at Skydance. Our vision is to build a thriving entertainment ecosystem where stories and worlds are imagined, brought to life and experienced. We create for every age and audience, anchored by the strength of our content and experiences and the depth of our connection with fans. We are creator-first, audience-focused, tech-forward, globally scaled. Here, yo",
-"tags": [
-"media"
-],
-"score": 30,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "0037afc17a27",
-"title": "Business Development Associate, Care Partnerships",
-"company": "Headway",
-"url": "https://jobs.ashbyhq.com/headway/19d3bb5e-f5fc-4bd4-9a08-c479f5b0969e",
-"source": "ashby",
-"locations": [
-"Remote"
-],
-"primary_location": "Remote",
-"buckets": [
-"remote"
-],
-"role": "adjacent",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 70000,
-"max": 77000,
-"source": "structured",
-"all": [
-[
-70000,
-77000
-]
-]
-},
-"years_min": 1,
-"posted": "2026-10-02",
-"snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway’s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the biggest barrier to care: insurance. The admin work - credentialing, claims, payment reconciliation - is a nightmare. We've automated that. But",
-"tags": [
-"health"
-],
-"score": 27,
 "first_seen": "2026-11-14",
 "is_new": false
 },
