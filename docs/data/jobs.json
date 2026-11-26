@@ -1,6 +1,6 @@
 {
 "meta": {
-"generated_at": "2026-11-25T20:29:48Z",
+"generated_at": "2026-11-26T20:06:36Z",
 "salary_floor": {
 "nyc": 130000,
 "bay": 150000,
@@ -8,59 +8,59 @@
 },
 "new_days": 3,
 "counts": {
-"total": 251,
+"total": 253,
 "nyc": 171,
-"bay": 124,
-"remote": 68,
-"new": 23,
-"with_salary": 228
+"bay": 125,
+"remote": 70,
+"new": 20,
+"with_salary": 229
 },
 "sources": [
 {
 "company": "Stripe",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 772,
+"raw": 768,
 "error": null,
-"secs": 2.9
+"secs": 2.3
 },
 {
 "company": "Airbnb",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 200,
+"raw": 201,
 "error": null,
-"secs": 1.1
+"secs": 1.2
 },
 {
 "company": "Figma",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 143,
+"raw": 141,
 "error": null,
-"secs": 1.3
+"secs": 0.4
 },
 {
 "company": "Databricks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 874,
+"raw": 882,
 "error": null,
-"secs": 4.7
+"secs": 4.2
 },
 {
 "company": "Coinbase",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 246,
+"raw": 256,
 "error": null,
-"secs": 1.0
+"secs": 1.1
 },
 {
 "company": "Robinhood",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 161,
+"raw": 162,
 "error": null,
 "secs": 0.8
 },
@@ -92,15 +92,15 @@
 "company": "DoorDash",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 401,
+"raw": 402,
 "error": null,
-"secs": 2.5
+"secs": 2.6
 },
 {
 "company": "Instacart",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 99,
+"raw": 97,
 "error": null,
 "secs": 0.3
 },
@@ -110,7 +110,7 @@
 "status": "ok",
 "raw": 30,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Reddit",
@@ -126,15 +126,15 @@
 "status": "ok",
 "raw": 54,
 "error": null,
-"secs": 0.1
+"secs": 0.3
 },
 {
 "company": "Brex",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 264,
+"raw": 270,
 "error": null,
-"secs": 1.2
+"secs": 1.1
 },
 {
 "company": "Plaid",
@@ -142,23 +142,23 @@
 "status": "ok",
 "raw": 144,
 "error": null,
-"secs": 1.2
+"secs": 0.8
 },
 {
 "company": "Affirm",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 215,
+"raw": 216,
 "error": null,
-"secs": 1.3
+"secs": 1.0
 },
 {
 "company": "Chime",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 78,
+"raw": 77,
 "error": null,
-"secs": 0.7
+"secs": 0.4
 },
 {
 "company": "Carta",
@@ -166,7 +166,7 @@
 "status": "ok",
 "raw": 81,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Gusto",
@@ -180,17 +180,17 @@
 "company": "Scale AI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 157,
+"raw": 158,
 "error": null,
-"secs": 0.9
+"secs": 0.8
 },
 {
 "company": "Anthropic",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 635,
+"raw": 634,
 "error": null,
-"secs": 6.0
+"secs": 4.9
 },
 {
 "company": "OpenAI",
@@ -198,15 +198,15 @@
 "status": "ok",
 "raw": 876,
 "error": null,
-"secs": 8.1
+"secs": 6.5
 },
 {
 "company": "xAI",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 297,
+"raw": 300,
 "error": null,
-"secs": 0.9
+"secs": 0.7
 },
 {
 "company": "Datadog",
@@ -214,7 +214,7 @@
 "status": "ok",
 "raw": 391,
 "error": null,
-"secs": 2.5
+"secs": 2.1
 },
 {
 "company": "MongoDB",
@@ -222,21 +222,21 @@
 "status": "ok",
 "raw": 421,
 "error": null,
-"secs": 2.2
+"secs": 2.1
 },
 {
 "company": "Cloudflare",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 523,
+"raw": 528,
 "error": null,
-"secs": 7.4
+"secs": 5.5
 },
 {
 "company": "Twilio",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 110,
+"raw": 113,
 "error": null,
 "secs": 0.4
 },
@@ -244,9 +244,9 @@
 "company": "Okta",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 368,
+"raw": 360,
 "error": null,
-"secs": 2.8
+"secs": 2.2
 },
 {
 "company": "Squarespace",
@@ -254,7 +254,7 @@
 "status": "ok",
 "raw": 20,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Peloton",
@@ -262,7 +262,7 @@
 "status": "ok",
 "raw": 40,
 "error": null,
-"secs": 0.2
+"secs": 0.4
 },
 {
 "company": "Oscar Health",
@@ -270,13 +270,13 @@
 "status": "ok",
 "raw": 178,
 "error": null,
-"secs": 1.1
+"secs": 1.2
 },
 {
 "company": "Flatiron Health",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 21,
+"raw": 22,
 "error": null,
 "secs": 0.2
 },
@@ -286,23 +286,23 @@
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Zocdoc",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 63,
+"raw": 64,
 "error": null,
-"secs": 0.5
+"secs": 0.6
 },
 {
 "company": "Justworks",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 102,
+"raw": 100,
 "error": null,
-"secs": 1.6
+"secs": 1.1
 },
 {
 "company": "Ro",
@@ -310,7 +310,7 @@
 "status": "ok",
 "raw": 54,
 "error": null,
-"secs": 1.3
+"secs": 0.9
 },
 {
 "company": "NerdWallet",
@@ -318,7 +318,7 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.6
+"secs": 0.2
 },
 {
 "company": "Gemini",
@@ -326,29 +326,29 @@
 "status": "ok",
 "raw": 22,
 "error": null,
-"secs": 0.3
+"secs": 0.6
 },
 {
 "company": "Klaviyo",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 124,
+"raw": 123,
 "error": null,
-"secs": 2.3
+"secs": 1.9
 },
 {
 "company": "HubSpot",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 141,
+"raw": 142,
 "error": null,
-"secs": 2.5
+"secs": 2.0
 },
 {
 "company": "Toast",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 301,
+"raw": 300,
 "error": null,
 "secs": 2.9
 },
@@ -356,9 +356,9 @@
 "company": "Samsara",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 294,
+"raw": 299,
 "error": null,
-"secs": 3.9
+"secs": 3.7
 },
 {
 "company": "Nextdoor",
@@ -366,15 +366,15 @@
 "status": "ok",
 "raw": 24,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Thumbtack",
 "ats": "ashby",
 "status": "ok",
-"raw": 42,
+"raw": 43,
 "error": null,
-"secs": 0.7
+"secs": 0.3
 },
 {
 "company": "Faire",
@@ -382,7 +382,7 @@
 "status": "ok",
 "raw": 72,
 "error": null,
-"secs": 1.0
+"secs": 0.7
 },
 {
 "company": "Checkr",
@@ -390,7 +390,7 @@
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Amplitude",
@@ -398,7 +398,7 @@
 "status": "ok",
 "raw": 47,
 "error": null,
-"secs": 0.6
+"secs": 1.1
 },
 {
 "company": "Mixpanel",
@@ -412,33 +412,33 @@
 "company": "Asana",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 110,
+"raw": 109,
 "error": null,
-"secs": 1.3
+"secs": 1.5
 },
 {
 "company": "Box",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 129,
+"raw": 125,
 "error": null,
-"secs": 1.5
+"secs": 1.6
 },
 {
 "company": "Waymo",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 358,
+"raw": 356,
 "error": null,
-"secs": 2.1
+"secs": 2.3
 },
 {
 "company": "Notion",
 "ats": "ashby",
 "status": "ok",
-"raw": 172,
+"raw": 174,
 "error": null,
-"secs": 2.5
+"secs": 1.8
 },
 {
 "company": "Airtable",
@@ -446,7 +446,7 @@
 "status": "ok",
 "raw": 7,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Webflow",
@@ -454,7 +454,7 @@
 "status": "ok",
 "raw": 31,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "Calendly",
@@ -462,7 +462,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Mercury",
@@ -470,7 +470,7 @@
 "status": "ok",
 "raw": 68,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "Vercel",
@@ -478,15 +478,15 @@
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.4
+"secs": 0.6
 },
 {
 "company": "GitLab",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 244,
+"raw": 241,
 "error": null,
-"secs": 2.6
+"secs": 3.0
 },
 {
 "company": "Lattice",
@@ -494,15 +494,15 @@
 "status": "ok",
 "raw": 2,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Benchling",
 "ats": "ashby",
 "status": "ok",
-"raw": 61,
+"raw": 63,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Verkada",
@@ -510,15 +510,15 @@
 "status": "ok",
 "raw": 350,
 "error": null,
-"secs": 3.3
+"secs": 3.4
 },
 {
 "company": "Flexport",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 211,
+"raw": 212,
 "error": null,
-"secs": 1.8
+"secs": 2.1
 },
 {
 "company": "Sweetgreen",
@@ -526,7 +526,7 @@
 "status": "ok",
 "raw": 70,
 "error": null,
-"secs": 0.7
+"secs": 0.5
 },
 {
 "company": "Glossier",
@@ -542,7 +542,7 @@
 "status": "ok",
 "raw": 25,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Stitch Fix",
@@ -572,9 +572,9 @@
 "company": "Fivetran",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 210,
+"raw": 201,
 "error": null,
-"secs": 3.4
+"secs": 3.3
 },
 {
 "company": "Forter",
@@ -582,7 +582,7 @@
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Clear Street",
@@ -598,7 +598,7 @@
 "status": "ok",
 "raw": 86,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Jane Street",
@@ -606,7 +606,7 @@
 "status": "ok",
 "raw": 219,
 "error": null,
-"secs": 0.6
+"secs": 0.7
 },
 {
 "company": "Point72",
@@ -614,23 +614,23 @@
 "status": "ok",
 "raw": 200,
 "error": null,
-"secs": 0.5
+"secs": 0.9
 },
 {
 "company": "SpaceX",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2867,
+"raw": 2889,
 "error": null,
-"secs": 10.9
+"secs": 7.2
 },
 {
 "company": "Anduril",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 2604,
+"raw": 2598,
 "error": null,
-"secs": 8.9
+"secs": 9.4
 },
 {
 "company": "The New York Times",
@@ -638,31 +638,31 @@
 "status": "ok",
 "raw": 119,
 "error": null,
-"secs": 1.3
+"secs": 1.4
 },
 {
 "company": "Roblox",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 255,
+"raw": 254,
 "error": null,
-"secs": 2.5
+"secs": 2.4
 },
 {
 "company": "Elastic",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 391,
+"raw": 375,
 "error": null,
-"secs": 4.7
+"secs": 3.8
 },
 {
 "company": "Snyk",
 "ats": "ashby",
 "status": "ok",
-"raw": 36,
+"raw": 35,
 "error": null,
-"secs": 0.1
+"secs": 0.4
 },
 {
 "company": "1Password",
@@ -670,7 +670,7 @@
 "status": "ok",
 "raw": 78,
 "error": null,
-"secs": 2.1
+"secs": 1.8
 },
 {
 "company": "Doximity",
@@ -684,7 +684,7 @@
 "company": "WHOOP",
 "ats": "ashby",
 "status": "ok",
-"raw": 108,
+"raw": 107,
 "error": null,
 "secs": 1.3
 },
@@ -692,9 +692,9 @@
 "company": "Oura",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 99,
+"raw": 100,
 "error": null,
-"secs": 1.7
+"secs": 1.4
 },
 {
 "company": "Compass",
@@ -732,15 +732,15 @@
 "company": "Intercom",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 132,
+"raw": 133,
 "error": null,
-"secs": 2.0
+"secs": 1.4
 },
 {
 "company": "Sentry",
 "ats": "ashby",
 "status": "ok",
-"raw": 41,
+"raw": 40,
 "error": null,
 "secs": 0.6
 },
@@ -748,17 +748,17 @@
 "company": "PagerDuty",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 48,
+"raw": 49,
 "error": null,
-"secs": 1.2
+"secs": 0.8
 },
 {
 "company": "Snowflake",
 "ats": "ashby",
 "status": "ok",
-"raw": 369,
+"raw": 376,
 "error": null,
-"secs": 2.2
+"secs": 1.3
 },
 {
 "company": "Palantir",
@@ -766,7 +766,7 @@
 "status": "ok",
 "raw": 305,
 "error": null,
-"secs": 2.0
+"secs": 1.4
 },
 {
 "company": "Flock Safety",
@@ -774,7 +774,7 @@
 "status": "ok",
 "raw": 12,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Ramp",
@@ -782,7 +782,7 @@
 "status": "ok",
 "raw": 183,
 "error": null,
-"secs": 1.5
+"secs": 0.9
 },
 {
 "company": "Linear",
@@ -790,7 +790,7 @@
 "status": "ok",
 "raw": 30,
 "error": null,
-"secs": 0.6
+"secs": 0.4
 },
 {
 "company": "Vanta",
@@ -798,7 +798,7 @@
 "status": "ok",
 "raw": 61,
 "error": null,
-"secs": 0.8
+"secs": 0.4
 },
 {
 "company": "Cursor (Anysphere)",
@@ -806,7 +806,7 @@
 "status": "ok",
 "raw": 87,
 "error": null,
-"secs": 0.9
+"secs": 0.3
 },
 {
 "company": "Perplexity",
@@ -814,15 +814,15 @@
 "status": "ok",
 "raw": 150,
 "error": null,
-"secs": 0.9
+"secs": 0.3
 },
 {
 "company": "ElevenLabs",
 "ats": "ashby",
 "status": "ok",
-"raw": 117,
+"raw": 114,
 "error": null,
-"secs": 0.7
+"secs": 0.4
 },
 {
 "company": "Replit",
@@ -830,15 +830,15 @@
 "status": "ok",
 "raw": 38,
 "error": null,
-"secs": 0.5
+"secs": 0.2
 },
 {
 "company": "Supabase",
 "ats": "ashby",
 "status": "ok",
-"raw": 82,
+"raw": 83,
 "error": null,
-"secs": 0.4
+"secs": 0.3
 },
 {
 "company": "PostHog",
@@ -846,7 +846,7 @@
 "status": "ok",
 "raw": 9,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Modal",
@@ -854,39 +854,39 @@
 "status": "ok",
 "raw": 53,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Hex",
 "ats": "ashby",
 "status": "ok",
-"raw": 44,
+"raw": 45,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Sierra",
 "ats": "ashby",
 "status": "ok",
-"raw": 204,
+"raw": 203,
 "error": null,
-"secs": 1.3
+"secs": 1.1
 },
 {
 "company": "Harvey",
 "ats": "ashby",
 "status": "ok",
-"raw": 388,
+"raw": 390,
 "error": null,
-"secs": 1.8
+"secs": 1.4
 },
 {
 "company": "Cohere",
 "ats": "ashby",
 "status": "ok",
-"raw": 121,
+"raw": 123,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Writer",
@@ -894,7 +894,7 @@
 "status": "ok",
 "raw": 45,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Hebbia",
@@ -916,9 +916,9 @@
 "company": "Glean",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 122,
+"raw": 121,
 "error": null,
-"secs": 1.2
+"secs": 1.0
 },
 {
 "company": "Quora",
@@ -926,7 +926,7 @@
 "status": "ok",
 "raw": 8,
 "error": null,
-"secs": 0.1
+"secs": 0.0
 },
 {
 "company": "Attentive",
@@ -934,7 +934,7 @@
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Zoox",
@@ -948,9 +948,9 @@
 "company": "Nuro",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 108,
+"raw": 106,
 "error": null,
-"secs": 0.3
+"secs": 0.4
 },
 {
 "company": "Wealthfront",
@@ -958,13 +958,13 @@
 "status": "ok",
 "raw": 19,
 "error": null,
-"secs": 3.3
+"secs": 1.5
 },
 {
 "company": "Gong",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 81,
+"raw": 82,
 "error": null,
 "secs": 0.4
 },
@@ -974,21 +974,21 @@
 "status": "ok",
 "raw": 29,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Block",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 186,
+"raw": 183,
 "error": null,
-"secs": 1.5
+"secs": 1.3
 },
 {
 "company": "Spotify",
 "ats": "lever",
 "status": "ok",
-"raw": 96,
+"raw": 97,
 "error": null,
 "secs": 0.5
 },
@@ -996,17 +996,17 @@
 "company": "Twitch",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 51,
+"raw": 54,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Via",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 179,
+"raw": 181,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Angi",
@@ -1014,23 +1014,23 @@
 "status": "ok",
 "raw": 28,
 "error": null,
-"secs": 0.1
+"secs": 0.2
 },
 {
 "company": "Rubrik",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 220,
+"raw": 223,
 "error": null,
-"secs": 1.3
+"secs": 1.0
 },
 {
 "company": "Wiz",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 101,
+"raw": 98,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Alloy",
@@ -1038,7 +1038,7 @@
 "status": "ok",
 "raw": 34,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Olo",
@@ -1046,21 +1046,21 @@
 "status": "ok",
 "raw": 18,
 "error": null,
-"secs": 0.2
+"secs": 0.6
 },
 {
 "company": "Yext",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 38,
+"raw": 36,
 "error": null,
-"secs": 0.2
+"secs": 0.3
 },
 {
 "company": "Taboola",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 45,
+"raw": 39,
 "error": null,
 "secs": 0.2
 },
@@ -1070,23 +1070,23 @@
 "status": "ok",
 "raw": 36,
 "error": null,
-"secs": 0.4
+"secs": 0.2
 },
 {
 "company": "Headway",
 "ats": "ashby",
 "status": "ok",
-"raw": 87,
+"raw": 88,
 "error": null,
-"secs": 0.5
+"secs": 0.4
 },
 {
 "company": "Alma",
 "ats": "ashby",
 "status": "ok",
-"raw": 28,
+"raw": 26,
 "error": null,
-"secs": 0.3
+"secs": 0.1
 },
 {
 "company": "Capsule",
@@ -1094,15 +1094,15 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Lemonade",
 "ats": "ashby",
 "status": "ok",
-"raw": 42,
+"raw": 41,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Current",
@@ -1110,23 +1110,23 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 0.0
+"secs": 0.1
 },
 {
 "company": "Dataiku",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 16,
+"raw": 15,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Kalshi",
 "ats": "ashby",
 "status": "ok",
-"raw": 42,
+"raw": 43,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Polymarket",
@@ -1142,13 +1142,13 @@
 "status": "ok",
 "raw": 112,
 "error": null,
-"secs": 0.4
+"secs": 0.5
 },
 {
 "company": "Navan",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 233,
+"raw": 231,
 "error": null,
 "secs": 0.7
 },
@@ -1166,7 +1166,7 @@
 "status": "ok",
 "raw": 48,
 "error": null,
-"secs": 0.3
+"secs": 0.2
 },
 {
 "company": "Payoneer",
@@ -1174,7 +1174,7 @@
 "status": "ok",
 "raw": 95,
 "error": null,
-"secs": 0.6
+"secs": 0.5
 },
 {
 "company": "Ridgeline",
@@ -1182,15 +1182,15 @@
 "status": "ok",
 "raw": 27,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Figure",
 "ats": "greenhouse",
 "status": "ok",
-"raw": 31,
+"raw": 30,
 "error": null,
-"secs": 0.2
+"secs": 0.1
 },
 {
 "company": "Public",
@@ -1206,7 +1206,7 @@
 "status": "ok",
 "raw": 3,
 "error": null,
-"secs": 8.7
+"secs": 8.8
 },
 {
 "company": "Adobe",
@@ -1214,15 +1214,15 @@
 "status": "ok",
 "raw": 22,
 "error": null,
-"secs": 35.6
+"secs": 23.3
 },
 {
 "company": "NVIDIA",
 "ats": "workday",
 "status": "ok",
-"raw": 48,
+"raw": 52,
 "error": null,
-"secs": 49.2
+"secs": 53.2
 },
 {
 "company": "PayPal",
@@ -1230,7 +1230,7 @@
 "status": "ok",
 "raw": 41,
 "error": null,
-"secs": 87.5
+"secs": 68.1
 },
 {
 "company": "Capital One",
@@ -1238,15 +1238,15 @@
 "status": "ok",
 "raw": 222,
 "error": null,
-"secs": 259.1
+"secs": 255.3
 },
 {
 "company": "Mastercard",
 "ats": "workday",
 "status": "ok",
-"raw": 3,
+"raw": 2,
 "error": null,
-"secs": 96.2
+"secs": 43.4
 },
 {
 "company": "Disney",
@@ -1254,7 +1254,7 @@
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 78.8
+"secs": 55.4
 },
 {
 "company": "Warner Bros. Discovery",
@@ -1262,7 +1262,7 @@
 "status": "ok",
 "raw": 4,
 "error": null,
-"secs": 20.3
+"secs": 33.8
 },
 {
 "company": "Autodesk",
@@ -1270,7 +1270,7 @@
 "status": "ok",
 "raw": 0,
 "error": null,
-"secs": 38.7
+"secs": 11.5
 },
 {
 "company": "Workday",
@@ -1278,7 +1278,7 @@
 "status": "ok",
 "raw": 21,
 "error": null,
-"secs": 119.8
+"secs": 100.7
 },
 {
 "company": "Zillow",
@@ -1286,7 +1286,7 @@
 "status": "ok",
 "raw": 23,
 "error": null,
-"secs": 62.0
+"secs": 66.9
 },
 {
 "company": "BlackRock",
@@ -1294,7 +1294,7 @@
 "status": "ok",
 "raw": 11,
 "error": null,
-"secs": 81.5
+"secs": 26.2
 },
 {
 "company": "Netflix",
@@ -1302,7 +1302,7 @@
 "status": "ok",
 "raw": 13,
 "error": null,
-"secs": 4.0
+"secs": 3.2
 },
 {
 "company": "Amazon",
@@ -1310,15 +1310,15 @@
 "status": "ok",
 "raw": 3600,
 "error": null,
-"secs": 19.9
+"secs": 21.1
 },
 {
 "company": "Google",
 "ats": "google",
 "status": "ok",
-"raw": 143,
+"raw": 146,
 "error": null,
-"secs": 115.4
+"secs": 109.3
 }
 ],
 "companies_tracked": 163
@@ -1567,45 +1567,6 @@
 "is_new": true
 },
 {
-"id": "46ac4eae5995",
-"title": "Business Operations Analyst",
-"company": "Replit",
-"url": "https://jobs.ashbyhq.com/replit/9b211cc2-dcb2-4902-b84f-a5a2d5d0705f",
-"source": "ashby",
-"locations": [
-"Foster City, CA",
-"Foster City, California"
-],
-"primary_location": "Foster City, CA",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "strategy",
-"seniority": "entry",
-"program": false,
-"salary": {
-"min": 138000,
-"max": 158000,
-"source": "structured",
-"all": [
-[
-138000,
-158000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-18",
-"snippet": "Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation. Responsibilities Drive end-to-end analysis of product data, market research, and competitor analysis to help drive understanding of key business lines and future compan",
-"tags": [
-"ai"
-],
-"score": 82,
-"first_seen": "2026-11-18",
-"is_new": false
-},
-{
 "id": "f0796b33c812",
 "title": "Product Manager I, Ads",
 "company": "Google",
@@ -1756,95 +1717,6 @@
 ],
 "score": 80,
 "first_seen": "2026-11-15",
-"is_new": false
-},
-{
-"id": "cc93e65d2d5e",
-"title": "Senior Associate Product Manager, Enterprise Payments",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate-Product-Manager--Enterprise-Payments_R999381-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Richmond, VA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-],
-[
-101100,
-115400
-]
-]
-},
-"years_min": 2,
-"posted": "2026-11-18",
-"snippet": "Senior Associate Product Manager, Enterprise Payments At Capital One, we believe great products begin with a deep understanding of our customers. From our earliest days, we pioneered the use of predictive modeling to individually personalize credit card offers, turning the entire industry on its head. As we’ve grown bigger, we’ve found more and more ways to use technology and face-to-face conversations to understand ",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-18",
-"is_new": false
-},
-{
-"id": "4c5810e02a2f",
-"title": "Senior Associate, Product Manager - Capital One Travel",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager---Capital-One-Travel_R1006092-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 121300,
-"max": 138400,
-"source": "parsed",
-"all": [
-[
-111200,
-126900
-],
-[
-121300,
-138400
-]
-]
-},
-"years_min": 1,
-"posted": "2026-11-18",
-"snippet": "Senior Associate, Product Manager - Capital One Travel As a Senior Associate, Product Manager in Capital One Travel, you will own the strategy, roadmap, and end-to-end execution of high-impact customer experiences across web and mobile. Operating at the intersection of fintech, e-commerce, and hospitality, you will partner closely with engineering, design, data science, and external travel suppliers to build intuitiv",
-"tags": [
-"fintech"
-],
-"score": 80,
-"first_seen": "2026-11-18",
 "is_new": false
 },
 {
@@ -2191,99 +2063,6 @@
 "is_new": true
 },
 {
-"id": "061237153308",
-"title": "Manager, Product Management - Enterprise Model Platforms",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Enterprise-Model-Platforms_R1006158-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"San Francisco,  CA"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-18",
-"snippet": "Manager, Product Management - Enterprise Model Platforms Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilit",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-19",
-"is_new": false
-},
-{
-"id": "098420c00303",
-"title": "Manager, Product Manager - Bank Modernization",
-"company": "Capital One",
-"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager---Bank-Modernization_R1005904-1",
-"source": "workday",
-"locations": [
-"McLean, VA",
-"New York, NY",
-"Philadelphia, PA",
-"Richmond, VA",
-"Wilmington, DE"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 179700,
-"max": 205100,
-"source": "parsed",
-"all": [
-[
-164800,
-188100
-],
-[
-179700,
-205100
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-19",
-"snippet": "Manager, Product Manager - Bank Modernization Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent",
-"tags": [
-"fintech"
-],
-"score": 78,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
 "id": "ca48a7b9128e",
 "title": "Manager, Product Manager, Customer Restrictions",
 "company": "Capital One",
@@ -2528,7 +2307,7 @@
 ],
 "score": 78,
 "first_seen": "2026-11-23",
-"is_new": true
+"is_new": false
 },
 {
 "id": "966ceb4c19e7",
@@ -2570,7 +2349,103 @@
 ],
 "score": 78,
 "first_seen": "2026-11-23",
-"is_new": true
+"is_new": false
+},
+{
+"id": "098420c00303",
+"title": "Manager, Product Manager, Bank Modernization",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Manager--Product-Manager--Bank-Modernization_R1004410-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Philadelphia, PA",
+"Richmond, VA",
+"Wilmington, DE"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 179700,
+"max": 205100,
+"source": "parsed",
+"all": [
+[
+164800,
+188100
+],
+[
+179700,
+205100
+],
+[
+149800,
+171000
+],
+[
+149800,
+171000
+],
+[
+149800,
+171000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-26",
+"snippet": "Manager, Product Manager, Bank Modernization Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent,",
+"tags": [
+"fintech"
+],
+"score": 78,
+"first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "46ac4eae5995",
+"title": "Business Operations Analyst",
+"company": "Replit",
+"url": "https://jobs.ashbyhq.com/replit/9b211cc2-dcb2-4902-b84f-a5a2d5d0705f",
+"source": "ashby",
+"locations": [
+"Foster City, CA",
+"Foster City, California"
+],
+"primary_location": "Foster City, CA",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 138000,
+"max": 158000,
+"source": "structured",
+"all": [
+[
+138000,
+158000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-18",
+"snippet": "Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation. Responsibilities Drive end-to-end analysis of product data, market research, and competitor analysis to help drive understanding of key business lines and future compan",
+"tags": [
+"ai"
+],
+"score": 77,
+"first_seen": "2026-11-18",
+"is_new": false
 },
 {
 "id": "01f4a77abd93",
@@ -2610,82 +2485,6 @@
 ],
 "score": 76,
 "first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "3a4a4cd384c1",
-"title": "Technical Product Manager, GRC Systems",
-"company": "OpenAI",
-"url": "https://jobs.ashbyhq.com/openai/2893060b-3795-4780-b538-48bb7d52254b",
-"source": "ashby",
-"locations": [
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "pm",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 401000,
-"max": 445000,
-"source": "structured",
-"all": [
-[
-401000,
-445000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-18",
-"snippet": "About the Team OpenAI's Governance, Risk, and Compliance team works within Security to connect obligations and customer commitments to effective controls and reliable evidence. We partner across the organization to make security easier to put into practice and easier to understand. About the Role We are hiring a Technical Product Manager to own the vision and build the systems behind GRC and Security. You will discov",
-"tags": [
-"ai"
-],
-"score": 76,
-"first_seen": "2026-11-18",
-"is_new": false
-},
-{
-"id": "44909e0dfb60",
-"title": "Strategy Manager",
-"company": "The New York Times",
-"url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4754750005",
-"source": "greenhouse",
-"locations": [
-"New York, NY"
-],
-"primary_location": "New York, NY",
-"buckets": [
-"nyc"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 130000,
-"max": 140000,
-"source": "parsed",
-"all": [
-[
-130000,
-140000
-]
-]
-},
-"years_min": 3,
-"posted": "2026-11-18",
-"snippet": "The mission of The New York Times is to seek the truth and help people understand the world. That means independent journalism is at the heart of all we do as a company. It’s why we have a world-renowned newsroom that sends journalists to report on the ground from nearly 160 countries. It’s why we focus deeply on how our readers will experience our journalism, from print to audio to a world-class digital and app dest",
-"tags": [
-"media"
-],
-"score": 76,
-"first_seen": "2026-11-19",
 "is_new": false
 },
 {
@@ -3190,6 +2989,133 @@
 "is_new": false
 },
 {
+"id": "cc93e65d2d5e",
+"title": "Senior Associate Product Manager, Enterprise Payments",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate-Product-Manager--Enterprise-Payments_R999381-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"Richmond, VA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+111200,
+126900
+],
+[
+121300,
+138400
+],
+[
+101100,
+115400
+]
+]
+},
+"years_min": 2,
+"posted": "2026-11-18",
+"snippet": "Senior Associate Product Manager, Enterprise Payments At Capital One, we believe great products begin with a deep understanding of our customers. From our earliest days, we pioneered the use of predictive modeling to individually personalize credit card offers, turning the entire industry on its head. As we’ve grown bigger, we’ve found more and more ways to use technology and face-to-face conversations to understand ",
+"tags": [
+"fintech"
+],
+"score": 75,
+"first_seen": "2026-11-18",
+"is_new": false
+},
+{
+"id": "4c5810e02a2f",
+"title": "Senior Associate, Product Manager - Capital One Travel",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Senior-Associate--Product-Manager---Capital-One-Travel_R1006092-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 121300,
+"max": 138400,
+"source": "parsed",
+"all": [
+[
+111200,
+126900
+],
+[
+121300,
+138400
+]
+]
+},
+"years_min": 1,
+"posted": "2026-11-18",
+"snippet": "Senior Associate, Product Manager - Capital One Travel As a Senior Associate, Product Manager in Capital One Travel, you will own the strategy, roadmap, and end-to-end execution of high-impact customer experiences across web and mobile. Operating at the intersection of fintech, e-commerce, and hospitality, you will partner closely with engineering, design, data science, and external travel suppliers to build intuitiv",
+"tags": [
+"fintech"
+],
+"score": 75,
+"first_seen": "2026-11-18",
+"is_new": false
+},
+{
+"id": "58d5ba7f2923",
+"title": "Associate, Business Operations and Strategy",
+"company": "Google",
+"url": "https://www.google.com/about/careers/applications/jobs/results/129921006532731590-associate-business-operations-and-strategy",
+"source": "google",
+"locations": [
+"San Francisco, CA, USA",
+"San Jose, CA, USA"
+],
+"primary_location": "San Jose, CA, USA",
+"buckets": [
+"bay"
+],
+"role": "strategy",
+"seniority": "entry",
+"program": false,
+"salary": {
+"min": 126000,
+"max": 180000,
+"source": "parsed",
+"all": [
+[
+126000,
+180000
+]
+]
+},
+"years_min": 3,
+"posted": null,
+"snippet": "g: San Jose, CA, USA; San Francisco, CA, USA; New York, NY, USA . Minimum qualifications: Bachelor's degree or equivalent practical experience. 3 years of experience in management consulting or other equivalent business strategy experience. Preferred qualifications: 3 years of experience at a management consulting firm. Experience in strategy or in a business operations environment. Experience working on complex oper",
+"tags": [
+"bigtech"
+],
+"score": 74,
+"first_seen": "2026-11-26",
+"is_new": true
+},
+{
 "id": "e680eba077e1",
 "title": "Associate Manager, New Verticals - Grocery Merchant Strategy & Operations",
 "company": "DoorDash",
@@ -3426,46 +3352,6 @@
 ],
 "score": 74,
 "first_seen": "2026-11-16",
-"is_new": false
-},
-{
-"id": "e9a21d822acf",
-"title": "Senior Associate, Corporate Development",
-"company": "DoorDash",
-"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8400132",
-"source": "greenhouse",
-"locations": [
-"San Francisco, CA",
-"United States - Remote"
-],
-"primary_location": "San Francisco, CA",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "strategy",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 129200,
-"max": 190000,
-"source": "parsed",
-"all": [
-[
-129200,
-190000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-18",
-"snippet": "About the Team The Corporate Development team at DoorDash is a fast-paced, high-performing group responsible for sourcing, evaluating, negotiating and executing M&A and investments. This team is central to DoorDash’s continued growth. We work closely with senior leadership, operations, product and finance teams to guide company strategy. We lead all aspects of identifying, evaluating, and executing transactions that ",
-"tags": [
-"consumer",
-"s&o"
-],
-"score": 74,
-"first_seen": "2026-11-19",
 "is_new": false
 },
 {
@@ -5524,6 +5410,54 @@
 "is_new": false
 },
 {
+"id": "061237153308",
+"title": "Manager, Product Management - Enterprise Model Platforms",
+"company": "Capital One",
+"url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Manager--Product-Management---Enterprise-Model-Platforms_R1006158-1",
+"source": "workday",
+"locations": [
+"McLean, VA",
+"New York, NY",
+"San Francisco,  CA"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 179700,
+"max": 205100,
+"source": "parsed",
+"all": [
+[
+164800,
+188100
+],
+[
+179700,
+205100
+],
+[
+179700,
+205100
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-18",
+"snippet": "Manager, Product Management - Enterprise Model Platforms Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilit",
+"tags": [
+"fintech"
+],
+"score": 73,
+"first_seen": "2026-11-19",
+"is_new": false
+},
+{
 "id": "cf27e28b4147",
 "title": "Associate, Ads Finance & Strategy",
 "company": "Netflix",
@@ -6282,6 +6216,82 @@
 "is_new": false
 },
 {
+"id": "3a4a4cd384c1",
+"title": "Technical Product Manager, GRC Systems",
+"company": "OpenAI",
+"url": "https://jobs.ashbyhq.com/openai/2893060b-3795-4780-b538-48bb7d52254b",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "pm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 401000,
+"max": 445000,
+"source": "structured",
+"all": [
+[
+401000,
+445000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-18",
+"snippet": "About the Team OpenAI's Governance, Risk, and Compliance team works within Security to connect obligations and customer commitments to effective controls and reliable evidence. We partner across the organization to make security easier to put into practice and easier to understand. About the Role We are hiring a Technical Product Manager to own the vision and build the systems behind GRC and Security. You will discov",
+"tags": [
+"ai"
+],
+"score": 71,
+"first_seen": "2026-11-18",
+"is_new": false
+},
+{
+"id": "44909e0dfb60",
+"title": "Strategy Manager",
+"company": "The New York Times",
+"url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4754750005",
+"source": "greenhouse",
+"locations": [
+"New York, NY"
+],
+"primary_location": "New York, NY",
+"buckets": [
+"nyc"
+],
+"role": "strategy",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 130000,
+"max": 140000,
+"source": "parsed",
+"all": [
+[
+130000,
+140000
+]
+]
+},
+"years_min": 3,
+"posted": "2026-11-18",
+"snippet": "The mission of The New York Times is to seek the truth and help people understand the world. That means independent journalism is at the heart of all we do as a company. It’s why we have a world-renowned newsroom that sends journalists to report on the ground from nearly 160 countries. It’s why we focus deeply on how our readers will experience our journalism, from print to audio to a world-class digital and app dest",
+"tags": [
+"media"
+],
+"score": 71,
+"first_seen": "2026-11-19",
+"is_new": false
+},
+{
 "id": "a56b2ca3affa",
 "title": "Strategy Manager",
 "company": "Stitch Fix",
@@ -6318,7 +6328,7 @@
 ],
 "score": 71,
 "first_seen": "2026-11-23",
-"is_new": true
+"is_new": false
 },
 {
 "id": "4543f0086cb7",
@@ -6607,6 +6617,46 @@
 ],
 "score": 69,
 "first_seen": "2026-11-14",
+"is_new": false
+},
+{
+"id": "e9a21d822acf",
+"title": "Senior Associate, Corporate Development",
+"company": "DoorDash",
+"url": "https://job-boards.greenhouse.io/doordashusa/jobs/8400132",
+"source": "greenhouse",
+"locations": [
+"San Francisco, CA",
+"United States - Remote"
+],
+"primary_location": "San Francisco, CA",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "strategy",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 129200,
+"max": 190000,
+"source": "parsed",
+"all": [
+[
+129200,
+190000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-18",
+"snippet": "About the Team The Corporate Development team at DoorDash is a fast-paced, high-performing group responsible for sourcing, evaluating, negotiating and executing M&A and investments. This team is central to DoorDash’s continued growth. We work closely with senior leadership, operations, product and finance teams to guide company strategy. We lead all aspects of identifying, evaluating, and executing transactions that ",
+"tags": [
+"consumer",
+"s&o"
+],
+"score": 69,
+"first_seen": "2026-11-19",
 "is_new": false
 },
 {
@@ -7174,7 +7224,7 @@
 ],
 "score": 67,
 "first_seen": "2026-11-23",
-"is_new": true
+"is_new": false
 },
 {
 "id": "7ff9cd6e884f",
@@ -8011,45 +8061,6 @@
 "is_new": false
 },
 {
-"id": "e181ac47d319",
-"title": "Corporate Finance and Systems",
-"company": "Hex",
-"url": "https://jobs.ashbyhq.com/hex/5653698b-2ea0-46aa-bc69-bff116232a60",
-"source": "ashby",
-"locations": [
-"San Francisco",
-"San Francisco, California"
-],
-"primary_location": "San Francisco",
-"buckets": [
-"bay",
-"remote"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 165000,
-"max": 205000,
-"source": "structured",
-"all": [
-[
-165000,
-205000
-]
-]
-},
-"years_min": null,
-"posted": "2026-11-18",
-"snippet": "About Hex Hex is growing our team of builders on a mission to make everyone a data person. Our platform solves key pain points with today’s data and analytics tooling, and empowers anyone to explore data using natural language, with or without code, on trusted context. Thousands of customers like Ramp , Figma , Stubhub , Anthropic, and Gamma love Hex for our beautiful UI, agentic superpowers, and boundless flexibilit",
-"tags": [
-"data"
-],
-"score": 62,
-"first_seen": "2026-11-19",
-"is_new": false
-},
-{
 "id": "0e0d8f8d7eca",
 "title": "Certification Operations and Policy Program Manager",
 "company": "OpenAI",
@@ -8087,6 +8098,45 @@
 "score": 62,
 "first_seen": "2026-11-20",
 "is_new": false
+},
+{
+"id": "a5a7936cc28f",
+"title": "Customer Marketing Manager",
+"company": "Perplexity",
+"url": "https://jobs.ashbyhq.com/Perplexity/9f9f7f1a-df07-4b40-8e2b-bcf453af6c85",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 200000,
+"max": 290000,
+"source": "structured",
+"all": [
+[
+200000,
+290000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-26",
+"snippet": "Perplexity is revolutionizing how companies get work done, from the Fortune 500 to one-person ecommerce shops. We are looking for a Customer Marketing Manager to find the best of those stories and tell them well. This is a 0>1 role with executive exposure from day one. You'll set the strategy for and build our customer storytelling and advocacy program, working closely with Sales, Customer Success, Product Marketing,",
+"tags": [
+"ai"
+],
+"score": 62,
+"first_seen": "2026-11-26",
+"is_new": true
 },
 {
 "id": "3ee6fb4bb6f3",
@@ -8430,7 +8480,7 @@
 ],
 "score": 60,
 "first_seen": "2026-11-23",
-"is_new": true
+"is_new": false
 },
 {
 "id": "27655f78e759",
@@ -8548,6 +8598,46 @@
 "is_new": false
 },
 {
+"id": "760f8c321bc1",
+"title": "Senior Associate, Pricing & Commercial Operations",
+"company": "Verkada",
+"url": "https://job-boards.greenhouse.io/verkada/jobs/5265168007",
+"source": "greenhouse",
+"locations": [
+"New York City office",
+"New York City, NY United States",
+"San Mateo, CA United States"
+],
+"primary_location": "New York City office",
+"buckets": [
+"bay",
+"nyc"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 140000,
+"max": 170000,
+"source": "parsed",
+"all": [
+[
+140000,
+170000
+]
+]
+},
+"years_min": 4,
+"posted": "2026-10-14",
+"snippet": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100+ of the Fortune 500), a $5.8B valuation , more than $1 billion in ann",
+"tags": [
+"hardware"
+],
+"score": 59,
+"first_seen": "2026-11-26",
+"is_new": true
+},
+{
 "id": "2a317be609bb",
 "title": "Product Operations Manager",
 "company": "Datadog",
@@ -8580,46 +8670,6 @@
 "snippet": "The product operations team enables product excellence at scale at Datadog. With over thirty standalone products on a single platform, product operations drives consistency, efficiency, and quality across the organization. As a Product Operations Manager, you will help the product organization do its best work. You'll build and scale the processes, frameworks, and cross-functional workflows that enable PMs and their ",
 "tags": [
 "saas"
-],
-"score": 59,
-"first_seen": "2026-11-14",
-"is_new": false
-},
-{
-"id": "fbd127996a40",
-"title": "Senior Associate, Pricing & Commercial Operations",
-"company": "Verkada",
-"url": "https://job-boards.greenhouse.io/verkada/jobs/5274927007",
-"source": "greenhouse",
-"locations": [
-"Bay-HQ office",
-"New York City, NY United States",
-"San Mateo, CA United States"
-],
-"primary_location": "New York City, NY United States",
-"buckets": [
-"bay",
-"nyc"
-],
-"role": "adjacent",
-"seniority": "mid",
-"program": false,
-"salary": {
-"min": 140000,
-"max": 170000,
-"source": "parsed",
-"all": [
-[
-140000,
-170000
-]
-]
-},
-"years_min": 4,
-"posted": "2026-10-26",
-"snippet": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100+ of the Fortune 500), a $5.8B valuation , more than $1 billion in ann",
-"tags": [
-"hardware"
 ],
 "score": 59,
 "first_seen": "2026-11-14",
@@ -9296,6 +9346,45 @@
 "is_new": false
 },
 {
+"id": "e181ac47d319",
+"title": "Corporate Finance and Systems",
+"company": "Hex",
+"url": "https://jobs.ashbyhq.com/hex/5653698b-2ea0-46aa-bc69-bff116232a60",
+"source": "ashby",
+"locations": [
+"San Francisco",
+"San Francisco, California"
+],
+"primary_location": "San Francisco",
+"buckets": [
+"bay",
+"remote"
+],
+"role": "adjacent",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": 165000,
+"max": 205000,
+"source": "structured",
+"all": [
+[
+165000,
+205000
+]
+]
+},
+"years_min": null,
+"posted": "2026-11-18",
+"snippet": "About Hex Hex is growing our team of builders on a mission to make everyone a data person. Our platform solves key pain points with today’s data and analytics tooling, and empowers anyone to explore data using natural language, with or without code, on trusted context. Thousands of customers like Ramp , Figma , Stubhub , Anthropic, and Gamma love Hex for our beautiful UI, agentic superpowers, and boundless flexibilit",
+"tags": [
+"data"
+],
+"score": 57,
+"first_seen": "2026-11-19",
+"is_new": false
+},
+{
 "id": "9145a7047e8d",
 "title": "Financial Analyst, Compute Infrastructure Business",
 "company": "Google",
@@ -9655,7 +9744,7 @@
 ],
 "score": 55,
 "first_seen": "2026-11-23",
-"is_new": true
+"is_new": false
 },
 {
 "id": "b59cbcd796fd",
@@ -9854,6 +9943,40 @@
 "is_new": false
 },
 {
+"id": "cfc5bdf6f549",
+"title": "Product Marketing - Agents",
+"company": "ElevenLabs",
+"url": "https://jobs.ashbyhq.com/ElevenLabs/945abd50-09e6-4adb-b59b-0f0d17b9d507",
+"source": "ashby",
+"locations": [
+"United Kingdom",
+"United States",
+"Warsaw"
+],
+"primary_location": "United States",
+"buckets": [
+"remote"
+],
+"role": "pmm",
+"seniority": "mid",
+"program": false,
+"salary": {
+"min": null,
+"max": null,
+"source": "none",
+"all": []
+},
+"years_min": null,
+"posted": "2026-11-26",
+"snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr",
+"tags": [
+"ai"
+],
+"score": 54,
+"first_seen": "2026-11-26",
+"is_new": true
+},
+{
 "id": "6958e7697389",
 "title": "Program Manager, AV Safety Policy & Programs",
 "company": "Lyft",
@@ -9959,44 +10082,6 @@
 "score": 53,
 "first_seen": "2026-11-14",
 "is_new": false
-},
-{
-"id": "26aee5192d83",
-"title": "Associate Product Marketing Manager (APMM), 2027 Start",
-"company": "Google",
-"url": "https://www.google.com/about/careers/applications/jobs/results/111418132802740934-associate-product-marketing-manager-apmm-2027-start",
-"source": "google",
-"locations": [
-"Kirkland, WA, USA",
-"San Francisco, CA, USA"
-],
-"primary_location": "San Francisco, CA, USA",
-"buckets": [
-"bay"
-],
-"role": "pmm",
-"seniority": "entry",
-"program": true,
-"salary": {
-"min": 95000,
-"max": 135000,
-"source": "parsed",
-"all": [
-[
-95000,
-135000
-]
-]
-},
-"years_min": 3,
-"posted": null,
-"snippet": "CA, USA; San Bruno, CA, USA; Seattle, WA, USA; Sunnyvale, CA, USA . Minimum qualifications: Bachelor's degree or equivalent practical experience. Experience in marketing, brand management, strategy consulting, agency, technology, or related fields through full time roles, internships, projects, or academic classes. Preferred qualifications: 3 years of full-time work experience. Experience utilizing AI productivity to",
-"tags": [
-"bigtech"
-],
-"score": 52,
-"first_seen": "2026-11-23",
-"is_new": true
 },
 {
 "id": "fab4e3d76c1c",
@@ -11051,7 +11136,7 @@
 "id": "76987c3d9c15",
 "title": "Business Development Rep, Enterprise, DACH",
 "company": "Fivetran",
-"url": "https://www.fivetran.com/careers/job?gh_jid=8213939003",
+"url": "https://www.fivetran.com/careers/job?gh_jid=8209310003",
 "source": "greenhouse",
 "locations": [
 "DEU - Remote",
@@ -11072,7 +11157,7 @@
 "all": []
 },
 "years_min": null,
-"posted": "2026-11-23",
+"posted": "2026-11-20",
 "snippet": "From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and dbt Labs are bringing",
 "tags": [
 "data"
